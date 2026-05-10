@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tamayi Mlanda · GenAI for Work & Research</title>
+  <style>
+    /* ── Reset & base ─────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --teal:     #2a8a8a;
+      --teal-dk:  #1d6868;
+      --teal-lt:  #3aacac;
+      --gold:     #f5c518;
+      --gold-lt:  #ffe066;
+      --dark:     #0f2027;
+      --mid:      #203a43;
+      --light:    #f4f8f8;
+      --white:    #ffffff;
+      --text:     #1a2e35;
+      --muted:    #4a6872;
+      --radius:   14px;
+      --shadow:   0 8px 40px rgba(0,0,0,0.13);
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: var(--light);
+      color: var(--text);
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    /* ── Nav ──────────────────────────────────────── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(15,32,39,0.93);
+      backdrop-filter: blur(12px);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 2.5rem; height: 64px;
+      border-bottom: 1px solid rgba(245,197,24,0.2);
+    }
+    .nav-logo {
+      font-size: 1.15rem; font-weight: 700; color: var(--gold);
+      letter-spacing: 0.03em;
+    }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a {
+      color: rgba(255,255,255,0.78); text-decoration: none;
+      font-size: 0.9rem; font-weight: 500; letter-spacing: 0.02em;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+
+    /* ── Hero ─────────────────────────────────────── */
+    #hero {
+      min-height: 100vh;
+      background:
+        radial-gradient(ellipse at 80% 20%, rgba(58,172,172,0.25) 0%, transparent 55%),
+        radial-gradient(ellipse at 10% 80%, rgba(245,197,24,0.12) 0%, transparent 50%),
+        linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+      display: flex; align-items: center; justify-content: center;
+      padding: 6rem 2rem 3rem;
+    }
+    .hero-inner {
+      display: flex; align-items: center; gap: 4rem;
+      max-width: 1000px; width: 100%;
+    }
+    .hero-avatar {
+      flex-shrink: 0;
+      width: 180px; height: 180px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dk) 100%);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 4rem; font-weight: 800; color: var(--white);
+      border: 4px solid var(--gold);
+      box-shadow: 0 0 0 8px rgba(245,197,24,0.15), var(--shadow);
+      letter-spacing: -2px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-avatar img {
+      width: 100%; height: 100%; object-fit: cover; border-radius: 50%;
+    }
+    .hero-text { color: var(--white); }
+    .hero-kicker {
+      display: inline-block;
+      background: linear-gradient(90deg, var(--gold), var(--gold-lt));
+      color: var(--dark); font-size: 0.78rem; font-weight: 700;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      padding: 0.3rem 1rem; border-radius: 99px; margin-bottom: 1rem;
+    }
+    .hero-name {
+      font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 800;
+      line-height: 1.1; letter-spacing: -0.02em;
+      background: linear-gradient(120deg, #fff 40%, var(--gold-lt) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero-role {
+      margin-top: 0.75rem; font-size: 1.1rem; font-weight: 400;
+      color: rgba(255,255,255,0.7);
+    }
+    .hero-role strong { color: var(--gold); font-weight: 600; }
+    .hero-tags {
+      display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.5rem;
+    }
+    .tag {
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);
+      color: rgba(255,255,255,0.85); font-size: 0.78rem; font-weight: 500;
+      padding: 0.3rem 0.85rem; border-radius: 99px;
+      backdrop-filter: blur(6px);
+    }
+    .hero-cta {
+      margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;
+    }
+    .btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.75rem 1.75rem; border-radius: 99px; font-size: 0.9rem;
+      font-weight: 600; text-decoration: none; transition: all 0.2s;
+      cursor: pointer; border: none;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--gold) 0%, #e6b800 100%);
+      color: var(--dark);
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(245,197,24,0.35); }
+    .btn-outline {
+      background: transparent; border: 1.5px solid rgba(255,255,255,0.35);
+      color: var(--white);
+    }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+
+    /* ── Section base ─────────────────────────────── */
+    section { padding: 6rem 2rem; }
+    .section-inner { max-width: 1080px; margin: 0 auto; }
+    .section-label {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em;
+      text-transform: uppercase; color: var(--teal); margin-bottom: 0.6rem;
+    }
+    .section-label::before {
+      content: ''; display: block; width: 28px; height: 3px;
+      background: linear-gradient(90deg, var(--gold), var(--teal));
+      border-radius: 2px;
+    }
+    h2.section-title {
+      font-size: clamp(1.8rem, 4vw, 2.6rem); font-weight: 800;
+      letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 0.5rem;
+    }
+    .section-sub {
+      font-size: 1.05rem; color: var(--muted); margin-bottom: 3rem; max-width: 620px;
+    }
+    .divider {
+      width: 60px; height: 4px; border-radius: 2px;
+      background: linear-gradient(90deg, var(--gold), var(--teal));
+      margin: 1rem 0 2.5rem;
+    }
+
+    /* ── About ────────────────────────────────────── */
+    #about { background: var(--white); }
+    .about-grid {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;
+    }
+    .about-bio { font-size: 1.05rem; color: var(--text); line-height: 1.8; }
+    .about-bio p + p { margin-top: 1rem; }
+    .about-stats {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem;
+      margin-top: 2rem;
+    }
+    .stat-card {
+      background: linear-gradient(135deg, var(--teal) 0%, var(--teal-dk) 100%);
+      border-radius: var(--radius); padding: 1.4rem 1.2rem; color: var(--white);
+      text-align: center;
+    }
+    .stat-card .num {
+      font-size: 2rem; font-weight: 800; color: var(--gold-lt);
+      line-height: 1;
+    }
+    .stat-card .lbl { font-size: 0.78rem; opacity: 0.85; margin-top: 0.3rem; }
+    .skills-section { margin-top: 0; }
+    .skills-section h3 {
+      font-size: 1.1rem; font-weight: 700; margin-bottom: 1.2rem;
+      color: var(--text);
+    }
+    .skill-group { margin-bottom: 1.2rem; }
+    .skill-group-label {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--teal); margin-bottom: 0.5rem;
+    }
+    .skill-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .chip {
+      background: var(--light); border: 1.5px solid #dde8ea;
+      color: var(--muted); font-size: 0.78rem; font-weight: 500;
+      padding: 0.25rem 0.75rem; border-radius: 99px;
+    }
+    .chip.hot { background: linear-gradient(135deg,#e8f7f7,#d0eeee); border-color: var(--teal-lt); color: var(--teal-dk); }
+    .edu-list { margin-top: 1.5rem; }
+    .edu-item {
+      display: flex; gap: 1rem; padding: 1rem 0;
+      border-bottom: 1px solid #eef2f3;
+    }
+    .edu-item:last-child { border-bottom: none; }
+    .edu-dot {
+      flex-shrink: 0; width: 10px; height: 10px; border-radius: 50%;
+      background: var(--gold); margin-top: 0.5rem;
+    }
+    .edu-degree { font-weight: 600; font-size: 0.95rem; }
+    .edu-school { font-size: 0.85rem; color: var(--muted); }
+    .edu-year { font-size: 0.78rem; color: var(--teal); font-weight: 600; margin-top: 0.2rem; }
+
+    /* ── Course ───────────────────────────────────── */
+    #course {
+      background:
+        radial-gradient(ellipse at 90% 10%, rgba(58,172,172,0.18) 0%, transparent 50%),
+        radial-gradient(ellipse at 5% 90%, rgba(245,197,24,0.1) 0%, transparent 45%),
+        linear-gradient(160deg, #0f2027 0%, #1d3a45 100%);
+      color: var(--white);
+    }
+    #course .section-label { color: var(--gold-lt); }
+    #course h2.section-title {
+      background: linear-gradient(120deg, #fff 40%, var(--gold-lt) 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    #course .section-sub { color: rgba(255,255,255,0.65); }
+    .course-meta-row {
+      display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2.5rem;
+    }
+    .meta-pill {
+      display: inline-flex; align-items: center; gap: 0.45rem;
+      background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);
+      color: rgba(255,255,255,0.85); font-size: 0.82rem; font-weight: 500;
+      padding: 0.4rem 1.1rem; border-radius: 99px;
+    }
+    .meta-pill .ico { font-size: 1rem; }
+    .features-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1rem; margin-bottom: 3.5rem;
+    }
+    .feature-card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius); padding: 1.4rem 1.3rem;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .feature-card:hover { background: rgba(255,255,255,0.1); transform: translateY(-3px); }
+    .feature-icon { font-size: 1.6rem; margin-bottom: 0.6rem; }
+    .feature-card h4 { font-size: 0.92rem; font-weight: 600; margin-bottom: 0.3rem; }
+    .feature-card p { font-size: 0.8rem; color: rgba(255,255,255,0.6); line-height: 1.5; }
+    .modules-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.4rem;
+    }
+    .module-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(245,197,24,0.2);
+      border-radius: var(--radius); padding: 1.8rem 1.6rem;
+      position: relative; overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .module-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(0,0,0,0.3); }
+    .module-card::before {
+      content: attr(data-num);
+      position: absolute; top: -10px; right: 16px;
+      font-size: 4.5rem; font-weight: 900; color: rgba(245,197,24,0.08);
+      line-height: 1; pointer-events: none;
+    }
+    .module-num {
+      font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--gold); margin-bottom: 0.4rem;
+    }
+    .module-card h3 {
+      font-size: 1.05rem; font-weight: 700; margin-bottom: 0.8rem;
+      color: var(--white);
+    }
+    .module-card p { font-size: 0.83rem; color: rgba(255,255,255,0.6); line-height: 1.6; }
+    .module-topics { list-style: none; margin-top: 1rem; }
+    .module-topics li {
+      font-size: 0.78rem; color: rgba(255,255,255,0.55); padding: 0.2rem 0 0.2rem 1rem;
+      position: relative;
+    }
+    .module-topics li::before {
+      content: '›'; position: absolute; left: 0; color: var(--gold); font-weight: 700;
+    }
+    .grading-bar {
+      margin-top: 3.5rem;
+      background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius); padding: 2rem 2.4rem;
+    }
+    .grading-bar h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 1.4rem; color: var(--gold); }
+    .grade-items { display: flex; flex-wrap: wrap; gap: 1.5rem; }
+    .grade-item { text-align: center; }
+    .grade-pct { font-size: 1.8rem; font-weight: 800; color: var(--gold-lt); }
+    .grade-lbl { font-size: 0.75rem; color: rgba(255,255,255,0.6); margin-top: 0.2rem; }
+    .grade-sep { width: 1px; background: rgba(255,255,255,0.12); }
+
+    /* ── Submissions ──────────────────────────────── */
+    #submissions { background: var(--light); }
+    .submissions-intro {
+      font-size: 1rem; color: var(--muted); margin-bottom: 3rem; max-width: 580px;
+    }
+    .submissions-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.4rem;
+    }
+    .submission-card {
+      background: var(--white); border-radius: var(--radius);
+      border: 1.5px solid #e4eced;
+      box-shadow: 0 2px 16px rgba(42,138,138,0.07);
+      padding: 1.8rem 1.6rem;
+      display: flex; flex-direction: column; gap: 0.6rem;
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+      position: relative; overflow: hidden;
+    }
+    .submission-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(42,138,138,0.14);
+      border-color: var(--teal-lt);
+    }
+    .submission-card::after {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, var(--gold), var(--teal));
+    }
+    .sub-week {
+      font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--teal);
+    }
+    .submission-card h3 { font-size: 1rem; font-weight: 700; color: var(--text); line-height: 1.3; }
+    .submission-card p { font-size: 0.82rem; color: var(--muted); line-height: 1.5; flex: 1; }
+    .sub-link {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      margin-top: 0.4rem; font-size: 0.8rem; font-weight: 600;
+      color: var(--teal); text-decoration: none;
+      transition: color 0.2s;
+    }
+    .sub-link:hover { color: var(--teal-dk); }
+    .sub-link.placeholder { color: #b0c4c8; pointer-events: none; }
+    .badge-coming {
+      display: inline-block; font-size: 0.68rem; font-weight: 600;
+      background: #f0f9f9; border: 1px solid #c8e8e8; color: var(--teal);
+      padding: 0.15rem 0.6rem; border-radius: 99px; margin-top: 0.2rem;
+    }
+
+    /* ── LinkedIn CTA ─────────────────────────────── */
+    #connect {
+      background: linear-gradient(135deg, var(--teal-dk) 0%, #0f2027 100%);
+      color: var(--white); text-align: center; padding: 5rem 2rem;
+    }
+    #connect h2 {
+      font-size: clamp(1.8rem,4vw,2.8rem); font-weight: 800;
+      margin-bottom: 1rem; letter-spacing: -0.02em;
+    }
+    #connect p { font-size: 1.05rem; color: rgba(255,255,255,0.7); margin-bottom: 2.5rem; }
+
+    /* ── Footer ───────────────────────────────────── */
+    footer {
+      background: var(--dark); color: rgba(255,255,255,0.45);
+      text-align: center; font-size: 0.82rem; padding: 1.8rem 2rem;
+    }
+    footer a { color: var(--gold); text-decoration: none; }
+
+    /* ── Responsive ───────────────────────────────── */
+    @media (max-width: 768px) {
+      .hero-inner { flex-direction: column; gap: 2.5rem; text-align: center; }
+      .hero-cta { justify-content: center; }
+      .hero-tags { justify-content: center; }
+      .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+      .about-stats { grid-template-columns: repeat(4,1fr); }
+      .nav-links { gap: 1.2rem; }
+      .grade-sep { display: none; }
+    }
+    @media (max-width: 520px) {
+      .about-stats { grid-template-columns: 1fr 1fr; }
+      nav { padding: 0 1rem; }
+      .nav-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Navigation ─────────────────────────────────── -->
+<nav>
+  <span class="nav-logo">Tamayi Mlanda</span>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#course">The Course</a></li>
+    <li><a href="#submissions">Submissions</a></li>
+    <li><a href="#connect">Connect</a></li>
+  </ul>
+</nav>
+
+<!-- ── Hero ───────────────────────────────────────── -->
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-avatar">TM</div>
+    <div class="hero-text">
+      <span class="hero-kicker">GRAPH Courses · 2025 Cohort</span>
+      <h1 class="hero-name">Tamayi<br>Mlanda</h1>
+      <p class="hero-role">
+        <strong>Software Developer · Data Specialist · Cloud Solutions Architect</strong><br>
+        Business Intelligence &amp; Data Science · World Health Organization
+      </p>
+      <div class="hero-tags">
+        <span class="tag">🌍 Pretoria, South Africa</span>
+        <span class="tag">⚕️ Public Health Tech</span>
+        <span class="tag">☁️ AWS &amp; Azure Certified</span>
+        <span class="tag">🤖 Applied AI</span>
+        <span class="tag">20+ Years Experience</span>
+      </div>
+      <div class="hero-cta">
+        <a href="#submissions" class="btn btn-primary">View My Submissions ↓</a>
+        <a href="#about" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── About ──────────────────────────────────────── -->
+<section id="about">
+  <div class="section-inner">
+    <span class="section-label">About Me</span>
+    <h2 class="section-title">20+ Years Building at the<br>Intersection of Data &amp; Health</h2>
+    <div class="divider"></div>
+
+    <div class="about-grid">
+      <!-- Left: bio + stats -->
+      <div>
+        <div class="about-bio">
+          <p>
+            I am a <strong>Software Developer, Data Specialist and Cloud Solutions Architect</strong>
+            with over two decades of experience delivering scalable solutions across healthcare,
+            public health, and enterprise sectors — spanning 47 countries in my current role at
+            the <strong>World Health Organization</strong>.
+          </p>
+          <p>
+            My work sits at the convergence of cloud engineering, advanced analytics, and
+            responsible AI. I have led the development of regional data lakehouses, RAG-based
+            document-retrieval systems, NLP pipelines for media monitoring, and mission-critical
+            outbreak-intelligence platforms across Africa.
+          </p>
+          <p>
+            Alongside dual master's degrees in progress — <em>Public Health (Epidemiology)</em>
+            and <em>Applied Artificial Intelligence</em> — I am now deepening my practical
+            command of Generative AI through the GRAPH Courses bootcamp, applying no-code and
+            low-code AI tools directly to real-world research and health-data challenges.
+          </p>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat-card"><div class="num">20+</div><div class="lbl">Years experience</div></div>
+          <div class="stat-card"><div class="num">47</div><div class="lbl">Countries — WHO data lakehouse</div></div>
+          <div class="stat-card"><div class="num">4</div><div class="lbl">Peer-reviewed publications</div></div>
+          <div class="stat-card"><div class="num">7+</div><div class="lbl">Industry certifications</div></div>
+        </div>
+      </div>
+
+      <!-- Right: skills + education -->
+      <div class="skills-section">
+        <h3>Technical Skills</h3>
+
+        <div class="skill-group">
+          <div class="skill-group-label">AI / Data</div>
+          <div class="skill-chips">
+            <span class="chip hot">Python</span>
+            <span class="chip hot">R (expert)</span>
+            <span class="chip hot">LLMs &amp; RAG</span>
+            <span class="chip hot">NLP (spaCy, BERT)</span>
+            <span class="chip">Tableau</span>
+            <span class="chip">Power BI / PowerPivot</span>
+            <span class="chip">Microsoft Fabric</span>
+            <span class="chip">Apache Iceberg</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Cloud &amp; DevOps</div>
+          <div class="skill-chips">
+            <span class="chip hot">AWS (certified)</span>
+            <span class="chip hot">Azure (certified)</span>
+            <span class="chip">Azure Data Factory</span>
+            <span class="chip">GitHub Actions</span>
+            <span class="chip">Docker</span>
+            <span class="chip">CI/CD Pipelines</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label">Development</div>
+          <div class="skill-chips">
+            <span class="chip">C# / .NET</span>
+            <span class="chip">FastAPI</span>
+            <span class="chip">React / TypeScript</span>
+            <span class="chip">SQL Server · PostgreSQL · MongoDB</span>
+          </div>
+        </div>
+
+        <div class="edu-list">
+          <h3 style="margin-bottom:1rem;">Education</h3>
+          <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div>
+              <div class="edu-degree">MSc Applied Artificial Intelligence</div>
+              <div class="edu-school">University of San Diego</div>
+              <div class="edu-year">Expected 2026</div>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div>
+              <div class="edu-degree">Master of Public Health — Epidemiology</div>
+              <div class="edu-school">Texila American University</div>
+              <div class="edu-year">Expected 2026</div>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div>
+              <div class="edu-degree">PG Diploma · Big Data Analytics</div>
+              <div class="edu-school">University of Liverpool — Distinction</div>
+              <div class="edu-year">2021</div>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-dot"></div>
+            <div>
+              <div class="edu-degree">BSc Business Studies &amp; Computing</div>
+              <div class="edu-school">University of Zimbabwe</div>
+              <div class="edu-year">2003</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Course ─────────────────────────────────────── -->
+<section id="course">
+  <div class="section-inner">
+    <span class="section-label">The Course</span>
+    <h2 class="section-title">Generative AI for Work &amp; Research</h2>
+    <div class="divider"></div>
+    <p class="section-sub">
+      An 8-week live cohort bootcamp by <strong>GRAPH Courses</strong> (University of Geneva)
+      — no-code AI tools for responsible task automation in research and professional work.
+    </p>
+
+    <div class="course-meta-row">
+      <span class="meta-pill"><span class="ico">🗓️</span> 8 weeks · Live cohort</span>
+      <span class="meta-pill"><span class="ico">🏛️</span> GRAPH Courses · University of Geneva</span>
+      <span class="meta-pill"><span class="ico">🤖</span> No-code AI tools</span>
+      <span class="meta-pill"><span class="ico">🎓</span> Shareable certificate</span>
+      <span class="meta-pill"><span class="ico">✅</span> 80% passing grade</span>
+    </div>
+
+    <!-- Bootcamp features -->
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🎙️</div>
+        <h4>Weekly Live Workshops</h4>
+        <p>Hands-on sessions with instructors every week throughout the cohort.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🤝</div>
+        <h4>Help Sessions</h4>
+        <p>Live drop-in help sessions each week for personalised support.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💬</div>
+        <h4>Private Community</h4>
+        <p>A peer forum exclusively for cohort members and mentors.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📋</div>
+        <h4>Personalised Feedback</h4>
+        <p>Instructor feedback on every workshop assignment you submit.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🏆</div>
+        <h4>Capstone Coaching</h4>
+        <p>Guided coaching to develop and showcase your final AI project.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📚</div>
+        <h4>Lifetime Library Access</h4>
+        <p>Unlimited access to the full tutorial library after the cohort ends.</p>
+      </div>
+    </div>
+
+    <!-- Modules -->
+    <h3 style="font-size:1.35rem;font-weight:700;color:var(--gold);margin-bottom:1.6rem;letter-spacing:-0.01em;">Course Modules</h3>
+    <div class="modules-grid">
+
+      <div class="module-card" data-num="01">
+        <div class="module-num">Module 1 · Week 1–2</div>
+        <h3>Websites, Documents &amp; Presentations</h3>
+        <p>Learn how LLMs work and generate text responsibly for papers, grants, websites, and presentations.</p>
+        <ul class="module-topics">
+          <li>How LLMs are trained; overview of popular providers</li>
+          <li>Generating Markdown, LaTeX and HTML outputs</li>
+          <li>Building research websites with ChatGPT Canvas &amp; Replit</li>
+          <li>AI presentation tools for scientific communication</li>
+        </ul>
+      </div>
+
+      <div class="module-card" data-num="02">
+        <div class="module-num">Module 2 · Week 2–3</div>
+        <h3>AI-Automated Data Analysis</h3>
+        <p>Master Julius, ChatGPT Code Interpreter and Windsurf for ethical automated data analysis and reporting.</p>
+        <ul class="module-topics">
+          <li>ChatGPT Code Interpreter for quick data analysis</li>
+          <li>Automated dashboards with TheBricks</li>
+          <li>Batch file conversion and manipulation</li>
+          <li>Spreadsheet automations for recurring analyses</li>
+        </ul>
+      </div>
+
+      <div class="module-card" data-num="03">
+        <div class="module-num">Module 3 · Week 3–4</div>
+        <h3>GenAI for Research &amp; Text Analysis</h3>
+        <p>Literature search, text classification, sentiment analysis, and knowledge synthesis using AI.</p>
+        <ul class="module-topics">
+          <li>Efficient literature reviews with Elicit &amp; LiteRev</li>
+          <li>Text classification for document organisation</li>
+          <li>Knowledge maps from document collections</li>
+          <li>Automated summarisation workflows</li>
+        </ul>
+      </div>
+
+      <div class="module-card" data-num="04">
+        <div class="module-num">Module 4 · Week 4–5</div>
+        <h3>Custom GPTs and Chatbots</h3>
+        <p>Build chatbots for research assistance using RAG systems, API integrations, and Botpress workflows.</p>
+        <ul class="module-topics">
+          <li>LLM chat architecture, context windows &amp; RAG</li>
+          <li>Building custom GPTs for specific use cases</li>
+          <li>Creating interactive chatbots with Botpress</li>
+          <li>Integrating knowledge bases with research materials</li>
+        </ul>
+      </div>
+
+      <div class="module-card" data-num="05">
+        <div class="module-num">Module 5 · Week 5–6</div>
+        <h3>AI for Task Automation</h3>
+        <p>Design responsible AI agents for literature monitoring and orchestrate app-to-app workflows.</p>
+        <ul class="module-topics">
+          <li>Introduction to AI automation and agent-based systems</li>
+          <li>Setting up email response automations</li>
+          <li>Building AI agents for complex automation flows</li>
+          <li>Browser control agents for web-based tasks</li>
+        </ul>
+      </div>
+
+      <div class="module-card" data-num="06">
+        <div class="module-num">Module 6 · Week 6–7</div>
+        <h3>GenAI for Communication &amp; Outreach</h3>
+        <p>AI-driven approaches for research dissemination: summaries, scientific figures, video abstracts.</p>
+        <ul class="module-topics">
+          <li>AI-generated research summaries for different audiences</li>
+          <li>Scientific figures and diagrams with AI tools</li>
+          <li>AI-generated video abstracts and explanations</li>
+          <li>Content scheduling for research communication</li>
+        </ul>
+      </div>
+
+      <div class="module-card" data-num="07">
+        <div class="module-num">Module 7 · Week 7–8</div>
+        <h3>Capstone Project &amp; Showcase</h3>
+        <p>Create, refine, and present a final AI solution to peers and guests demonstrating responsible AI practice.</p>
+        <ul class="module-topics">
+          <li>Project progress check &amp; peer feedback sessions</li>
+          <li>Final project presentations</li>
+          <li>Public Q&amp;A session</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Grading -->
+    <div class="grading-bar">
+      <h3>Grading Breakdown</h3>
+      <div class="grade-items">
+        <div class="grade-item"><div class="grade-pct">15%</div><div class="grade-lbl">Online Quizzes</div></div>
+        <div class="grade-sep"></div>
+        <div class="grade-item"><div class="grade-pct">35%</div><div class="grade-lbl">Workshop Assignments</div></div>
+        <div class="grade-sep"></div>
+        <div class="grade-item"><div class="grade-pct">10%</div><div class="grade-lbl">Attendance &amp; Participation</div></div>
+        <div class="grade-sep"></div>
+        <div class="grade-item"><div class="grade-pct">40%</div><div class="grade-lbl">Final Project</div></div>
+        <div class="grade-sep"></div>
+        <div class="grade-item"><div class="grade-pct">80%</div><div class="grade-lbl">Passing Grade</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Submissions ─────────────────────────────────── -->
+<section id="submissions">
+  <div class="section-inner">
+    <span class="section-label">My Work</span>
+    <h2 class="section-title">Weekly Submissions</h2>
+    <div class="divider"></div>
+    <p class="submissions-intro">
+      Each week I complete hands-on assignments applying Generative AI tools to real-world
+      data and research workflows. Links to each submission will be added as the course progresses.
+    </p>
+
+    <div class="submissions-grid">
+
+      <!-- Week 1 -->
+      <div class="submission-card">
+        <span class="sub-week">Week 1 · Module 1</span>
+        <h3>Websites, Documents &amp; Presentations</h3>
+        <p>Building this portfolio with AI-assisted HTML generation, Markdown structuring, and no-code research website tools.</p>
+        <span class="badge-coming">Coming soon</span>
+        <a href="#" class="sub-link placeholder">View submission →</a>
+      </div>
+
+      <!-- Week 2 -->
+      <div class="submission-card">
+        <span class="sub-week">Week 2 · Module 1–2</span>
+        <h3>AI-Generated Research Document</h3>
+        <p>Using LLMs to generate structured research documents — responsibly integrating AI text for grants and academic writing.</p>
+        <span class="badge-coming">Coming soon</span>
+        <a href="#" class="sub-link placeholder">View submission →</a>
+      </div>
+
+      <!-- Week 3 -->
+      <div class="submission-card">
+        <span class="sub-week">Week 3 · Module 2</span>
+        <h3>Automated Data Analysis Report</h3>
+        <p>Applying ChatGPT Code Interpreter and Julius to process and visualise public health datasets with automated reporting.</p>
+        <span class="badge-coming">Coming soon</span>
+        <a href="#" class="sub-link placeholder">View submission →</a>
+      </div>
+
+      <!-- Week 4 -->
+      <div class="submission-card">
+        <span class="sub-week">Week 4 · Module 3</span>
+        <h3>Literature Review with AI</h3>
+        <p>Conducting an efficient systematic literature review using Elicit and LiteRev, with automated knowledge synthesis.</p>
+        <span class="badge-coming">Coming soon</span>
+        <a href="#" class="sub-link placeholder">View submission →</a>
+      </div>
+
+      <!-- Week 5 -->
+      <div class="submission-card">
+        <span class="sub-week">Week 5 · Module 4</span>
+        <h3>Custom GPT / Research Chatbot</h3>
+        <p>Building a domain-specific chatbot with RAG integration over WHO health-data documents using Botpress.</p>
+        <span class="badge-coming">Coming soon</span>
+        <a href="#" class="sub-link placeholder">View submission →</a>
+      </div>
+
+      <!-- Week 6 -->
+      <div class="submission-card">
+        <span class="sub-week">Week 6 · Module 5</span>
+        <h3>AI Task Automation Workflow</h3>
+        <p>Designing an AI agent pipeline for automated literature monitoring and email-response workflows in public health.</p>
+        <span class="badge-coming">Coming soon</span>
+        <a href="#" class="sub-link placeholder">View submission →</a>
+      </div>
+
+      <!-- Week 7 -->
+      <div class="submission-card">
+        <span class="sub-week">Week 7 · Module 6</span>
+        <h3>AI-Powered Research Communication</h3>
+        <p>Creating AI-generated video abstracts, scientific diagrams, and audience-tailored research summaries.</p>
+        <span class="badge-coming">Coming soon</span>
+        <a href="#" class="sub-link placeholder">View submission →</a>
+      </div>
+
+      <!-- Week 8 -->
+      <div class="submission-card">
+        <span class="sub-week">Week 8 · Module 7</span>
+        <h3>Capstone Project</h3>
+        <p>Final AI solution — combining skills from all modules into a polished, responsible AI tool presented to peers and guests.</p>
+        <span class="badge-coming">Coming soon</span>
+        <a href="#" class="sub-link placeholder">View submission →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── Connect ─────────────────────────────────────── -->
+<section id="connect">
+  <div style="max-width:600px;margin:0 auto;">
+    <h2>Let's Connect</h2>
+    <p>
+      I'm always open to conversations about AI in public health, data engineering,
+      and responsible AI practice. Find me on LinkedIn or view my professional profile.
+    </p>
+    <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+      <a href="https://www.linkedin.com/in/tamayi-mlanda" target="_blank" rel="noopener" class="btn btn-primary">
+        LinkedIn Profile ↗
+      </a>
+      <a href="https://thegraphcourses.org" target="_blank" rel="noopener" class="btn btn-outline">
+        GRAPH Courses ↗
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ──────────────────────────────────────── -->
+<footer>
+  <p>© 2025 Tamayi Mlanda · Portfolio for <em>Generative AI for Work &amp; Research</em> — GRAPH Courses ·
+    <a href="https://thegraphcourses.org" target="_blank" rel="noopener">thegraphcourses.org</a>
+  </p>
+</footer>
+
+</body>
+</html>
