@@ -1,0 +1,405 @@
+---
+title: "Child Mortality and GDP per Capita Analysis"
+author: "Tamayi MLANDA"
+date: "`r format(Sys.time(), '%d %B %Y, %H:%M %Z')`"
+output:
+  github_document:
+    toc: true
+    toc_depth: 4
+    html_preview: false
+  html_document:
+    self_contained: true
+    toc: true
+    toc_depth: 4
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.width = 10,
+  fig.height = 5.5
+)
+
+library(tidyverse)
+library(maps)
+library(countrycode)
+library(scales)
+
+# countrycode's "country.name" destination uses names that differ from the
+# maps package for three countries. This wrapper corrects the known mismatches
+# so that left_join(world, by = "region") finds rows for all three.
+cc_custom <- c(
+  COD = "Democratic Republic of the Congo",  # countrycode gives "Congo - Kinshasa"
+  COG = "Republic of Congo",                 # countrycode gives "Congo - Brazzaville"
+  CIV = "Ivory Coast",                       # countrycode gives "Côte d'Ivoire"
+  SWZ = "Swaziland"                          # countrycode gives "Eswatini"
+)
+iso3c_to_map_region <- function(x) {
+  countrycode(x, "iso3c", "country.name", warn = FALSE, custom_match = cc_custom)
+}
+```
+
+## Introduction
+
+This report compares two global development indicators for **`r 2020`**: under-five child mortality (deaths per 1,000 live births) and GDP per capita (international dollars). Each indicator is mapped worldwide, then the two are compared on a scatterplot for countries with data on both measures.
+
+## Data
+
+```{r load-data}
+mortality_path <- file.path("data", "child_mortality_0_5_year_olds_dying_per_1000_born.csv")
+gdp_path <- file.path("data", "gdp_pcap.csv")
+year <- 2020L
+
+load_indicator <- function(path, year) {
+  raw <- read_csv(path, show_col_types = FALSE)
+  year_col <- as.character(year)
+
+  if (!year_col %in% names(raw)) {
+    stop("Year ", year, " not found in ", basename(path))
+  }
+
+  raw %>%
+    transmute(
+      geo = geo,
+      name = name,
+      value = suppressWarnings(as.numeric(.data[[year_col]]))
+    )
+}
+
+mortality_raw <- read_csv(mortality_path, show_col_types = FALSE)
+gdp_raw <- read_csv(gdp_path, show_col_types = FALSE)
+
+# Build the geo → map region lookup once, using all unique geo codes across
+# both datasets. Every subsequent map join uses left_join(geo_to_region, by="geo")
+# rather than calling iso3c_to_map_region() inline, so the custom overrides
+# (DRC, Ivory Coast, Eswatini) are guaranteed to apply everywhere.
+geo_to_region <- bind_rows(select(mortality_raw, geo), select(gdp_raw, geo)) %>%
+  distinct(geo) %>%
+  mutate(region = iso3c_to_map_region(toupper(geo)))
+
+mortality_2020 <- load_indicator(mortality_path, year)
+gdp_2020 <- load_indicator(gdp_path, year)
+
+combined_2020 <- mortality_2020 %>%
+  rename(child_mortality = value) %>%
+  inner_join(
+    gdp_2020 %>% rename(gdp_pcap = value),
+    by = c("geo", "name")
+  ) %>%
+  filter(!is.na(child_mortality), !is.na(gdp_pcap), gdp_pcap > 0)
+
+world <- map_data("world")
+```
+
+Sample rows from each source file:
+
+```{r sample-mortality}
+mortality_raw %>%
+  select(geo, name, `2018`:`2022`) %>%
+  head(6) %>%
+  knitr::kable(caption = "Child mortality (sample of year columns)")
+```
+
+```{r sample-gdp}
+gdp_raw %>%
+  select(geo, name, `2018`:`2022`) %>%
+  head(6) %>%
+  knitr::kable(caption = "GDP per capita (sample of year columns)")
+```
+
+In **`r year`**, **`r nrow(mortality_2020 %>% filter(!is.na(value)))`** countries/territories have child mortality estimates and **`r nrow(gdp_2020 %>% filter(!is.na(value)))`** have GDP per capita values. **`r nrow(combined_2020)`** locations have both indicators and are used in the scatterplot.
+
+## Child mortality in 2020
+
+```{r map-mortality}
+mortality_map <- mortality_2020 %>%
+  filter(!is.na(value)) %>%
+  left_join(geo_to_region, by = "geo") %>%
+  left_join(world, by = "region")
+
+ggplot(mortality_map, aes(x = long, y = lat, group = group, fill = value)) +
+  geom_polygon(color = "gray85", linewidth = 0.08) +
+  coord_fixed(ratio = 1.3) +
+  scale_fill_viridis_c(
+    option = "C",
+    direction = -1,
+    na.value = "gray92",
+    name = "Deaths per\n1,000 births",
+    labels = label_number(accuracy = 1)
+  ) +
+  theme_void(base_size = 12) +
+  theme(
+    legend.position = "bottom",
+    plot.title = element_text(face = "bold", hjust = 0.5)
+  ) +
+  labs(
+    title = "Under-five child mortality, 2020",
+    subtitle = "Darker colors indicate higher mortality"
+  )
+```
+
+## Child mortality trend in Africa
+
+```{r africa-mortality-setup}
+mortality_years <- names(mortality_raw)[-(1:2)] %>% as.integer()
+last_10_years <- tail(sort(mortality_years[mortality_years <= 2020]), 10)
+
+africa_geos <- geo_to_region %>%
+  mutate(continent = countrycode(toupper(geo), "iso3c", "continent", warn = FALSE)) %>%
+  filter(continent == "Africa") %>%
+  pull(geo)
+
+# africa_world covers ALL African countries, not just those with data, so
+# countries like DRC that have missing values still appear on the map (as gray).
+africa_world <- world %>%
+  filter(region %in% (geo_to_region %>% filter(geo %in% africa_geos) %>% pull(region)))
+
+mortality_africa_long <- mortality_raw %>%
+  filter(geo %in% africa_geos) %>%
+  select(geo, name, all_of(as.character(last_10_years))) %>%
+  pivot_longer(
+    cols = all_of(as.character(last_10_years)),
+    names_to = "year",
+    values_to = "value"
+  ) %>%
+  mutate(
+    year = as.integer(year),
+    value = suppressWarnings(as.numeric(value))
+  ) %>%
+  left_join(geo_to_region, by = "geo") %>%
+  filter(!is.na(value))
+
+# Build a value lookup (one row per region × year), then join to africa_world.
+# Joining africa_world last preserves all polygon boundary points — crossing()
+# would deduplicate shared border coordinates and corrupt polygon shapes.
+region_year_values <- expand_grid(
+  region = unique(africa_world$region),
+  year   = last_10_years
+) %>%
+  left_join(
+    mortality_africa_long %>% select(region, year, value),
+    by = c("region", "year")
+  )
+
+mortality_africa_map <- africa_world %>%
+  left_join(region_year_values, by = "region")
+
+africa_fill_range <- range(mortality_africa_long$value, na.rm = TRUE)
+
+year_start <- min(last_10_years)
+year_end <- max(last_10_years)
+
+mortality_africa_change <- mortality_raw %>%
+  filter(geo %in% africa_geos) %>%
+  transmute(
+    geo = geo,
+    name = name,
+    mortality_start = suppressWarnings(as.numeric(.data[[as.character(year_start)]])),
+    mortality_end = suppressWarnings(as.numeric(.data[[as.character(year_end)]])),
+    change = mortality_end - mortality_start,
+    pct_change = (mortality_end - mortality_start) / mortality_start * 100
+  ) %>%
+  filter(!is.na(mortality_start), !is.na(mortality_end)) %>%
+  left_join(geo_to_region, by = "geo")
+
+mortality_africa_change_map <- africa_world %>%
+  left_join(
+    mortality_africa_change %>% select(region, change, pct_change),
+    by = "region"
+  )
+
+africa_annual <- mortality_africa_long %>%
+  group_by(year) %>%
+  summarise(
+    mean_mortality = mean(value),
+    median_mortality = median(value),
+    .groups = "drop"
+  )
+
+n_africa_improved <- sum(mortality_africa_change$change < 0)
+n_africa_countries <- nrow(mortality_africa_change)
+mean_africa_drop <- mean(mortality_africa_change$change)
+```
+
+The maps below show under-five mortality across African countries for the most recent **`r length(last_10_years)`** years of historical data in the file (**`r min(last_10_years)`**–**`r max(last_10_years)`**), using the same color scale in each panel so trends are comparable.
+
+```{r africa-mortality-panels, fig.width=14, fig.height=7}
+ggplot(mortality_africa_map, aes(x = long, y = lat, group = group, fill = value)) +
+  geom_polygon(color = "gray80", linewidth = 0.06) +
+  coord_fixed(ratio = 1.3, xlim = c(-18, 52), ylim = c(-35, 38), expand = FALSE) +
+  facet_wrap(~ year, ncol = 5) +
+  scale_fill_viridis_c(
+    option = "C",
+    direction = -1,
+    limits = africa_fill_range,
+    na.value = "gray92",
+    name = "Deaths per\n1,000 births",
+    labels = label_number(accuracy = 1)
+  ) +
+  theme_void(base_size = 10) +
+  theme(
+    legend.position = "bottom",
+    strip.text = element_text(face = "bold", size = 10),
+    plot.title = element_text(face = "bold", hjust = 0.5, size = 12)
+  ) +
+  labs(
+    title = "Under-five child mortality in Africa",
+    subtitle = "Last 10 years of historical data; shared color scale across panels"
+  )
+```
+
+The panels above change little year to year because each map uses the full **`r round(africa_fill_range[1], 0)`**–**`r round(africa_fill_range[2], 0)`** scale while typical annual shifts are only a few deaths per 1,000. The views below summarize the same decade in ways that make progress easier to see.
+
+### Change from `r year_start` to `r year_end`
+
+```{r africa-mortality-change-map, fig.width=9, fig.height=6}
+ggplot(mortality_africa_change_map, aes(x = long, y = lat, group = group, fill = change)) +
+  geom_polygon(color = "gray80", linewidth = 0.08) +
+  coord_fixed(ratio = 1.3, xlim = c(-18, 52), ylim = c(-35, 38), expand = FALSE) +
+  scale_fill_gradient2(
+    low = "#2166AC",
+    mid = "gray95",
+    high = "#B2182B",
+    midpoint = 0,
+    name = "Change in deaths\nper 1,000",
+    labels = label_number(accuracy = 1)
+  ) +
+  theme_void(base_size = 12) +
+  theme(
+    legend.position = "bottom",
+    plot.title = element_text(face = "bold", hjust = 0.5)
+  ) +
+  labs(
+    title = sprintf("Change in under-five mortality, %d–%d", year_start, year_end),
+    subtitle = "Blue = fewer deaths (improvement); red = increase"
+  )
+```
+
+From **`r year_start`** to **`r year_end`**, **`r n_africa_improved`** of **`r n_africa_countries`** African countries with data recorded lower child mortality (average decline **`r round(-mean_africa_drop, 1)`** deaths per 1,000 across countries).
+
+### Continental mean trend
+
+```{r africa-mortality-trend-line, fig.width=9, fig.height=4.5}
+ggplot(africa_annual, aes(x = year, y = mean_mortality)) +
+  geom_line(color = "#2C5F8A", linewidth = 1) +
+  geom_point(color = "#2C5F8A", size = 2.5) +
+  scale_x_continuous(breaks = last_10_years) +
+  scale_y_continuous(labels = label_number(accuracy = 1)) +
+  theme_minimal(base_size = 12) +
+  labs(
+    title = "Average under-five mortality in Africa",
+    subtitle = "Unweighted mean across countries with data each year",
+    x = NULL,
+    y = "Deaths per 1,000 live births"
+  )
+```
+
+The continental mean fell from **`r round(africa_annual$mean_mortality[africa_annual$year == year_start], 1)`** in **`r year_start`** to **`r round(africa_annual$mean_mortality[africa_annual$year == year_end], 1)`** in **`r year_end`**—a steady decline of about **`r round((africa_annual$mean_mortality[africa_annual$year == year_start] - africa_annual$mean_mortality[africa_annual$year == year_end]) / (year_end - year_start), 1)`** deaths per 1,000 per year on average, even though the regional map pattern stayed familiar.
+
+## GDP per capita in 2020
+
+```{r map-gdp}
+gdp_map <- gdp_2020 %>%
+  filter(!is.na(value), value > 0) %>%
+  left_join(geo_to_region, by = "geo") %>%
+  left_join(world, by = "region")
+
+ggplot(gdp_map, aes(x = long, y = lat, group = group, fill = value)) +
+  geom_polygon(color = "gray85", linewidth = 0.08) +
+  coord_fixed(ratio = 1.3) +
+  scale_fill_viridis_c(
+    option = "D",
+    trans = "log10",
+    labels = label_dollar(scale_cut = cut_short_scale()),
+    na.value = "gray92",
+    name = "GDP per capita"
+  ) +
+  theme_void(base_size = 12) +
+  theme(
+    legend.position = "bottom",
+    plot.title = element_text(face = "bold", hjust = 0.5)
+  ) +
+  labs(
+    title = "GDP per capita, 2020",
+    subtitle = "Log-scaled fill; darker colors indicate higher income"
+  )
+```
+
+## Relationship between the indicators
+
+```{r scatter}
+cor_pearson <- cor(log10(combined_2020$gdp_pcap), combined_2020$child_mortality, method = "pearson")
+cor_spearman <- cor(combined_2020$gdp_pcap, combined_2020$child_mortality, method = "spearman")
+
+ggplot(combined_2020, aes(x = gdp_pcap, y = child_mortality)) +
+  geom_point(alpha = 0.65, color = "#2C5F8A") +
+  geom_smooth(method = "lm", se = TRUE, color = "#B23A2F", linewidth = 0.9) +
+  scale_x_log10(labels = label_dollar(scale_cut = cut_short_scale())) +
+  scale_y_continuous(labels = label_number(accuracy = 1)) +
+  theme_minimal(base_size = 12) +
+  labs(
+    title = "Child mortality vs. GDP per capita, 2020",
+    subtitle = "OLS trend; linear fit can predict negative mortality at high GDP",
+    x = "GDP per capita (log scale)",
+    y = "Child mortality (deaths per 1,000 live births)"
+  )
+```
+
+A straight-line model for mortality on log GDP can cross zero because mortality is bounded below at 0 but OLS is not. Common ways to handle that:
+
+| Approach | Idea | Trade-off |
+|----------|------|-----------|
+| **Clip the plot** (`coord_cartesian(ylim = c(0, NA))`) | Hide negative parts of the line | Quick; does not change the fitted model |
+| **Log–log OLS** | Fit `log(mortality) ~ log(GDP)`; trend approaches 0 multiplicatively | Interpretation is on percent changes; zeros in data are a problem |
+| **GLM, Gamma + log link** | Model positive mean: `E[mortality] = exp(β₀ + β₁·log GDP)` | Stays > 0 by construction; good default for skewed positive outcomes |
+| **LOESS / GAM** | Flexible curve through the cloud | Can still dip slightly at edges unless constrained or clipped |
+| **No smooth** | Points only | Avoids implying impossible predictions |
+
+The chart below uses a **Gamma GLM with log link**, which keeps the fitted trend and confidence band strictly above zero while preserving the same log-scaled GDP axis.
+
+```{r scatter-positive}
+ggplot(combined_2020, aes(x = gdp_pcap, y = child_mortality)) +
+  geom_point(alpha = 0.65, color = "#2C5F8A") +
+  geom_smooth(
+    method = "glm",
+    method.args = list(family = Gamma(link = "log")),
+    se = TRUE,
+    color = "#1B7F3A",
+    linewidth = 0.9
+  ) +
+  scale_x_log10(labels = label_dollar(scale_cut = cut_short_scale())) +
+  scale_y_continuous(labels = label_number(accuracy = 1), limits = c(0, NA)) +
+  theme_minimal(base_size = 12) +
+  labs(
+    title = "Child mortality vs. GDP per capita, 2020",
+    subtitle = "Gamma GLM (log link); fitted mortality stays positive",
+    x = "GDP per capita (log scale)",
+    y = "Child mortality (deaths per 1,000 live births)"
+  )
+```
+
+## Interpretation
+
+Countries with **higher GDP per capita** tend to have **lower under-five mortality**. Across the **`r nrow(combined_2020)`** countries with both indicators in `r year`, the Pearson correlation on log GDP is **`r round(cor_pearson, 2)`** and the Spearman rank correlation is **`r round(cor_spearman, 2)`**, indicating a strong inverse association. Wealthier economies cluster at low mortality rates (often below 20 deaths per 1,000 births), while the highest mortality burdens are concentrated among lower-income countries, many in sub-Saharan Africa. The OLS trend illustrates the direction of the association but is not appropriate for extrapolation at high incomes because it predicts impossible negative rates; the Gamma GLM trend is better suited when describing how mortality **approaches** zero without crossing it. The overall pattern is clear: economic development is associated with substantially better child survival, likely reflecting stronger health systems, nutrition, sanitation, and maternal care.
+
+
+## Reflection
+
+It was easy to generate the script using AI. The outputs from the 
+first run were of really good quality. However, I found that it was 
+still necessary to critically, and manually, check the output without 
+trusting it implicitly. For example:  
+
+- **The AI greatly accelerates tasks:** The maps are good, with reasonable colour choices and detail. Though DRC and the USA appear without boundaries. The AI might not always pick these issues up and the user must know what to look for, even if you can prompt the AI to fix the problem. In this case, the issue was that the country names in the data did not match the country names in the map data, which caused the left_join to fail for those countries. I had to manually check and adjust the country names in the data to ensure they matched the map data for accurate mapping.
+- **The AI made good data visualization choices:** The charts selected were appropriate for the type of data.
+- **Always review the outputs:** It would, however, be necessary to manually review outputs, and presumably the code, and the data.
+- **Human's still understand the semantic meaning of data better:** In the chart "Relationship between the indicators", the OLS (ordinary least squares) trend line crosses zero at a GDP per capita of $10,000. This is impossible, as mortality cannot be negative. I prompted the AI to find a solution that would not cross zero.
+- **Human operator must attention to detail, and the AI doesn't always take the most efficient approach:** In some of the maps, some countries appear with no data and this was related to the fact that the country names in the data did not match the country names in the map data. I had to manually check and adjust the country names in the data to ensure they matched the map data for accurate mapping. For example, the Democratic Republic of the Congo was listed as "Congo - Kinshasa" in the countrycode package, but the maps package used "Democratic Republic of the Congo". I was still able to prompt the AI to find a solution to this issue, but it required some manual checking and adjustments to ensure the country names matched across datasets, and that this is applied in the correct place in the code.
+- **The LLM is really good:** The AI was able to generate a comprehensive report, but it still required human oversight to ensure the accuracy and relevance of the content. This highlights the importance of critical thinking and domain knowledge when using AI-generated outputs, especially in data analysis and visualization contexts.
+
+```{r}
+# You can link with: rmarkdown::render("w2-data-analysis.Rmd")
+```
