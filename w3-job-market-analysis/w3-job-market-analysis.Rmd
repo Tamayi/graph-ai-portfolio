@@ -1,0 +1,170 @@
+---
+title: "Data Analyst Job Postings: A Brief Report"
+author: "Tamayi Mlanda"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = "center",
+  fig.width = 8,
+  fig.height = 5
+)
+
+library(ggplot2)
+library(dplyr)
+library(readr)
+library(knitr)
+
+postings <- read_csv("data/data_analyst_postings_sample.csv", show_col_types = FALSE)
+
+postings <- postings |>
+  mutate(
+    `Minimum Years Experience` = suppressWarnings(as.numeric(`Minimum Years Experience`)),
+    `Median Salary Estimate` = suppressWarnings(as.numeric(`Median Salary Estimate`)),
+    `Data Languages` = factor(`Data Languages`, levels = c("R", "Python", "Both", "Neither"))
+  )
+
+n_total <- nrow(postings)
+n_salary <- sum(!is.na(postings$`Median Salary Estimate`))
+n_exp <- sum(!is.na(postings$`Minimum Years Experience`))
+n_lang <- sum(!is.na(postings$`Data Languages`))
+```
+
+## Introduction
+
+This report explores a sample of Data Analyst job postings, focusing on how
+**minimum years of experience** and **required data languages** relate to the
+**median salary estimate** advertised in each posting.
+
+The dataset contains `r format(n_total, big.mark = ",")` postings in total, of
+which `r format(n_salary, big.mark = ",")` have a usable salary estimate,
+`r format(n_exp, big.mark = ",")` have a parseable minimum-experience value, and
+`r format(n_lang, big.mark = ",")` are tagged with a data-language category.
+Because experience and language requirements are extracted from free-text job
+descriptions, missing or noisy values are expected.
+
+## Experience vs. Salary
+
+```{r scatter}
+plot_df <- postings |>
+  filter(!is.na(`Minimum Years Experience`), !is.na(`Median Salary Estimate`))
+
+ggplot(plot_df, aes(x = `Minimum Years Experience`, y = `Median Salary Estimate`)) +
+  geom_point(alpha = 0.4, colour = "#2C7FB8") +
+  geom_smooth(method = "lm", se = TRUE, colour = "#D95F0E", fill = "#FED98E") +
+  scale_y_continuous(labels = scales::label_dollar()) +
+  labs(
+    x = "Minimum Years of Experience",
+    y = "Median Salary Estimate (USD)",
+    title = "Required Experience vs. Median Salary Estimate"
+  ) +
+  theme_minimal(base_size = 12)
+```
+
+**Interpretation.** The scatter plot suggests a modest positive association
+between the minimum years of experience a posting requires and its median
+salary estimate: postings asking for more experience tend, on average, to
+advertise higher pay. The relationship is far from tight — there is wide
+salary variation at every experience level, reflecting differences in
+industry, location, company size, and seniority that this single variable
+does not capture.
+
+## Salary by Data Language
+
+```{r boxplot}
+box_df <- postings |>
+  filter(!is.na(`Data Languages`), !is.na(`Median Salary Estimate`))
+
+ggplot(box_df, aes(x = `Data Languages`, y = `Median Salary Estimate`, fill = `Data Languages`)) +
+  geom_boxplot(alpha = 0.8, outlier.alpha = 0.3) +
+  scale_y_continuous(labels = scales::label_dollar()) +
+  scale_fill_brewer(palette = "Set2", guide = "none") +
+  labs(
+    x = "Data Languages Mentioned",
+    y = "Median Salary Estimate (USD)",
+    title = "Median Salary Estimate by Data Language Requirement"
+  ) +
+  theme_minimal(base_size = 12)
+```
+
+```{r lang-table}
+box_df |>
+  group_by(`Data Languages`) |>
+  summarise(
+    Postings = n(),
+    `Median Salary` = scales::label_dollar()(median(`Median Salary Estimate`, na.rm = TRUE)),
+    `Mean Salary`   = scales::label_dollar()(mean(`Median Salary Estimate`, na.rm = TRUE)),
+    .groups = "drop"
+  ) |>
+  kable(caption = "Salary summary by data-language requirement")
+```
+
+**Interpretation.** Postings that mention **Python**, or **both Python and R**,
+tend to advertise somewhat higher median salaries than those mentioning only
+**R** or **neither** language. The boxes overlap considerably, however, so the
+language category alone is not a strong predictor of pay — it is more likely a
+proxy for the kind of role (e.g. management vs. analytics engineering vs. reporting) than a
+direct salary driver.
+
+## Limitations
+
+- **Sample size and balance.** Although the file contains many rows, the
+  number of postings with *all three* fields populated is much smaller, and
+  the language categories are unevenly represented — a few categories carry
+  most of the data, which makes group comparisons fragile.
+- **Noisy extraction.** Both "Minimum Years Experience" and "Data Languages"
+  are derived from free-text descriptions. Postings where extraction failed
+  are dropped, which may bias the remaining sample toward more structured or
+  explicitly-written ads.
+- **Salary is an estimate.** "Median Salary Estimate" is itself a derived
+  figure, not a verified offer, so absolute dollar values should be read as
+  indicative rather than precise.
+- **Omitted variables.** Location, industry, and company size all influence
+  pay and are not controlled for in these two plots.
+
+## Personal Reflection
+
+- **LLMs Make Data Analysis Accessible:** Given the LLM, we were able to 
+  produce to a polished report with minimal coding and data manipulation. 
+  This opens up opportunities for people without advanced programming skills
+  to be able to quickly produce summary reports.
+- **LLMs Speed Up Data Analysis Tasks:** By relying on the LLM to analyse
+  the text data of the Job Descriptions (natural language), we were able to
+  quickly extract data and generate insights from the job descriptions. Previously,
+  such a task would have had to be done manually, and that would have been time
+  consuming because we would have to read through each job description.
+- **LLM Risks:** 
+  - **Implicit Trust in the LLM, it might not always get it right:** The LLM is 
+    not perfect, and it can make mistakes in data extraction and
+    analysis. It is important to verify the results produced by the LLM and to
+    be aware of its limitations. For example, the LLM may have difficulty
+    accurately extracting data from unstructured text, and it may not be able
+    to capture all the nuances of the job descriptions. In this case, we did not 
+    verify whether it had extracted all the data correctly, we trusted it.
+  - **The LLM is a black box, and inexperienced data analysts might not be able** 
+    **to interrogate the outputs of an LLM:** Because the LLM is a black box, it can 
+    be difficult to understand how it arrived at its conclusions. This can make it 
+    challenging to identify and correct any errors in the analysis. It also makes 
+    it difficult to understand the reasoning behind the insights generated by the 
+    LLM, which can be a problem when trying to communicate those insights to others.
+- **My Prompts:**  
+
+  Exract Minimum Years of Experience:
+  ```
+  =MYGPT(CONCATENATE(""Extract the minimum years of experience required from this job description. Return ONLY a number. If a range is given, return the lower number. If no years of experience are explicitly mentioned, return 'NA'. Here's the job description: "", C2),GEN_AI_MODEL_NAME,OPENROUTER_API_KEY)
+  ```
+    
+  Extract Programming Language Requirement:
+  ```
+  =MYGPT(CONCATENATE("Analyze the Job Description and return ONLY one of these four specific strings based on the data programming language requirements in the job description: R, Python, Both, or Neither. Here's the job description: ", C2), GEN_AI_MODEL_NAME, OPENROUTER_API_KEY)
+  ```
