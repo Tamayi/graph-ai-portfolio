@@ -360,6 +360,41 @@
     }
     #connect p { font-size: 1.05rem; color: rgba(255,255,255,0.7); margin-bottom: 2.5rem; }
 
+    /* ── Consultation form ────────────────────────── */
+    #consultation { background: var(--white); }
+    #consultation .section-inner { text-align: center; }
+    .form-embed {
+      margin-top: 2.5rem;
+      display: flex; justify-content: center;
+    }
+    .form-embed iframe {
+      width: 100%; max-width: 640px;
+      border-radius: var(--radius);
+      box-shadow: 0 8px 40px rgba(42,138,138,0.12);
+      border: 1.5px solid #e4eced;
+    }
+
+    /* ── Floating consultation button ─────────────── */
+    .floating-cta {
+      position: fixed; bottom: 1.6rem; left: 1.6rem; z-index: 90;
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.7rem 1.3rem; border-radius: 99px;
+      background: linear-gradient(135deg, var(--gold) 0%, #e6b800 100%);
+      color: var(--dark); font-size: 0.85rem; font-weight: 700;
+      text-decoration: none; letter-spacing: 0.01em;
+      box-shadow: 0 6px 24px rgba(245,197,24,0.4);
+      transition: transform 0.2s, box-shadow 0.2s, opacity 0.3s;
+    }
+    .floating-cta:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(245,197,24,0.5);
+    }
+    .floating-cta .ico { font-size: 1rem; }
+    @media (max-width: 520px) {
+      .floating-cta { bottom: 1rem; left: 1rem; padding: 0.6rem 1rem; font-size: 0.8rem; }
+      .floating-cta .label { display: none; }
+    }
+
     /* ── Footer ───────────────────────────────────── */
     footer {
       background: var(--dark); color: rgba(255,255,255,0.45);
@@ -763,11 +798,12 @@
 
       <!-- Week 5 -->
       <div class="submission-card">
-        <span class="sub-week">Week 5 · Module 4</span>
-        <h3>Literature Review with AI</h3>
-        <p>Conducting an efficient systematic literature review using Elicit and LiteRev, with automated knowledge synthesis.</p>
-        <span class="badge-coming">Coming soon</span>
-        <a href="#" class="sub-link placeholder">View submission →</a>
+        <span class="sub-week">Week 5 · Module 5</span>
+        <h3>Automation with Relay.app</h3>
+        <p>Two AI automations built in Relay.app: a workflow that processes consultation form submissions, researches the client's company, and generates a professional GenAI opportunities report; and a scheduled agent that emails me the latest publications from a <a href="https://pubmed.ncbi.nlm.nih.gov/rss/search/1pq-4TZ0w1pPimDnGGLd0YYkNazUbHLUabSSCCiJNXYlhwM9d5/?limit=20&amp;utm_campaign=pubmed-2&amp;fc=20260607141638" target="_blank" rel="noopener">PubMed RSS feed</a> every Monday morning.</p>
+        <span class="badge-done">✓ Completed</span>
+        <a href="w5-relay-automations/consultations/GenAI%20Opportunities%20-%20Tamayi.html" target="_blank" rel="noopener" class="sub-link">View GenAI opportunities report →</a>
+        <a href="w5-relay-automations/pubmed/Gmail%20-%20Weekly%20PubMed%20Digest%20-%20June%207,%202026.pdf" target="_blank" rel="noopener" class="sub-link">View weekly PubMed digest →</a>
       </div>
 
       <!-- Week 6 -->
@@ -819,6 +855,28 @@
     </div>
   </div>
 </section>
+
+<!-- ── Consultation ───────────────────────────────── -->
+<section id="consultation">
+  <div class="section-inner">
+    <span class="section-label">Get In Touch</span>
+    <h2 class="section-title">Request a Consultation</h2>
+    <div class="divider" style="margin-left:auto;margin-right:auto;"></div>
+    <p class="section-sub" style="margin-left:auto;margin-right:auto;">
+      Interested in AI, data engineering, or public-health tech? Fill out the form below
+      and I'll get back to you.
+    </p>
+    <div class="form-embed">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeiYvhMCH6KFp3YzSVoF3YcCcddUGsZ3tlsPa_mguJObAM66g/viewform?embedded=true"
+              width="640" height="826" frameborder="0" marginheight="0" marginwidth="0" title="Request a Consultation">Loading…</iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ── Floating consultation button ───────────────── -->
+<a href="#consultation" class="floating-cta" aria-label="Request a Consultation">
+  <span class="ico">📅</span><span class="label">Request Consultation</span>
+</a>
 
 <!-- ── Footer ──────────────────────────────────────── -->
 <footer>
