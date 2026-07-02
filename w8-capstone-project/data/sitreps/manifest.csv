@@ -1,0 +1,40 @@
+sitrep_number,report_date,title,pdf_url,md_filename,chars
+1,2026-05-22,SitRep MVE N° 001/2026,https://insp.cd/wp-content/uploads/2026/05/Draft-MVE-Ituri-ActuelB-1.pdf,sitrep_001_2026-05-22.md,8807
+2,2026-05-22,SitRep MVE N° 002/2026,https://insp.cd/wp-content/uploads/2026/05/Sitrep_MVE-Ituri_N°-002_18-mai-2026.pdf,sitrep_002_2026-05-22.md,9039
+4,2026-05-22,SitRep MVE N° 004/2026,https://insp.cd/wp-content/uploads/2026/05/Sitrep_MVE-Ituri_N°004-au-20-mai-2026.pdf,sitrep_004_2026-05-22.md,10438
+5,2026-05-22,SitRep MVE N° 005/2026,https://insp.cd/wp-content/uploads/2026/05/Draft_SitRep_MVE_RDC_20260520_vf1.pdf,sitrep_005_2026-05-22.md,11260
+6,2026-05-22,SitRep MVE N° 006/2026,https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_20260521_editing-FV.pdf,sitrep_006_2026-05-22.md,18680
+7,2026-05-22,SitRep MVE N° 007/2026,https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_20260512-FDv2_IM.pdf,sitrep_007_2026-05-22.md,18774
+8,2026-05-23,SitRep MVE N° 008/2026,https://insp.cd/wp-content/uploads/2026/05/Draft_SitRep_MVE_RDC_2022vf2_IM.pdf,sitrep_008_2026-05-23.md,18582
+9,2026-05-24,SitRep MVE N° 009/2026,https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_2024fv1_IM.pdf,sitrep_009_2026-05-24.md,19336
+10,2026-05-25,SitRep MVE N° 010/2026,https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_NA°010_25_05_26fv_IM.pdf,sitrep_010_2026-05-25.md,15245
+11,2026-05-27,SitRep MVE N° 011/2026,https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_NA°011_IM.pdf,sitrep_011_2026-05-27.md,12547
+12,2026-05-27,SitRep MVE N° 012/2026,https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_N°012_26052026_Vf2_IM.pdf,sitrep_012_2026-05-27.md,12912
+13,2026-05-28,SitRep MVE N° 013/2026,https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_NA°013_27_05_2026_ES-IM4.pdf,sitrep_013_2026-05-28.md,14026
+14,2026-05-30,SitRep MVE N° 014/2026,https://insp.cd/wp-content/uploads/2026/05/Draft_SitRep_MVE_RDC_NA°014_28_05_2026_VF-1.pdf,sitrep_014_2026-05-30.md,13461
+15,2026-05-31,SitRep N°015/MVE_29/2026,https://insp.cd/wp-content/uploads/2026/05/Draft_SitRep_MVE_RDC_NA°015_29_05_2026.pdf,sitrep_015_2026-05-31.md,16623
+16,2026-05-31,SitRep N°016/MVB_30/2026,https://insp.cd/wp-content/uploads/2026/05/SitRep_MVE_RDC_N°016_31_05_2026.pdf,sitrep_016_2026-05-31.md,14851
+17,2026-06-01,SitRep N°017/MVB_31/2026,https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N017_01_06_2026-Revised_JO_PA_IM-1.pdf,sitrep_017_2026-06-01.md,14451
+18,2026-06-02,SitRep N°018/MVB_01/06/2026,https://insp.cd/wp-content/uploads/2026/06/Daft-SitRep_MVE_RDC_N18_01_06_2026_JO_PA-Final-1.pdf,sitrep_018_2026-06-02.md,19754
+19,2026-06-03,SitRep N°019/MVB_01/06/2026,https://insp.cd/wp-content/uploads/2026/06/Draft-1-SitRep_MVE_RDC_N19_02_06_2026-_JO_PA-FINAL.-2.pdf,sitrep_019_2026-06-03.md,15011
+20,2026-06-04,SitRep N°020/MVB_02/06/2026,https://insp.cd/wp-content/uploads/2026/06/Draft-2-SitRep_MVE_RDC_N20_02_06_2026-_JO_PA-FINAL.pdf,sitrep_020_2026-06-04.md,16939
+21,2026-06-05,SitRep N°021/MVE BUNDIBUGYO,https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N21_04_JUIN_2026-_JO_PA-FINAL_OK.pdf,sitrep_021_2026-06-05.md,18093
+22,2026-06-06,SitRep N°22/MVB_05/06/2026,https://insp.cd/wp-content/uploads/2026/06/VF_SitRep_MVE_RDC_N22_06_06_2026-FD_JO2_PA.pdf,sitrep_022_2026-06-06.md,18211
+23,2026-06-07,SitRep N°23/MVB_06/06/2026,https://insp.cd/wp-content/uploads/2026/06/VF-Draft-Final-SitRep_MVE_RDC_NA°23_07_06_2026-FD.pdf,sitrep_023_2026-06-07.md,18864
+24,2026-06-08,SitRep N°24/MVB_07/06/2026,https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N°24_07_06_2026-FD.pdf,sitrep_024_2026-06-08.md,22170
+25,2026-06-09,SitRep N°25/MVB_08/06/2026,https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N°25_08_06_2026-FD-1.pdf,sitrep_025_2026-06-09.md,21402
+26,2026-06-10,SitRep N°26/MVB_09/06/2026,https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N°26_09_06_2026_Final.pdf,sitrep_026_2026-06-10.md,21275
+27,2026-06-11,SitRep N°27/MVB_10/06/2026,https://insp.cd/wp-content/uploads/2026/06/Draft_1_SitRep_MVE_RDC_N°27_10_06_2026-2.pdf,sitrep_027_2026-06-11.md,20903
+28,2026-06-12,SitRep N°28/MVB_11/06/2026,https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N°28_11062026_Final.pdf,sitrep_028_2026-06-12.md,20497
+30,2026-06-14,SitRep N°30/MVB_13/06/2026,https://insp.cd/wp-content/uploads/2026/06/Draft-Final_SitRep_MVE_RDC_N°30_13_06_2026-FD-1-1.pdf,sitrep_030_2026-06-14.md,21907
+31,2026-06-16,SitRep N°31/MVB_14/06/2026,https://insp.cd/wp-content/uploads/2026/06/VF-SitRep_MVE_RDC_N°31_14_06_2026.pdf,sitrep_031_2026-06-16.md,20125
+32,2026-06-16,SitRep N°32/MVB_15/06/2026,https://insp.cd/wp-content/uploads/2026/06/Final_SitRep_MVE_RDC_N°32_15_06_2026-1.pdf,sitrep_032_2026-06-16.md,20403
+33,2026-06-18,SitRep N°33/MVB_16/06/2026,https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N°33_16_06_2026.pdf,sitrep_033_2026-06-18.md,20181
+34,2026-06-18,SitRep N°34/MVB_17/06/2026,https://insp.cd/wp-content/uploads/2026/06/Draft-1-SitRep_MVE_RDC_N34_17_06_2026_JO2-1.pdf,sitrep_034_2026-06-18.md,22905
+35,2026-06-20,SitRep N°35/MVB_18/06/2026,https://insp.cd/wp-content/uploads/2026/06/Draft-Final-SitRep_MVE_RDC_N35_18_06_2026.pdf,sitrep_035_2026-06-20.md,23357
+36,2026-06-20,SitRep N°36/MVB_19/06/2026,https://insp.cd/wp-content/uploads/2026/06/VF-SitRep_MVE_RDC_N°036_19_06_2026.pdf,sitrep_036_2026-06-20.md,21006
+37,2026-06-22,SitRep N°37/MVB_20/06/2026,https://insp.cd/wp-content/uploads/2026/06/Draft-Final-SitRep_MVE_RDC_N°037_20_06_2026.pdf,sitrep_037_2026-06-22.md,21743
+38,2026-06-22,SitRep N°38/MVB_21/06/2026,https://insp.cd/wp-content/uploads/2026/06/SitRep_MVE_RDC_N038_21Jun2026_Final_JO2_260622_235251.pdf,sitrep_038_2026-06-22.md,23035
+39,2026-06-23,SitRep N°39/MVB_22/06/2026,https://insp.cd/wp-content/uploads/2026/06/Draft-1-SitRep_MVE_RDC_N039_22_06_2026_260623_211140.pdf,sitrep_039_2026-06-23.md,22651
+44,2026-06-27,,https://insp.cd/wp-content/uploads/2026/06/Final-SitRep_MVE_RDC_N°044_27_06_2026.pdf,sitrep_044_2026-06-27.md,24415
+46,2026-06-29,,https://insp.cd/wp-content/uploads/2026/07/Draft-SitRep_MVE_RDC_NA°046_29_06_2026_PAZ.pdf,sitrep_046_2026-06-29.md,27016

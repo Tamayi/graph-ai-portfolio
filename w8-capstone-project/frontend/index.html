@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<template id="__bundler_thumbnail" data-bg-color="#0E1C24">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#0E1C24"/>
+    <rect x="470" y="300" width="260" height="260" rx="48" fill="#0B7285"/>
+    <text x="600" y="470" text-anchor="middle" font-family="monospace" font-weight="700" font-size="112" fill="#EAF7F9" letter-spacing="4">MVE</text>
+    <circle cx="600" cy="620" r="13" fill="#18B6C9"/>
+    <circle cx="640" cy="620" r="13" fill="#18B6C9" opacity="0.5"/>
+    <circle cx="560" cy="620" r="13" fill="#18B6C9" opacity="0.5"/>
+  </svg>
+</template>
+<x-dc>
+<helmet>
+<title>Situation Reports Analysis Tool</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-thumb{background:#C7D0D4;border-radius:6px;border:2px solid transparent;background-clip:content-box}
+::-webkit-scrollbar-track{background:transparent}
+@keyframes blink{0%,100%{opacity:.3}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+.sc-spinner{display:inline-block;width:12px;height:12px;border:2px solid #B7C7CC;border-top-color:#0B7285;border-radius:50%;animation:spin .7s linear infinite;vertical-align:-1px;margin-right:7px}
+</style>
+</helmet>
+<div style="display:flex;height:100vh;width:100%;font-family:'Public Sans',system-ui,sans-serif;color:#16242C;background:#F5F7F8;overflow:hidden">
+
+  <aside style="width:248px;flex-shrink:0;background:#0E1C24;display:flex;flex-direction:column;color:#9FB2BC;overflow:auto">
+    <div style="padding:18px 18px 14px;display:flex;align-items:center;gap:11px;border-bottom:1px solid rgba(255,255,255,.06)">
+      <div style="width:38px;height:38px;border-radius:9px;background:#0B7285;display:flex;align-items:center;justify-content:center;font-weight:700;color:#EAF7F9;font-size:12px;letter-spacing:.5px;font-family:'IBM Plex Mono',monospace">MVE</div>
+      <div style="line-height:1.3">
+        <div style="color:#EAF7F9;font-weight:600;font-size:13.5px">{{ S.brand }}</div>
+        <div style="font-size:11px;color:#6F8893">{{ S.region }}</div>
+      </div>
+    </div>
+    <div style="padding:13px 17px;border-bottom:1px solid rgba(255,255,255,.06)">
+      <div style="font-size:12px;font-weight:600;color:#EAF7F9;line-height:1.35">{{ diseaseLabel }}</div>
+      <div style="font-size:11px;color:#8AA0AC;font-style:italic;margin-top:3px">{{ strain }}</div>
+      <div style="font-size:10.5px;color:#6F8893;margin-top:8px;line-height:1.55">{{ S.declared }}<br>{{ S.epicentre }}</div>
+    </div>
+    <nav style="flex:1;padding:8px 10px 16px;display:flex;flex-direction:column;gap:2px">
+      <sc-for list="{{ navGroups }}" as="g" hint-placeholder-count="4">
+        <div style="font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#5E7682;padding:12px 10px 6px">{{ g.name }}</div>
+        <sc-for list="{{ g.items }}" as="it" hint-placeholder-count="2">
+          <sc-if value="{{ it.active }}">
+            <button onClick="{{ it.onClick }}" style="display:flex;align-items:center;gap:11px;width:100%;border:none;cursor:pointer;text-align:left;padding:9px 12px;border-radius:8px;background:rgba(22,182,201,.13);color:#EAF7F9;font-family:inherit;font-size:13.5px;font-weight:500;box-shadow:inset 2px 0 0 #18B6C9">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#18B6C9" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="{{ it.iconPath }}"></path></svg>
+              {{ it.label }}
+            </button>
+          </sc-if>
+          <sc-if value="{{ it.inactive }}">
+            <button onClick="{{ it.onClick }}" style="display:flex;align-items:center;gap:11px;width:100%;border:none;cursor:pointer;text-align:left;padding:9px 12px;border-radius:8px;background:transparent;color:#9FB2BC;font-family:inherit;font-size:13.5px;font-weight:500" style-hover="background:rgba(255,255,255,.05);color:#EAF7F9">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="{{ it.iconPath }}"></path></svg>
+              {{ it.label }}
+            </button>
+          </sc-if>
+        </sc-for>
+      </sc-for>
+    </nav>
+    <div style="padding:14px 16px;border-top:1px solid rgba(255,255,255,.06);font-size:11px;color:#6F8893;line-height:1.5">
+      <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px"><span style="width:7px;height:7px;border-radius:50%;background:#2F9E44;display:inline-block"></span><span style="color:#9FB2BC;font-family:'IBM Plex Mono',monospace">{{ docsIndexed }}</span></div>
+      <div>{{ S.syntheticNote }}</div>
+    </div>
+  </aside>
+
+  <main style="flex:1;min-width:0;display:flex;flex-direction:column;overflow:hidden">
+    <sc-if value="{{ showKeyBanner }}">
+      <div style="display:flex;align-items:center;gap:10px;flex-shrink:0;background:#FFF4E5;border-bottom:1px solid #F0C67A;padding:9px 24px;font-size:12.5px;color:#8A5A00">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#D98E04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>
+        <span>{{ keyBannerText }}</span>
+      </div>
+    </sc-if>
+    <sc-if value="{{ showDataBanner }}">
+      <div style="display:flex;align-items:center;gap:10px;flex-shrink:0;background:#E7F5F7;border-bottom:1px solid #A9D6DE;padding:9px 24px;font-size:12.5px;color:#0B5563">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#0B7285" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>
+        <span>{{ S.banner_nodata }}</span>
+        <a href="{{ dataBannerHref }}" target="_blank" rel="noopener noreferrer" style="color:#0B7285;font-weight:600;text-decoration:underline">insp.cd</a>
+        <button onClick="{{ goLibrary }}" style="margin-left:auto;flex-shrink:0;border:1px solid #0B7285;background:#fff;color:#0B7285;border-radius:7px;padding:5px 11px;font-family:inherit;font-size:12px;font-weight:600;cursor:pointer" style-hover="background:#0B7285;color:#fff">{{ S.banner_nodata_cta }}</button>
+      </div>
+    </sc-if>
+    <header style="height:60px;flex-shrink:0;background:#fff;border-bottom:1px solid #E6EBED;display:flex;align-items:center;justify-content:space-between;padding:0 24px;z-index:2">
+      <h1 style="margin:0;font-size:17px;font-weight:600;color:#16242C">{{ pageTitle }}</h1>
+      <div style="display:flex;align-items:center;gap:14px">
+        <div style="display:flex;border:1px solid #DCE3E6;border-radius:8px;overflow:hidden">
+          <sc-for list="{{ langs }}" as="l" hint-placeholder-count="3">
+            <sc-if value="{{ l.active }}">
+              <button onClick="{{ l.onClick }}" style="border:none;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:700;padding:6px 11px;background:#0B7285;color:#fff">{{ l.code }}</button>
+            </sc-if>
+            <sc-if value="{{ l.inactive }}">
+              <button onClick="{{ l.onClick }}" style="border:none;cursor:pointer;font-family:inherit;font-size:11.5px;font-weight:600;padding:6px 11px;background:#fff;color:#5B6B73" style-hover="background:#F2F5F6">{{ l.code }}</button>
+            </sc-if>
+          </sc-for>
+        </div>
+        <div style="display:flex;align-items:center;gap:7px;font-size:12.5px;color:#5B6B73"><span style="width:8px;height:8px;border-radius:50%;background:#C0392B;box-shadow:0 0 0 3px rgba(192,57,43,.14)"></span>{{ S.active }}</div>
+        <div style="font-size:12.5px;color:#93A1A8;font-family:'IBM Plex Mono',monospace">{{ dataAsOf }}</div>
+      </div>
+    </header>
+
+    <div style="flex:1;min-height:0;display:flex;flex-direction:column">
+
+      <sc-if value="{{ isOverview }}">
+        <div style="flex:1;min-height:0;overflow:auto;padding:22px 26px">
+          <sc-if value="{{ overviewError }}">
+            <div style="display:flex;align-items:center;gap:12px;background:#FBEAEA;border:1px solid #E4B7B7;border-radius:10px;padding:12px 16px;margin-bottom:16px">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C0392B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4"></path><path d="M12 16h.01"></path></svg>
+              <div style="font-size:13.5px;color:#8A2A2A">{{ S.data_error }}</div>
+            </div>
+          </sc-if>
+          <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:13px">
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:15px 16px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+              <div style="font-size:11px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;color:#7A8990">{{ S.kpi_confirmed }}</div>
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:27px;font-weight:600;color:#0B7285;margin:5px 0 3px;white-space:nowrap">{{ kpiNums.confirmed }}</div>
+              <div style="font-size:11.5px;color:#5B6B73">{{ subConf24h }}</div>
+            </div>
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:15px 16px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+              <div style="font-size:11px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;color:#7A8990">{{ S.kpi_deaths }}</div>
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:27px;font-weight:600;color:#C0392B;margin:5px 0 3px;white-space:nowrap">{{ kpiNums.deaths }}</div>
+              <div style="font-size:11.5px;color:#5B6B73">{{ subDeaths24h }}</div>
+            </div>
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:15px 16px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+              <div style="font-size:11px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;color:#7A8990">{{ S.kpi_cfr }}</div>
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:27px;font-weight:600;color:#C0392B;margin:5px 0 3px;white-space:nowrap">{{ kpiNums.cfr }}</div>
+              <div style="font-size:11.5px;color:#5B6B73">{{ S.sub_cfr }}</div>
+            </div>
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:15px 16px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+              <div style="font-size:11px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;color:#7A8990">{{ S.kpi_zones }}</div>
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:27px;font-weight:600;color:#16242C;margin:5px 0 3px;white-space:nowrap">{{ kpiNums.zones }}</div>
+              <div style="font-size:11.5px;color:#5B6B73">{{ subZones }}</div>
+            </div>
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:15px 16px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+              <div style="font-size:11px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;color:#7A8990">{{ S.kpi_isolation }}</div>
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:27px;font-weight:600;color:#16242C;margin:5px 0 3px;white-space:nowrap">{{ kpiNums.isolation }}</div>
+              <div style="font-size:11.5px;color:#5B6B73">{{ S.sub_isolation }}</div>
+            </div>
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:15px 16px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+              <div style="font-size:11px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;color:#7A8990">{{ S.kpi_hcw }}</div>
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:27px;font-weight:600;color:#D98E04;margin:5px 0 3px;white-space:nowrap">{{ kpiNums.hcw }}</div>
+              <div style="font-size:11.5px;color:#5B6B73">{{ subHcw }}</div>
+            </div>
+          </div>
+
+          <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin-top:13px">
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:13px 16px;box-shadow:0 1px 2px rgba(16,40,50,.04);display:flex;align-items:center;gap:13px">
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:21px;font-weight:600;white-space:nowrap;color:#0B7285">{{ secNums.new24h }}</div>
+              <div><div style="font-size:12px;color:#28363D;font-weight:600">{{ S.stat_new24h }}</div><div style="font-size:11px;color:#93A1A8">{{ subNew24hDeaths }}</div></div>
+            </div>
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:13px 16px;box-shadow:0 1px 2px rgba(16,40,50,.04);display:flex;align-items:center;gap:13px">
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:21px;font-weight:600;white-space:nowrap;color:#D98E04">{{ secNums.suspects }}</div>
+              <div><div style="font-size:12px;color:#28363D;font-weight:600">{{ S.stat_suspects }}</div><div style="font-size:11px;color:#93A1A8">{{ S.sub_suspects }}</div></div>
+            </div>
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:13px 16px;box-shadow:0 1px 2px rgba(16,40,50,.04);display:flex;align-items:center;gap:13px">
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:21px;font-weight:600;white-space:nowrap;color:#16242C">{{ secNums.contacts }}</div>
+              <div><div style="font-size:12px;color:#28363D;font-weight:600">{{ S.stat_contacts }}</div><div style="font-size:11px;color:#93A1A8">{{ subContactsRate }}</div></div>
+            </div>
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:13px 16px;box-shadow:0 1px 2px rgba(16,40,50,.04);display:flex;align-items:center;gap:13px">
+              <div style="font-family:'IBM Plex Mono',monospace;font-size:21px;font-weight:600;white-space:nowrap;color:#2F9E44">{{ secNums.recovered }}</div>
+              <div><div style="font-size:12px;color:#28363D;font-weight:600">{{ S.stat_recovered }}</div><div style="font-size:11px;color:#93A1A8">{{ S.sub_recovered }}</div></div>
+            </div>
+          </div>
+
+          <div style="display:grid;grid-template-columns:1.55fr 1fr;gap:16px;margin-top:16px">
+            <div style="display:flex;flex-direction:column;gap:16px">
+              <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:17px 18px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+                <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px">
+                  <div style="font-size:14px;font-weight:600;color:#16242C">{{ S.card_epi }}</div>
+                  <div style="display:flex;gap:14px;font-size:11.5px;color:#5B6B73">
+                    <span style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:#0B7285"></span>{{ S.legend_confirmed }}</span>
+                    <span style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:2px;background:#C0392B"></span>{{ S.legend_deaths }}</span>
+                  </div>
+                </div>
+                <svg viewBox="0 0 {{ epiC.W }} {{ epiC.H }}" style="width:100%;height:auto;display:block">
+                  <sc-for list="{{ epiC.grid }}" as="g" hint-placeholder-count="5"><line x1="{{ g.x1 }}" y1="{{ g.y }}" x2="{{ g.x2 }}" y2="{{ g.y }}" stroke="#EEF2F3" stroke-width="1"></line></sc-for>
+                  <sc-for list="{{ epiC.yticks }}" as="t" hint-placeholder-count="6"><text x="{{ t.x }}" y="{{ t.y }}" text-anchor="end" dominant-baseline="middle" font-size="10" fill="#93A1A8" font-family="IBM Plex Mono">{{ t.t }}</text></sc-for>
+                  <path d="{{ epiC.area }}" fill="#0B7285" fill-opacity="0.12"></path>
+                  <polyline points="{{ epiC.confPts }}" fill="none" stroke="#0B7285" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></polyline>
+                  <polyline points="{{ epiC.dthPts }}" fill="none" stroke="#C0392B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></polyline>
+                  <sc-for list="{{ epiC.xlabels }}" as="x" hint-placeholder-count="7"><text x="{{ x.x }}" y="{{ x.y }}" text-anchor="middle" font-size="10" fill="#5B6B73" font-family="IBM Plex Mono">{{ x.t }}</text></sc-for>
+                </svg>
+              </div>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+                <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:17px 18px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+                  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px"><div style="font-size:14px;font-weight:600;color:#16242C">{{ S.card_zones }}</div><span style="font-size:11px;color:#93A1A8">{{ S.zone_top }}</span></div>
+                  <svg viewBox="0 0 {{ zoneC.W }} {{ zoneC.H }}" style="width:100%;height:auto;display:block">
+                    <sc-for list="{{ zoneC.rows }}" as="r" hint-placeholder-count="10">
+                      <text x="{{ r.labelX }}" y="{{ r.labelY }}" text-anchor="end" font-size="11.5" fill="#16242C" font-family="Public Sans" font-weight="500">{{ r.name }}</text>
+                      <rect x="{{ r.bx }}" y="{{ r.by }}" width="{{ r.cw }}" height="{{ r.bh }}" fill="{{ r.fill }}" rx="3"></rect>
+                      <text x="{{ r.valX }}" y="{{ r.valY }}" font-size="10.5" fill="#5B6B73" font-family="IBM Plex Mono">{{ r.val }}</text>
+                    </sc-for>
+                  </svg>
+                  <div style="display:flex;gap:12px;font-size:11px;color:#5B6B73;margin-top:6px">
+                    <span style="display:flex;align-items:center;gap:5px"><span style="width:9px;height:9px;border-radius:2px;background:#0B7285"></span>Ituri</span>
+                    <span style="display:flex;align-items:center;gap:5px"><span style="width:9px;height:9px;border-radius:2px;background:#C0392B"></span>Nord-Kivu</span>
+                    <span style="display:flex;align-items:center;gap:5px"><span style="width:9px;height:9px;border-radius:2px;background:#D98E04"></span>Sud-Kivu</span>
+                  </div>
+                </div>
+                <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:17px 18px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+                  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px"><div style="font-size:14px;font-weight:600;color:#16242C">{{ S.card_cfr }}</div><span style="font-size:11px;color:#93A1A8">{{ S.legend_cfr }}</span></div>
+                  <svg viewBox="0 0 {{ cfrC.W }} {{ cfrC.H }}" style="width:100%;height:auto;display:block">
+                    <sc-for list="{{ cfrC.grid }}" as="g" hint-placeholder-count="3"><line x1="{{ g.x1 }}" y1="{{ g.y }}" x2="{{ g.x2 }}" y2="{{ g.y }}" stroke="#EEF2F3" stroke-width="1"></line></sc-for>
+                    <sc-for list="{{ cfrC.yticks }}" as="t" hint-placeholder-count="4"><text x="{{ t.x }}" y="{{ t.y }}" text-anchor="end" dominant-baseline="middle" font-size="10" fill="#93A1A8" font-family="IBM Plex Mono">{{ t.t }}</text></sc-for>
+                    <polyline points="{{ cfrC.poly }}" fill="none" stroke="#C0392B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></polyline>
+                    <sc-for list="{{ cfrC.pts }}" as="p" hint-placeholder-count="20"><circle cx="{{ p.cx }}" cy="{{ p.cy }}" r="2" fill="#C0392B"></circle></sc-for>
+                    <sc-for list="{{ cfrC.xlabels }}" as="x" hint-placeholder-count="7"><text x="{{ x.x }}" y="{{ x.y }}" text-anchor="middle" font-size="10" fill="#5B6B73" font-family="IBM Plex Mono">{{ x.t }}</text></sc-for>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div style="display:flex;flex-direction:column;gap:16px">
+              <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:17px 18px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+                <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><div style="font-size:14px;font-weight:600;color:#16242C">{{ S.card_map }}</div><span style="font-size:11px;color:#93A1A8">{{ S.schematic }}</span></div>
+                <svg viewBox="0 0 360 232" style="width:100%;height:auto;display:block">
+                  <rect x="38" y="16" width="284" height="98" rx="14" fill="#EAF1F2" stroke="#D4DEE0" stroke-width="1.1"></rect>
+                  <rect x="58" y="122" width="244" height="66" rx="13" fill="#F6ECEC" stroke="#E4CFCF" stroke-width="1.1"></rect>
+                  <rect x="92" y="196" width="176" height="30" rx="11" fill="#FBF3E2" stroke="#EBDCB6" stroke-width="1.1"></rect>
+                  <text x="44" y="30" font-size="9" font-weight="700" letter-spacing="1" fill="#0B7285" font-family="IBM Plex Mono">ITURI</text>
+                  <text x="64" y="135" font-size="9" font-weight="700" letter-spacing="1" fill="#C0392B" font-family="IBM Plex Mono">NORD-KIVU</text>
+                  <text x="98" y="208" font-size="9" font-weight="700" letter-spacing="1" fill="#B07B12" font-family="IBM Plex Mono">SUD-KIVU</text>
+                  <sc-for list="{{ mapZones }}" as="z" hint-placeholder-count="8">
+                    <circle cx="{{ z.cx }}" cy="{{ z.cy }}" r="{{ z.r }}" fill="{{ z.fill }}" fill-opacity="{{ z.op }}" stroke="{{ z.stroke }}" stroke-width="{{ z.sw }}"></circle>
+                    <text x="{{ z.cx }}" y="{{ z.labelY }}" text-anchor="middle" font-size="8.5" fill="#16242C">{{ z.name }}</text>
+                  </sc-for>
+                </svg>
+                <div style="font-size:11px;color:#93A1A8;margin-top:2px">{{ S.mapNote }}</div>
+              </div>
+              <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:16px 18px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+                <div style="font-size:14px;font-weight:600;color:#16242C;margin-bottom:10px">{{ S.card_provinces }}</div>
+                <div style="display:grid;grid-template-columns:1.2fr .8fr .8fr .8fr 1fr .6fr;gap:6px;font-size:10px;font-weight:600;letter-spacing:.3px;text-transform:uppercase;color:#7A8990;padding-bottom:7px;border-bottom:1px solid #EEF2F3">
+                  <div>{{ S.ph_province }}</div><div style="text-align:right">{{ S.ph_cases }}</div><div style="text-align:right">{{ S.ph_deaths }}</div><div style="text-align:right">{{ S.ph_cfr }}</div><div style="text-align:right">{{ S.ph_zones }}</div><div style="text-align:right">{{ S.ph_24h }}</div>
+                </div>
+                <sc-for list="{{ provinces }}" as="p" hint-placeholder-count="3">
+                  <div style="display:grid;grid-template-columns:1.2fr .8fr .8fr .8fr 1fr .6fr;gap:6px;font-size:12.5px;padding:9px 0;border-bottom:1px solid #F4F6F7;align-items:center">
+                    <div style="font-weight:600;color:#16242C">{{ p.name }}</div>
+                    <div style="text-align:right;font-family:IBM Plex Mono;color:#16242C">{{ p.cases }}</div>
+                    <div style="text-align:right;font-family:IBM Plex Mono;color:#C0392B">{{ p.deaths }}</div>
+                    <div style="text-align:right;font-family:IBM Plex Mono;color:#5B6B73">{{ p.cfr }}</div>
+                    <div style="text-align:right;font-family:IBM Plex Mono;color:#5B6B73">{{ p.zones }}</div>
+                    <div style="text-align:right;font-family:IBM Plex Mono;color:#5B6B73">{{ p.new24h }}</div>
+                  </div>
+                </sc-for>
+              </div>
+              <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:16px 18px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+                <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px"><div style="font-size:14px;font-weight:600;color:#16242C">{{ S.card_gaps }}</div><button onClick="{{ goTopics }}" style="border:none;background:none;color:#0B7285;font-family:inherit;font-size:12px;font-weight:600;cursor:pointer">{{ S.viewAll }}</button></div>
+                <sc-for list="{{ gapsTop }}" as="t" hint-placeholder-count="4">
+                  <div style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #F0F3F4">
+                    <svg width="9" height="9" style="flex-shrink:0"><circle cx="4.5" cy="4.5" r="4.5" fill="{{ t.sevColor }}"></circle></svg>
+                    <span style="flex:1;font-size:13px;color:#28363D">{{ t.name }}</span>
+                    <span style="font-size:11px;color:#93A1A8;font-family:IBM Plex Mono">{{ t.trend }}</span>
+                  </div>
+                </sc-for>
+              </div>
+            </div>
+          </div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isChat }}">
+        <div style="flex:1;min-height:0;overflow:auto;padding:22px 24px" ref="{{ chatRef }}">
+          <div style="max-width:840px;margin:0 auto">
+            <sc-for list="{{ msgs }}" as="m" hint-placeholder-count="4">
+              <sc-if value="{{ m.isUser }}">
+                <div style="display:flex;justify-content:flex-end;margin-bottom:16px">
+                  <div style="max-width:620px;background:#0B7285;color:#fff;padding:11px 15px;border-radius:14px 14px 4px 14px;font-size:14px;line-height:1.5">{{ m.text }}</div>
+                </div>
+              </sc-if>
+              <sc-if value="{{ m.isAssistant }}">
+                <div style="display:flex;gap:12px;margin-bottom:20px;max-width:760px">
+                  <div style="width:30px;height:30px;flex-shrink:0;border-radius:8px;background:#0E1C24;display:flex;align-items:center;justify-content:center;color:#18B6C9;font-size:10px;font-weight:700;font-family:IBM Plex Mono">AI</div>
+                  <div style="flex:1;min-width:0">
+                    <div style="font-size:14px;line-height:1.6;color:#16242C">{{ m.text }}</div>
+                    <sc-if value="{{ m.hasBullets }}">
+                      <ul style="margin:9px 0 0;padding-left:18px;font-size:14px;line-height:1.6;color:#28363D">
+                        <sc-for list="{{ m.bullets }}" as="b" hint-placeholder-count="3"><li style="margin-bottom:5px">{{ b }}</li></sc-for>
+                      </ul>
+                    </sc-if>
+                    <sc-if value="{{ m.chartEpi }}">
+                      <div style="margin-top:12px;border:1px solid #E6EBED;border-radius:12px;padding:14px;background:#fff;max-width:470px">
+                        <div style="font-size:12px;font-weight:600;color:#5B6B73;margin-bottom:6px">{{ S.card_epi }}</div>
+                        <svg viewBox="0 0 {{ epiC.W }} {{ epiC.H }}" style="width:100%;height:auto;display:block">
+                          <sc-for list="{{ epiC.grid }}" as="g" hint-placeholder-count="5"><line x1="{{ g.x1 }}" y1="{{ g.y }}" x2="{{ g.x2 }}" y2="{{ g.y }}" stroke="#EEF2F3" stroke-width="1"></line></sc-for>
+                          <sc-for list="{{ epiC.yticks }}" as="t" hint-placeholder-count="6"><text x="{{ t.x }}" y="{{ t.y }}" text-anchor="end" dominant-baseline="middle" font-size="10" fill="#93A1A8" font-family="IBM Plex Mono">{{ t.t }}</text></sc-for>
+                          <path d="{{ epiC.area }}" fill="#0B7285" fill-opacity="0.12"></path>
+                          <polyline points="{{ epiC.confPts }}" fill="none" stroke="#0B7285" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></polyline>
+                          <polyline points="{{ epiC.dthPts }}" fill="none" stroke="#C0392B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></polyline>
+                          <sc-for list="{{ epiC.xlabels }}" as="x" hint-placeholder-count="7"><text x="{{ x.x }}" y="{{ x.y }}" text-anchor="middle" font-size="10" fill="#5B6B73" font-family="IBM Plex Mono">{{ x.t }}</text></sc-for>
+                        </svg>
+                      </div>
+                    </sc-if>
+                    <sc-if value="{{ m.chartCfr }}">
+                      <div style="margin-top:12px;border:1px solid #E6EBED;border-radius:12px;padding:14px;background:#fff;max-width:470px">
+                        <div style="font-size:12px;font-weight:600;color:#5B6B73;margin-bottom:6px">{{ S.card_cfr }}</div>
+                        <svg viewBox="0 0 {{ cfrC.W }} {{ cfrC.H }}" style="width:100%;height:auto;display:block">
+                          <sc-for list="{{ cfrC.grid }}" as="g" hint-placeholder-count="3"><line x1="{{ g.x1 }}" y1="{{ g.y }}" x2="{{ g.x2 }}" y2="{{ g.y }}" stroke="#EEF2F3" stroke-width="1"></line></sc-for>
+                          <sc-for list="{{ cfrC.yticks }}" as="t" hint-placeholder-count="4"><text x="{{ t.x }}" y="{{ t.y }}" text-anchor="end" dominant-baseline="middle" font-size="10" fill="#93A1A8" font-family="IBM Plex Mono">{{ t.t }}</text></sc-for>
+                          <polyline points="{{ cfrC.poly }}" fill="none" stroke="#C0392B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></polyline>
+                          <sc-for list="{{ cfrC.pts }}" as="p" hint-placeholder-count="20"><circle cx="{{ p.cx }}" cy="{{ p.cy }}" r="2" fill="#C0392B"></circle></sc-for>
+                          <sc-for list="{{ cfrC.xlabels }}" as="x" hint-placeholder-count="7"><text x="{{ x.x }}" y="{{ x.y }}" text-anchor="middle" font-size="10" fill="#5B6B73" font-family="IBM Plex Mono">{{ x.t }}</text></sc-for>
+                        </svg>
+                      </div>
+                    </sc-if>
+                    <sc-if value="{{ m.chartZone }}">
+                      <div style="margin-top:12px;border:1px solid #E6EBED;border-radius:12px;padding:14px;background:#fff;max-width:470px">
+                        <div style="font-size:12px;font-weight:600;color:#5B6B73;margin-bottom:6px">{{ S.card_zones }}</div>
+                        <svg viewBox="0 0 {{ zoneC.W }} {{ zoneC.H }}" style="width:100%;height:auto;display:block">
+                          <sc-for list="{{ zoneC.rows }}" as="r" hint-placeholder-count="10">
+                            <text x="{{ r.labelX }}" y="{{ r.labelY }}" text-anchor="end" font-size="11.5" fill="#16242C" font-family="Public Sans" font-weight="500">{{ r.name }}</text>
+                            <rect x="{{ r.bx }}" y="{{ r.by }}" width="{{ r.cw }}" height="{{ r.bh }}" fill="{{ r.fill }}" rx="3"></rect>
+                            <text x="{{ r.valX }}" y="{{ r.valY }}" font-size="10.5" fill="#5B6B73" font-family="IBM Plex Mono">{{ r.val }}</text>
+                          </sc-for>
+                        </svg>
+                      </div>
+                    </sc-if>
+                    <sc-if value="{{ m.hasCites }}">
+                      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:11px">
+                        <sc-for list="{{ m.cites }}" as="c" hint-placeholder-count="2">
+                          <span style="display:inline-flex;align-items:center;gap:5px;font-size:11.5px;color:#0B7285;background:#EAF4F5;border:1px solid #CFE6E9;padding:3px 8px;border-radius:6px;font-family:IBM Plex Mono"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0B7285" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path></svg>{{ c.src }} · {{ c.loc }}</span>
+                        </sc-for>
+                      </div>
+                    </sc-if>
+                  </div>
+                </div>
+              </sc-if>
+            </sc-for>
+          </div>
+        </div>
+        <div style="flex-shrink:0;border-top:1px solid #E6EBED;background:#fff;padding:14px 24px 16px">
+          <div style="max-width:840px;margin:0 auto">
+            <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:11px">
+              <sc-for list="{{ suggestions }}" as="s" hint-placeholder-count="4">
+                <button onClick="{{ s.onClick }}" style="border:1px solid #DCE3E6;background:#fff;color:#28363D;font-family:inherit;font-size:12.5px;padding:6px 12px;border-radius:16px;cursor:pointer" style-hover="border-color:#0B7285;color:#0B7285;background:#F4FAFB"><span style="color:#93A1A8;margin-right:6px">↳</span>{{ s.q }}</button>
+              </sc-for>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;border:1.5px solid #DCE3E6;border-radius:12px;padding:6px 6px 6px 14px;background:#fff" style-focus-within="border-color:#0B7285">
+              <input value="{{ draft }}" onChange="{{ onDraft }}" onKeyDown="{{ onKey }}" placeholder="{{ S.chat_placeholder }}" style="flex:1;border:none;outline:none;font-family:inherit;font-size:14px;color:#16242C;background:transparent;padding:7px 0"/>
+              <button onClick="{{ send }}" style="flex-shrink:0;width:38px;height:38px;border-radius:9px;border:none;background:#0B7285;color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center" style-hover="background:#095e6e"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"></path><path d="M22 2l-7 20-4-9-9-4z"></path></svg></button>
+            </div>
+            <div style="font-size:11px;color:#93A1A8;margin-top:8px;text-align:center">{{ S.chat_disclaimer }}</div>
+          </div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isDocuments }}">
+        <div style="flex:1;min-height:0;overflow:auto;padding:22px 26px">
+          <div style="border:1.5px dashed #C3D0D4;border-radius:12px;background:#fff;padding:18px 20px;margin-bottom:18px">
+            <div style="display:flex;align-items:center;gap:16px">
+              <div style="width:44px;height:44px;border-radius:10px;background:#EAF4F5;display:flex;align-items:center;justify-content:center;flex-shrink:0"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0B7285" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><path d="M17 8l-5-5-5 5"></path><path d="M12 3v12"></path></svg></div>
+              <div style="flex:1">
+                <div style="font-size:14px;font-weight:600;color:#16242C">{{ S.doc_drop_title }}</div>
+                <div style="font-size:12.5px;color:#7A8990;margin-top:2px">{{ S.doc_drop_sub }}</div>
+              </div>
+              <label style="border:1px solid #0B7285;background:#0B7285;color:#fff;font-family:inherit;font-size:13px;font-weight:600;padding:9px 18px;border-radius:9px;cursor:pointer;flex-shrink:0" style-hover="background:#095e6e">{{ S.doc_browse }}<input type="file" accept="application/pdf,.pdf" onChange="{{ onFile }}" style="display:none"/></label>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;margin-top:14px">
+              <input value="{{ ingestUrl }}" onChange="{{ onIngestUrl }}" onKeyDown="{{ onIngestKey }}" placeholder="{{ S.doc_url_ph }}" style="flex:1;border:1px solid #DCE3E6;border-radius:9px;padding:9px 12px;font-family:inherit;font-size:13px;color:#16242C;outline:none"/>
+              <button onClick="{{ addFromUrl }}" style="border:none;background:#0B7285;color:#fff;font-family:inherit;font-size:13px;font-weight:600;padding:9px 18px;border-radius:9px;cursor:pointer;flex-shrink:0" style-hover="background:#095e6e">{{ S.doc_add_url }}</button>
+            </div>
+            <sc-if value="{{ hasIngestStatus }}">
+              <div style="margin-top:11px;font-size:12.5px;color:#5B6B73;font-family:IBM Plex Mono"><sc-if value="{{ ingestBusy }}"><span class="sc-spinner"></span></sc-if>{{ ingestStatus }}</div>
+            </sc-if>
+            <sc-if value="{{ hasPreview }}">
+              <div style="margin-top:12px;border:1px solid #CFE6E9;background:#F4FAFB;border-radius:9px;padding:12px 14px">
+                <div style="font-size:12px;color:#5B6B73;margin-bottom:9px;word-break:break-all"><span style="font-weight:600;color:#28363D">{{ S.doc_preview_found }}:</span> {{ previewPdf }}</div>
+                <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+                  <span style="font-size:12px;color:#7A8990">{{ S.dh_report }} N</span>
+                  <input value="{{ previewNum }}" onChange="{{ onPreviewNum }}" style="width:66px;border:1px solid #DCE3E6;border-radius:7px;padding:7px 9px;font-family:IBM Plex Mono;font-size:13px;color:#16242C;outline:none"/>
+                  <span style="font-size:12px;color:#7A8990">{{ S.dh_date }}</span>
+                  <input value="{{ previewDate }}" onChange="{{ onPreviewDate }}" placeholder="YYYY-MM-DD" style="width:118px;border:1px solid #DCE3E6;border-radius:7px;padding:7px 9px;font-family:IBM Plex Mono;font-size:13px;color:#16242C;outline:none"/>
+                  <button onClick="{{ confirmIngest }}" style="border:none;background:#0B7285;color:#fff;font-family:inherit;font-size:13px;font-weight:600;padding:8px 16px;border-radius:8px;cursor:pointer" style-hover="background:#095e6e">{{ S.doc_confirm }}</button>
+                  <button onClick="{{ cancelIngest }}" style="border:1px solid #DCE3E6;background:#fff;color:#5B6B73;font-family:inherit;font-size:13px;font-weight:600;padding:8px 16px;border-radius:8px;cursor:pointer">{{ S.doc_cancel }}</button>
+                </div>
+              </div>
+            </sc-if>
+          </div>
+          <sc-if value="{{ sitrepsError }}">
+            <div style="display:flex;align-items:center;gap:12px;background:#FBEAEA;border:1px solid #E4B7B7;border-radius:10px;padding:12px 16px;margin-bottom:16px">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C0392B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="10"></circle><path d="M12 8v4"></path><path d="M12 16h.01"></path></svg>
+              <div style="font-size:13.5px;color:#8A2A2A">{{ S.data_error }}</div>
+            </div>
+          </sc-if>
+          <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;overflow:hidden;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+            <div style="display:grid;grid-template-columns:1.1fr 1fr 1.2fr 0.55fr 0.7fr 1fr 0.8fr;gap:8px;padding:11px 18px;background:#F8FAFB;border-bottom:1px solid #E6EBED;font-size:10.5px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;color:#7A8990">
+              <div>{{ S.dh_report }}</div><div>{{ S.dh_date }}</div><div>{{ S.dh_source }}</div><div>{{ S.dh_pages }}</div><div>{{ S.dh_chunks }}</div><div>{{ S.dh_status }}</div><div></div>
+            </div>
+            <sc-for list="{{ sitreps }}" as="d" hint-placeholder-count="10">
+              <div style="display:grid;grid-template-columns:1.1fr 1fr 1.2fr 0.55fr 0.7fr 1fr 0.8fr;gap:8px;padding:13px 18px;border-bottom:1px solid #F0F3F4;align-items:center;font-size:13px">
+                <div style="font-weight:600;font-family:IBM Plex Mono;color:#16242C">SitRep {{ d.n }}</div>
+                <div style="color:#5B6B73">{{ d.date }}</div>
+                <div style="color:#5B6B73">{{ d.src }}</div>
+                <div style="font-family:IBM Plex Mono;color:#5B6B73">{{ d.pages }}</div>
+                <div style="font-family:IBM Plex Mono;color:#5B6B73">{{ d.chunks }}</div>
+                <div style="display:flex;align-items:center;gap:7px"><svg width="8" height="8"><circle cx="4" cy="4" r="4" fill="{{ d.statusColor }}"></circle></svg><span style="color:#28363D">{{ d.statusLabel }}</span></div>
+                <div style="text-align:right"><button onClick="{{ d.reprocess }}" disabled="{{ ingestBusy }}" style="border:1px solid #DCE3E6;background:#fff;color:#0B7285;font-family:inherit;font-size:12px;font-weight:600;padding:5px 12px;border-radius:7px;cursor:pointer" style-hover="background:#EAF4F5">{{ S.doc_reextract }}</button></div>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isDqReview }}">
+        <div style="flex:1;min-height:0;overflow:auto;padding:22px 26px">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px;flex-wrap:wrap">
+            <span style="font-size:13px;color:#5B6B73">{{ S.dqr_assess }}</span>
+            <select value="{{ dqReview }}" onChange="{{ onDqReview }}" style="appearance:none;border:1px solid #DCE3E6;border-radius:9px;padding:9px 14px;font-family:inherit;font-size:13.5px;font-weight:600;color:#16242C;background:#fff;cursor:pointer">
+              <sc-for list="{{ reportOptions }}" as="o" hint-placeholder-count="5"><option value="{{ o.v }}">{{ o.label }}</option></sc-for>
+            </select>
+            <button onClick="{{ runAssess }}" style="border:none;background:#0B7285;color:#fff;font-family:inherit;font-size:13px;font-weight:600;padding:9px 18px;border-radius:9px;cursor:pointer" style-hover="background:#095e6e">{{ S.dqr_run }}</button>
+            <div style="margin-left:auto;font-size:12px;color:#93A1A8;font-family:IBM Plex Mono">{{ dqStatus }}</div>
+          </div>
+          <sc-if value="{{ dqLoadingState }}">
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:52px 20px;box-shadow:0 1px 2px rgba(16,40,50,.04);text-align:center;color:#0B7285;font-size:13.5px">{{ S.ui_loading }}</div>
+          </sc-if>
+          <sc-if value="{{ dqNoResult }}">
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:52px 20px;box-shadow:0 1px 2px rgba(16,40,50,.04);text-align:center;color:#93A1A8;font-size:13.5px">{{ S.empty_dq_single }}</div>
+          </sc-if>
+          <sc-if value="{{ dqHasResult }}">
+          <div style="display:grid;grid-template-columns:1fr 1.4fr;gap:16px">
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:20px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+              <div style="font-size:14px;font-weight:600;color:#16242C;margin-bottom:14px">{{ S.dqr_overall }}</div>
+              <div style="display:flex;align-items:center;gap:18px;margin-bottom:18px">
+                <svg width="118" height="118" viewBox="0 0 130 130" style="flex-shrink:0">
+                  <circle cx="65" cy="65" r="52" fill="none" stroke="#EEF2F3" stroke-width="12"></circle>
+                  <circle cx="65" cy="65" r="52" fill="none" stroke="#0B7285" stroke-width="12" stroke-linecap="round" stroke-dasharray="{{ ring.dash }} 999" transform="rotate(-90 65 65)"></circle>
+                  <text x="65" y="64" text-anchor="middle" font-size="30" font-weight="700" fill="#16242C" font-family="IBM Plex Mono">{{ dqScore }}</text>
+                  <text x="65" y="83" text-anchor="middle" font-size="11" fill="#93A1A8" font-family="IBM Plex Mono">/ 100</text>
+                </svg>
+                <div style="font-size:13px;color:#5B6B73;line-height:1.55">{{ dqNarrative }}</div>
+              </div>
+              <div style="font-size:12px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;color:#7A8990;margin-bottom:10px">{{ S.dqr_dimensions }}</div>
+              <sc-for list="{{ dimsView }}" as="r" hint-placeholder-count="5">
+                <div style="display:flex;align-items:center;gap:12px;margin-bottom:11px">
+                  <div style="width:118px;flex-shrink:0;font-size:12px;color:#28363D;text-align:right;line-height:1.25">{{ r.label }}</div>
+                  <svg viewBox="0 0 200 10" preserveAspectRatio="none" style="flex:1;height:10px;display:block">
+                    <rect x="0" y="0" width="200" height="10" rx="2" fill="#EEF2F3"></rect>
+                    <rect x="0" y="0" width="{{ r.bw }}" height="10" rx="2" fill="{{ r.color }}"></rect>
+                  </svg>
+                  <div style="width:30px;flex-shrink:0;font-size:12px;font-weight:600;color:#16242C;font-family:IBM Plex Mono;text-align:right">{{ r.val }}</div>
+                </div>
+              </sc-for>
+            </div>
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:20px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+              <div style="font-size:14px;font-weight:600;color:#16242C;margin-bottom:6px">{{ dqIssuesTitle }}</div>
+              <sc-for list="{{ issues }}" as="i" hint-placeholder-count="6">
+                <div style="display:flex;gap:11px;padding:13px 0;border-bottom:1px solid #F0F3F4">
+                  <svg width="10" height="10" style="margin-top:5px;flex-shrink:0"><circle cx="5" cy="5" r="5" fill="{{ i.sevColor }}"></circle></svg>
+                  <div style="flex:1">
+                    <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+                      <span style="font-size:10.5px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;color:#5B6B73">{{ i.sevLabel }}</span>
+                      <span style="font-size:11px;font-weight:600;color:#0B7285;background:#EAF4F5;padding:2px 7px;border-radius:5px">{{ i.catLabel }}</span>
+                      <span style="margin-left:auto;font-size:11px;color:#93A1A8;font-family:IBM Plex Mono">{{ i.loc }}</span>
+                    </div>
+                    <div style="font-size:13px;line-height:1.5;color:#28363D">{{ i.text }}</div>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+          </sc-if>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isDqCompare }}">
+        <div style="flex:1;min-height:0;overflow:auto;padding:22px 26px">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:18px;flex-wrap:wrap">
+            <select value="{{ cmpA }}" onChange="{{ onCmpA }}" style="appearance:none;border:1px solid #DCE3E6;border-radius:9px;padding:9px 14px;font-family:inherit;font-size:13.5px;font-weight:600;color:#16242C;background:#fff;cursor:pointer">
+              <sc-for list="{{ reportOptions }}" as="o" hint-placeholder-count="5"><option value="{{ o.v }}">{{ o.label }}</option></sc-for>
+            </select>
+            <span style="color:#93A1A8;font-size:16px">↔</span>
+            <select value="{{ cmpB }}" onChange="{{ onCmpB }}" style="appearance:none;border:1px solid #DCE3E6;border-radius:9px;padding:9px 14px;font-family:inherit;font-size:13.5px;font-weight:600;color:#16242C;background:#fff;cursor:pointer">
+              <sc-for list="{{ reportOptions }}" as="o" hint-placeholder-count="5"><option value="{{ o.v }}">{{ o.label }}</option></sc-for>
+            </select>
+            <button onClick="{{ runCompare }}" style="border:none;background:#0B7285;color:#fff;font-family:inherit;font-size:13px;font-weight:600;padding:9px 18px;border-radius:9px;cursor:pointer" style-hover="background:#095e6e">{{ S.dqc_run }}</button>
+            <span style="font-size:12px;color:#93A1A8;font-family:IBM Plex Mono">{{ dqcStatus }}</span>
+          </div>
+          <sc-if value="{{ dqcLoadingState }}">
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:52px 20px;box-shadow:0 1px 2px rgba(16,40,50,.04);text-align:center;color:#0B7285;font-size:13.5px">{{ S.ui_loading }}</div>
+          </sc-if>
+          <sc-if value="{{ dqcNoResult }}">
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:52px 20px;box-shadow:0 1px 2px rgba(16,40,50,.04);text-align:center;color:#93A1A8;font-size:13.5px">{{ S.empty_dq_compare }}</div>
+          </sc-if>
+          <sc-if value="{{ dqcHasResult }}">
+          <div style="display:flex;align-items:center;gap:12px;background:#FBF3E2;border:1px solid #F0DFA8;border-radius:10px;padding:12px 16px;margin-bottom:18px">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D98E04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>
+            <div style="font-size:13.5px;color:#28363D">{{ dqcBanner }}</div>
+          </div>
+          <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:16px">
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;overflow:hidden;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+              <div style="display:grid;grid-template-columns:1.7fr .8fr .8fr .9fr .9fr;gap:8px;padding:11px 18px;background:#F8FAFB;border-bottom:1px solid #E6EBED;font-size:10.5px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;color:#7A8990">
+                <div>{{ S.dqc_metric }}</div><div style="text-align:right">{{ cmpA }}</div><div style="text-align:right">{{ cmpB }}</div><div style="text-align:right">Δ</div><div>{{ S.dh_status }}</div>
+              </div>
+              <sc-for list="{{ metrics }}" as="r" hint-placeholder-count="10">
+                <div style="display:grid;grid-template-columns:1.7fr .8fr .8fr .9fr .9fr;gap:8px;padding:11px 18px;border-bottom:1px solid #F0F3F4;align-items:center;font-size:13px">
+                  <div style="color:#28363D">{{ r.m }}</div>
+                  <div style="text-align:right;font-family:IBM Plex Mono;color:#5B6B73">{{ r.a }}</div>
+                  <div style="text-align:right;font-family:IBM Plex Mono;color:#16242C;font-weight:600">{{ r.b }}</div>
+                  <div style="text-align:right;font-family:IBM Plex Mono;color:#5B6B73">{{ r.d }}</div>
+                  <div style="display:flex;align-items:center;gap:6px"><svg width="8" height="8"><circle cx="4" cy="4" r="4" fill="{{ r.flagColor }}"></circle></svg><span style="font-size:11.5px;color:#5B6B73">{{ r.flagLabel }}</span></div>
+                </div>
+              </sc-for>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:16px">
+              <sc-if value="{{ dqcHasIssues }}">
+                <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:20px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+                  <div style="font-size:14px;font-weight:600;color:#16242C;margin-bottom:6px">{{ dqcIssuesTitle }}</div>
+                  <sc-for list="{{ dqcIssues }}" as="i" hint-placeholder-count="4">
+                    <div style="display:flex;gap:11px;padding:13px 0;border-bottom:1px solid #F0F3F4">
+                      <svg width="10" height="10" style="margin-top:5px;flex-shrink:0"><circle cx="5" cy="5" r="5" fill="{{ i.sevColor }}"></circle></svg>
+                      <div style="flex:1">
+                        <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+                          <span style="font-size:10.5px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;color:#5B6B73">{{ i.sevLabel }}</span>
+                          <span style="font-size:11px;font-weight:600;color:#0B7285;background:#EAF4F5;padding:2px 7px;border-radius:5px">{{ i.catLabel }}</span>
+                          <span style="margin-left:auto;font-size:11px;color:#93A1A8;font-family:IBM Plex Mono">{{ i.loc }}</span>
+                        </div>
+                        <div style="font-size:13px;line-height:1.5;color:#28363D">{{ i.text }}</div>
+                      </div>
+                    </div>
+                  </sc-for>
+                </div>
+              </sc-if>
+              <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:20px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+                <div style="font-size:14px;font-weight:600;color:#16242C;margin-bottom:6px">{{ S.dqc_narrative }}</div>
+                <sc-for list="{{ sections }}" as="s" hint-placeholder-count="5">
+                  <div style="display:flex;gap:10px;padding:12px 0;border-bottom:1px solid #F0F3F4">
+                    <span style="flex-shrink:0;font-size:10.5px;font-weight:700;letter-spacing:.3px;text-transform:uppercase;color:#fff;background:{{ s.color }};padding:3px 7px;border-radius:5px;height:fit-content">{{ s.typeLabel }}</span>
+                    <div style="font-size:13px;line-height:1.5;color:#28363D">{{ s.text }}</div>
+                  </div>
+                </sc-for>
+              </div>
+            </div>
+          </div>
+          </sc-if>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isTopics }}">
+        <div style="flex:1;min-height:0;overflow:auto;padding:22px 26px">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px">
+            <button onClick="{{ runTopics }}" style="border:none;background:#0B7285;color:#fff;font-family:inherit;font-size:13px;font-weight:600;padding:9px 18px;border-radius:9px;cursor:pointer" style-hover="background:#095e6e">{{ S.tp_refresh }}</button>
+            <span style="font-size:12px;color:#93A1A8;font-family:IBM Plex Mono">{{ topicStatus }}</span>
+          </div>
+          <sc-if value="{{ hasTopicSynthesis }}">
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:18px;box-shadow:0 1px 2px rgba(16,40,50,.04);margin-bottom:16px">
+              <div style="font-size:14px;font-weight:600;color:#16242C;margin-bottom:8px">{{ S.tp_synth_title }}</div>
+              <div style="font-size:13px;line-height:1.6;color:#28363D;white-space:pre-wrap">{{ topicSynthesis }}</div>
+            </div>
+          </sc-if>
+          <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin-bottom:16px">
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:14px 16px;box-shadow:0 1px 2px rgba(16,40,50,.04)"><div style="font-family:IBM Plex Mono;font-size:24px;font-weight:600;color:#16242C">{{ topicNums.themes }}</div><div style="font-size:12px;color:#7A8990;margin-top:2px">{{ S.tp_themes }}</div></div>
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:14px 16px;box-shadow:0 1px 2px rgba(16,40,50,.04)"><div style="font-family:IBM Plex Mono;font-size:24px;font-weight:600;color:#C0392B">{{ topicNums.high }}</div><div style="font-size:12px;color:#7A8990;margin-top:2px">{{ S.tp_high }}</div></div>
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:14px 16px;box-shadow:0 1px 2px rgba(16,40,50,.04)"><div style="font-family:IBM Plex Mono;font-size:24px;font-weight:600;color:#D98E04">{{ topicNums.rising }}</div><div style="font-size:12px;color:#7A8990;margin-top:2px">{{ S.tp_rising }}</div></div>
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:14px 16px;box-shadow:0 1px 2px rgba(16,40,50,.04)"><div style="font-family:IBM Plex Mono;font-size:24px;font-weight:600;color:#0B7285">{{ topicNums.new }}</div><div style="font-size:12px;color:#7A8990;margin-top:2px">{{ S.tp_new }}</div></div>
+          </div>
+          <sc-if value="{{ topicsNoResult }}">
+            <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:52px 20px;box-shadow:0 1px 2px rgba(16,40,50,.04);text-align:center;color:#93A1A8;font-size:13.5px">{{ S.empty_topics }}</div>
+          </sc-if>
+          <sc-if value="{{ topicsHasResult }}">
+          <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:18px;box-shadow:0 1px 2px rgba(16,40,50,.04);margin-bottom:16px">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+              <div style="font-size:14px;font-weight:600;color:#16242C">{{ S.tp_heat_title }}</div>
+              <div style="display:flex;align-items:center;gap:6px;font-size:11px;color:#93A1A8">{{ S.heat_low }}<span style="width:14px;height:10px;border-radius:2px;background:#0B7285;opacity:.2"></span><span style="width:14px;height:10px;border-radius:2px;background:#0B7285;opacity:.55"></span><span style="width:14px;height:10px;border-radius:2px;background:#0B7285;opacity:.95"></span>{{ S.heat_high }}</div>
+            </div>
+            <svg viewBox="0 0 {{ heatC.W }} {{ heatC.H }}" style="width:100%;height:auto;display:block">
+              <sc-for list="{{ heatC.colLabels }}" as="c" hint-placeholder-count="6"><text x="{{ c.x }}" y="{{ c.y }}" text-anchor="middle" font-size="11" fill="#5B6B73" font-family="IBM Plex Mono">{{ c.t }}</text></sc-for>
+              <sc-for list="{{ heatC.rowLabels }}" as="r" hint-placeholder-count="10"><text x="{{ r.x }}" y="{{ r.y }}" text-anchor="end" font-size="11.5" fill="#28363D">{{ r.t }}</text></sc-for>
+              <sc-for list="{{ heatC.rects }}" as="c" hint-placeholder-count="60"><rect x="{{ c.x }}" y="{{ c.y }}" width="{{ c.w }}" height="{{ c.h }}" rx="3" fill="#0B7285" fill-opacity="{{ c.op }}"></rect></sc-for>
+            </svg>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+            <sc-for list="{{ topics }}" as="t" hint-placeholder-count="10">
+              <div style="background:#fff;border:1px solid #E6EBED;border-radius:12px;padding:16px;box-shadow:0 1px 2px rgba(16,40,50,.04)">
+                <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:10px">
+                  <div style="font-size:14.5px;font-weight:600;color:#16242C;line-height:1.3">{{ t.name }}</div>
+                  <div style="display:flex;align-items:center;gap:10px;flex-shrink:0">
+                    <span style="display:inline-flex;align-items:center;gap:5px;font-size:11.5px;color:#5B6B73"><svg width="8" height="8"><circle cx="4" cy="4" r="4" fill="{{ t.sevColor }}"></circle></svg>{{ t.sevLabel }}</span>
+                  </div>
+                </div>
+                <div style="margin-top:9px;border-left:2.5px solid #CFE6E9;padding-left:11px;font-size:13px;font-style:italic;color:#46555C;line-height:1.5">{{ t.quote }}</div>
+                <div style="margin-top:11px;display:flex;align-items:center;gap:10px">
+                  <span style="display:inline-flex;align-items:center;gap:5px;font-size:11.5px;color:#0B7285;background:#EAF4F5;border:1px solid #CFE6E9;padding:3px 8px;border-radius:6px;font-family:IBM Plex Mono"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0B7285" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path></svg>{{ t.cite }}</span>
+                  <span style="display:inline-flex;align-items:center;gap:5px;font-size:11.5px;color:#5B6B73;margin-left:auto"><svg width="8" height="8"><circle cx="4" cy="4" r="4" fill="{{ t.trendColor }}"></circle></svg>{{ t.trend }}</span>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+          </sc-if>
+        </div>
+      </sc-if>
+
+    </div>
+  </main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = {
+    page: "overview",
+    lang: "fr",
+    draft: "",
+    // Data-quality selections start empty ("Select a SitRep" placeholder);
+    // loadSitreps() snaps them to real reports once the library is known.
+    dqReview: "",
+    cmpA: "",
+    cmpB: "",
+    overviewError: false, sitrepsError: false,
+    dqLoading: false, dqError: false,
+    dqcLoading: false, dqcError: false,
+    topicsLoading: false, topicsError: false,
+    ingestUrl: "", ingestStatus: "", ingestBusy: false,   // SitRep library add-by-url / upload
+    previewUrl: "", previewPdf: "", previewNum: "", previewDate: "",  // /resolve confirm step
+    messages: [],   // starts empty; only real assistant replies are shown
+    keysMissing: [],   // API keys reported absent by /api/health (orange banner)
+    noData: false,     // true when no SitRep corpus is built yet (sample fallback)
+  };
+
+  chatRef = React.createRef();
+  apiBase = "";  // same-origin FastAPI backend
+
+  // ---- language-neutral numbers ----
+  kpiNums = { confirmed: "-", deaths: "-", cfr: "-", zones: "-", isolation: "-", hcw: "-" };  // hydrated from /api/overview
+  secNums = { new24h: null, suspects: null, contacts: null, recovered: null };  // hydrated from /api/overview
+  overviewSubs = {};      // sub-line numbers from /api/overview
+  overviewDate = null;    // latest report date (for the header)
+  indexedCount = null;    // number of indexed (non-holdout) reports
+  topicNums = { themes: "-", high: "-", rising: "-", new: "-" };  // until topics load
+  dqScore = null;   // until an assessment is run
+
+  // Live values fetched from the API override the demo data above when present.
+  dqNarrativeLive = null;     // assessment narrative (string, already localised)
+  dqcBannerLive = null;       // comparison banner (string)
+  topicSynthesisText = "";    // topics synthesis (markdown string)
+  heatSits = null;            // heatmap column labels, e.g. ["037", ... "042"]
+
+  // All live data is fetched from the API; nothing is shown until it loads.
+  series = [];         // epidemic / CFR time series (overview)
+  provincesData = [];  // province summary table (overview)
+  zonesData = [];      // cases by health zone (overview)
+  mapPos = [];         // schematic map bubbles (overview)
+  sitrepsData = [];    // SitRep library rows (from /api/sitreps)
+
+  dims = [];           // quality dimensions (data quality, single review)
+  issuesData = [];     // flagged issues (data quality, single review)
+  dqResultLoaded = false;
+  dqcResultLoaded = false;
+  topicsLoaded = false;
+
+  metricsData = [];    // comparison metrics (data quality, version compare)
+  sectionsData = [];   // section changes (data quality, version compare)
+  dqcIssuesData = [];  // comparison findings/issues (data quality, version compare)
+  topicsData = [];     // topic cards + heatmap (topics and gaps)
+
+  suggestionList = [
+    { fr: "Quelles zones de sante sont les plus touchees ?", en: "Which health zones are most affected?", pt: "Que zonas de saude estao mais afetadas?" },
+    { fr: "Comment la letalite a-t-elle evolue ?", en: "How has the case fatality rate changed?", pt: "Como evoluiu a letalidade?" },
+    { fr: "Quels sont les principaux defis de la riposte ?", en: "What are the main response challenges?", pt: "Quais os principais desafios da resposta?" },
+    { fr: "Combien de soignants ont ete infectes ?", en: "How many health workers are infected?", pt: "Quantos profissionais foram infetados?" },
+  ];
+
+  STR = {
+    fr: {
+      brand: "Veille Ebola - RDC", region: "Ituri · Nord-Kivu · Sud-Kivu",
+      declared: "Declaree le 15 mai 2026", epicentre: "Epicentre : Mongbwalu (Djugu, Ituri)",
+      active: "Epidemie active", dataAsOf: "Donnees au {date}", synthetic: "SYNTHETIQUE",
+      docsIndexed: "{n} SitReps indexes", syntheticNote: "Source : INSP RDC (insp.cd)",
+      group_monitor: "Suivi", group_documents: "Documents", group_quality: "Qualite des donnees", group_analysis: "Analyse",
+      nav_overview: "Vue d ensemble", nav_chat: "Assistant", nav_documents: "Bibliotheque SitRep", nav_dqreview: "Revue unitaire", nav_dqcompare: "Comparaison de versions", nav_topics: "Themes et defis",
+      title_overview: "Vue d ensemble de l epidemie", title_chat: "Assistant conversationnel", title_documents: "Bibliotheque des SitReps", title_dqreview: "Qualite des donnees - revue unitaire", title_dqcompare: "Qualite des donnees - comparaison", title_topics: "Analyse des themes et defis",
+      kpi_confirmed: "Cas confirmes", kpi_deaths: "Deces", kpi_cfr: "Letalite", kpi_zones: "Zones de sante", kpi_isolation: "En isolement", kpi_hcw: "Personnel infecte",
+      sub_24h_conf: "{n} confirmes / 24h", sub_24h_deaths: "dont {n} deces / 24h", sub_cfr: "letalite globale", sub_zones: "sur {n} zones", sub_isolation: "patients pris en charge", sub_hcw: "{d} deces · letalite {c}%",
+      stat_new24h: "Nouveaux confirmes 24h", sub_new24h: "dont {n} deces", stat_suspects: "Cas suspects du jour", sub_suspects: "en cours de classement", stat_contacts: "Contacts suivis", sub_contacts: "{n}% vus", stat_recovered: "Gueris cumules", sub_recovered: "sortis des CTE",
+      card_epi: "Courbe epidemique", card_zones: "Cas par zone de sante", card_cfr: "Tendance de la letalite", card_map: "Repartition geographique", card_gaps: "Principaux defis signales", card_provinces: "Synthese par province",
+      legend_confirmed: "Confirmes cumules", legend_deaths: "Deces cumules", legend_cfr: "% cumule", viewAll: "Tout voir", schematic: "schematique", zone_top: "10 principales", mapNote: "Aire des cercles proportionnelle aux cas - non a l echelle",
+      ph_province: "Province", ph_cases: "Cas", ph_deaths: "Deces", ph_cfr: "Letalite", ph_zones: "Zones", ph_24h: "24h",
+      chat_placeholder: "Posez une question sur les cas, tendances, zones, defis...", chat_disclaimer: "Reponses generees a partir de 42 SitReps indexes - verifiez toujours le PDF source",
+      doc_drop_title: "Ajouter un SitRep : lien de page, lien PDF, ou fichier", doc_drop_sub: "Le PDF est archive, converti en markdown, puis re-extrait (Claude) et re-indexe (Voyage). Ecrase un rapport existant du meme numero.",
+      doc_browse: "Parcourir", doc_url_ph: "Coller un lien de page INSP ou un lien PDF direct", doc_add_url: "Ajouter", doc_ingesting: "Ajout en cours...", doc_ingest_done: "ajoute", doc_ingest_fail: "Echec de l ajout", doc_extract_pending: "extraction differee", doc_step_download: "Telechargement du PDF...", doc_step_read: "Lecture des pages...", doc_step_extract: "Extraction des donnees (Claude)...", doc_step_index: "Indexation (Voyage)...", doc_reextract: "Reextraire", doc_reprocess_done: "retraite", doc_pdf_only: "Veuillez choisir un fichier PDF", doc_resolving: "Resolution du lien...", doc_preview_found: "PDF trouve", doc_confirm: "Confirmer et ajouter", doc_cancel: "Annuler",
+      dh_report: "Rapport", dh_date: "Date des donnees", dh_source: "Source", dh_pages: "Pages", dh_chunks: "Segments", dh_status: "Statut",
+      status_indexed: "Indexe", status_processing: "Traitement", status_failed: "Echec OCR", src_moh: "MinSante / OMS", src_ims: "SGI provincial",
+      dqr_assess: "Evaluer le SitRep", select_sitrep: "Selectionner un SitRep", dqr_run: "Lancer l evaluation", dqr_generated: "Selectionnez un rapport, puis lancez l evaluation", dqr_overall: "Score global de qualite", dqr_dimensions: "Dimensions de qualite", dqr_issues: "Anomalies signalees",
+      dim_completeness: "Completude", dim_consistency: "Coherence", dim_timeliness: "Actualite", dim_plausibility: "Plausibilite", dim_coverage: "Couverture geo.",
+      sev_high: "Elevee", sev_medium: "Moyenne", sev_low: "Faible",
+      cat_arithmetic: "Arithmetique", cat_consistency: "Coherence", cat_completeness: "Completude", cat_plausibility: "Plausibilite", cat_timeliness: "Actualite", cat_coverage: "Couverture",
+      dqc_run: "Lancer la validation", dqc_metric: "Indicateur", dqc_narrative: "Changements de sections", type_added: "Ajout", type_changed: "Modifie", type_unchanged: "Inchange", flag_ok: "OK", flag_check: "A verifier", flag_note: "Note", flag_alert: "Contradiction",
+      data_error: "Impossible de charger les donnees depuis le serveur. Verifiez qu il est demarre, puis rechargez.",
+      banner_keys: "Cles API non configurees ({keys}). L assistant, la qualite des donnees et l analyse des themes sont desactives. Ajoutez-les dans .env, puis redemarrez le serveur.",
+      banner_nodata: "Aucun corpus SitRep charge - donnees d exemple affichees. Telechargez les rapports officiels depuis le portail INSP, ou ajoutez-en un ici (lien de page ou fichier PDF) :",
+      banner_nodata_cta: "Ouvrir la bibliotheque",
+      tp_themes: "Themes suivis", tp_high: "Defis severes", tp_rising: "En hausse", tp_new: "Nouveaux", tp_heat_title: "Intensite des themes dans les SitReps recents", heat_low: "faible", heat_high: "fort",
+      trend_rising: "En hausse", trend_persistent: "Persistant", trend_new: "Nouveau", trend_stable: "Stable", trend_improving: "En amelioration",
+      ui_loading: "Analyse en cours...", ui_error: "Service indisponible - donnees de demonstration", status_holdout: "Test (holdout)", tp_refresh: "Actualiser l analyse", tp_synth_title: "Synthese des defis", chat_error: "Service indisponible. Verifiez que le serveur tourne et que les cles API sont configurees, puis reessayez.", empty_dq_single: "Selectionnez un rapport et lancez l evaluation pour afficher les resultats.", empty_dq_compare: "Selectionnez deux rapports et lancez la comparaison pour afficher les resultats.", empty_topics: "Actualisez l analyse pour extraire les themes et defis des rapports.",
+    },
+    en: {
+      brand: "Ebola Watch - DRC", region: "Ituri · Nord-Kivu · Sud-Kivu",
+      declared: "Declared 15 May 2026", epicentre: "Epicentre: Mongbwalu (Djugu, Ituri)",
+      active: "Active outbreak", dataAsOf: "Data as of {date}", synthetic: "SYNTHETIC",
+      docsIndexed: "{n} SitReps indexed", syntheticNote: "Source: INSP DRC (insp.cd)",
+      group_monitor: "Monitor", group_documents: "Documents", group_quality: "Data quality", group_analysis: "Analysis",
+      nav_overview: "Overview", nav_chat: "Assistant", nav_documents: "SitRep library", nav_dqreview: "Single review", nav_dqcompare: "Version compare", nav_topics: "Topics & gaps",
+      title_overview: "Outbreak overview", title_chat: "Chat assistant", title_documents: "SitRep library", title_dqreview: "Data quality - single review", title_dqcompare: "Data quality - version compare", title_topics: "Topics & gaps analysis",
+      kpi_confirmed: "Confirmed cases", kpi_deaths: "Deaths", kpi_cfr: "CFR", kpi_zones: "Health zones", kpi_isolation: "In isolation", kpi_hcw: "Health workers",
+      sub_24h_conf: "{n} confirmed / 24h", sub_24h_deaths: "incl. {n} deaths / 24h", sub_cfr: "overall fatality", sub_zones: "of {n} zones", sub_isolation: "patients in care", sub_hcw: "{d} deaths · CFR {c}%",
+      stat_new24h: "New confirmed 24h", sub_new24h: "incl. {n} deaths", stat_suspects: "Suspect cases today", sub_suspects: "being classified", stat_contacts: "Contacts followed", sub_contacts: "{n}% seen", stat_recovered: "Recovered (cum.)", sub_recovered: "discharged from CTE",
+      card_epi: "Epidemic curve", card_zones: "Cases by health zone", card_cfr: "CFR trend", card_map: "Geographic spread", card_gaps: "Key reported gaps", card_provinces: "Province breakdown",
+      legend_confirmed: "Confirmed (cum.)", legend_deaths: "Deaths (cum.)", legend_cfr: "% cumulative", viewAll: "View all", schematic: "schematic", zone_top: "top 10", mapNote: "Circle area proportional to cases - not to scale",
+      ph_province: "Province", ph_cases: "Cases", ph_deaths: "Deaths", ph_cfr: "CFR", ph_zones: "Zones", ph_24h: "24h",
+      chat_placeholder: "Ask about cases, trends, zones, gaps...", chat_disclaimer: "Answers generated from 42 indexed SitReps - always verify against the source PDF",
+      doc_drop_title: "Add a SitRep: page link, PDF link, or file", doc_drop_sub: "The PDF is archived, converted to markdown, then re-extracted (Claude) and re-indexed (Voyage). Overwrites an existing report with the same number.",
+      doc_browse: "Browse files", doc_url_ph: "Paste an INSP page link or a direct PDF link", doc_add_url: "Add", doc_ingesting: "Adding...", doc_ingest_done: "added", doc_ingest_fail: "Add failed", doc_extract_pending: "extraction deferred", doc_step_download: "Downloading PDF...", doc_step_read: "Reading pages...", doc_step_extract: "Extracting data (Claude)...", doc_step_index: "Indexing (Voyage)...", doc_reextract: "Re-extract", doc_reprocess_done: "re-processed", doc_pdf_only: "Please choose a PDF file", doc_resolving: "Resolving link...", doc_preview_found: "PDF found", doc_confirm: "Confirm and add", doc_cancel: "Cancel",
+      dh_report: "Report", dh_date: "Data date", dh_source: "Source", dh_pages: "Pages", dh_chunks: "Chunks", dh_status: "Status",
+      status_indexed: "Indexed", status_processing: "Processing", status_failed: "Failed OCR", src_moh: "MoH / WHO", src_ims: "Provincial IMS",
+      dqr_assess: "Assess SitRep", select_sitrep: "Select a SitRep", dqr_run: "Run assessment", dqr_generated: "Select a report, then run the assessment", dqr_overall: "Overall quality score", dqr_dimensions: "Quality dimensions", dqr_issues: "Flagged issues",
+      dim_completeness: "Completeness", dim_consistency: "Consistency", dim_timeliness: "Timeliness", dim_plausibility: "Plausibility", dim_coverage: "Geo. coverage",
+      sev_high: "High", sev_medium: "Medium", sev_low: "Low",
+      cat_arithmetic: "Arithmetic", cat_consistency: "Consistency", cat_completeness: "Completeness", cat_plausibility: "Plausibility", cat_timeliness: "Timeliness", cat_coverage: "Coverage",
+      dqc_run: "Run validation", dqc_metric: "Metric", dqc_narrative: "Section changes", type_added: "Added", type_changed: "Changed", type_unchanged: "Unchanged", flag_ok: "OK", flag_check: "Check", flag_note: "Note", flag_alert: "Contradiction",
+      data_error: "Could not load data from the server. Check that it is running, then reload.",
+      banner_keys: "API keys not configured ({keys}). The assistant, data-quality and topic analysis features are disabled. Add them to .env, then restart the server.",
+      banner_nodata: "No SitRep corpus loaded - showing sample data. Download the official reports from the INSP portal, or add one here (page link or PDF file):",
+      banner_nodata_cta: "Open library",
+      tp_themes: "Themes tracked", tp_high: "High-severity gaps", tp_rising: "Rising", tp_new: "New", tp_heat_title: "Theme intensity across recent SitReps", heat_low: "low", heat_high: "high",
+      trend_rising: "Rising", trend_persistent: "Persistent", trend_new: "New", trend_stable: "Stable", trend_improving: "Improving",
+      ui_loading: "Analysing...", ui_error: "Service unavailable - showing demo data", status_holdout: "Test (holdout)", tp_refresh: "Refresh analysis", tp_synth_title: "Challenges synthesis", chat_error: "Service unavailable. Check that the server is running and the API keys are set, then try again.", empty_dq_single: "Select a report and run the assessment to see results.", empty_dq_compare: "Select two reports and run the comparison to see results.", empty_topics: "Refresh the analysis to extract topics and gaps from the reports.",
+    },
+    pt: {
+      brand: "Vigilancia Ebola - RDC", region: "Ituri · Nord-Kivu · Sud-Kivu",
+      declared: "Declarado em 15 mai 2026", epicentre: "Epicentro: Mongbwalu (Djugu, Ituri)",
+      active: "Surto ativo", dataAsOf: "Dados de {date}", synthetic: "SINTETICO",
+      docsIndexed: "{n} SitReps indexados", syntheticNote: "Fonte: INSP RDC (insp.cd)",
+      group_monitor: "Monitorizacao", group_documents: "Documentos", group_quality: "Qualidade dos dados", group_analysis: "Analise",
+      nav_overview: "Visao geral", nav_chat: "Assistente", nav_documents: "Biblioteca SitRep", nav_dqreview: "Revisao individual", nav_dqcompare: "Comparar versoes", nav_topics: "Temas e desafios",
+      title_overview: "Visao geral do surto", title_chat: "Assistente conversacional", title_documents: "Biblioteca de SitReps", title_dqreview: "Qualidade dos dados - revisao individual", title_dqcompare: "Qualidade dos dados - comparacao", title_topics: "Analise de temas e desafios",
+      kpi_confirmed: "Casos confirmados", kpi_deaths: "Obitos", kpi_cfr: "Letalidade", kpi_zones: "Zonas de saude", kpi_isolation: "Em isolamento", kpi_hcw: "Profissionais",
+      sub_24h_conf: "{n} confirmados / 24h", sub_24h_deaths: "incl. {n} obitos / 24h", sub_cfr: "letalidade global", sub_zones: "de {n} zonas", sub_isolation: "doentes em cuidados", sub_hcw: "{d} obitos · letalidade {c}%",
+      stat_new24h: "Novos confirmados 24h", sub_new24h: "incl. {n} obitos", stat_suspects: "Casos suspeitos hoje", sub_suspects: "em classificacao", stat_contacts: "Contactos seguidos", sub_contacts: "{n}% vistos", stat_recovered: "Recuperados (cum.)", sub_recovered: "altas dos CTE",
+      card_epi: "Curva epidemica", card_zones: "Casos por zona de saude", card_cfr: "Tendencia da letalidade", card_map: "Distribuicao geografica", card_gaps: "Principais desafios", card_provinces: "Resumo por provincia",
+      legend_confirmed: "Confirmados (cum.)", legend_deaths: "Obitos (cum.)", legend_cfr: "% cumulativo", viewAll: "Ver tudo", schematic: "esquematico", zone_top: "top 10", mapNote: "Area dos circulos proporcional aos casos - sem escala",
+      ph_province: "Provincia", ph_cases: "Casos", ph_deaths: "Obitos", ph_cfr: "Letal.", ph_zones: "Zonas", ph_24h: "24h",
+      chat_placeholder: "Pergunte sobre casos, tendencias, zonas, desafios...", chat_disclaimer: "Respostas geradas a partir de 42 SitReps indexados - verifique sempre o PDF de origem",
+      doc_drop_title: "Adicionar um SitRep: link de pagina, link PDF, ou ficheiro", doc_drop_sub: "O PDF e arquivado, convertido em markdown, depois re-extraido (Claude) e re-indexado (Voyage). Substitui um relatorio existente com o mesmo numero.",
+      doc_browse: "Procurar", doc_url_ph: "Cole um link da pagina INSP ou um link PDF direto", doc_add_url: "Adicionar", doc_ingesting: "A adicionar...", doc_ingest_done: "adicionado", doc_ingest_fail: "Falha ao adicionar", doc_extract_pending: "extracao adiada", doc_step_download: "A descarregar PDF...", doc_step_read: "A ler paginas...", doc_step_extract: "A extrair dados (Claude)...", doc_step_index: "A indexar (Voyage)...", doc_reextract: "Reextrair", doc_reprocess_done: "reprocessado", doc_pdf_only: "Escolha um ficheiro PDF", doc_resolving: "A resolver o link...", doc_preview_found: "PDF encontrado", doc_confirm: "Confirmar e adicionar", doc_cancel: "Cancelar",
+      dh_report: "Relatorio", dh_date: "Data dos dados", dh_source: "Fonte", dh_pages: "Paginas", dh_chunks: "Trechos", dh_status: "Estado",
+      status_indexed: "Indexado", status_processing: "A processar", status_failed: "Falha OCR", src_moh: "MinSaude / OMS", src_ims: "SGI provincial",
+      dqr_assess: "Avaliar o SitRep", select_sitrep: "Selecionar um SitRep", dqr_run: "Executar avaliacao", dqr_generated: "Selecione um relatorio e execute a avaliacao", dqr_overall: "Pontuacao global de qualidade", dqr_dimensions: "Dimensoes de qualidade", dqr_issues: "Anomalias sinalizadas",
+      dim_completeness: "Completude", dim_consistency: "Coerencia", dim_timeliness: "Atualidade", dim_plausibility: "Plausibilidade", dim_coverage: "Cobertura geo.",
+      sev_high: "Alta", sev_medium: "Media", sev_low: "Baixa",
+      cat_arithmetic: "Aritmetica", cat_consistency: "Coerencia", cat_completeness: "Completude", cat_plausibility: "Plausibilidade", cat_timeliness: "Atualidade", cat_coverage: "Cobertura",
+      dqc_run: "Executar validacao", dqc_metric: "Indicador", dqc_narrative: "Alteracoes de seccoes", type_added: "Adicao", type_changed: "Alterado", type_unchanged: "Inalterado", flag_ok: "OK", flag_check: "Verificar", flag_note: "Nota", flag_alert: "Contradicao",
+      data_error: "Nao foi possivel carregar os dados do servidor. Verifique se esta a correr e recarregue.",
+      banner_keys: "Chaves de API nao configuradas ({keys}). O assistente, a qualidade dos dados e a analise de temas estao desativados. Adicione-as ao .env e reinicie o servidor.",
+      banner_nodata: "Nenhum corpus SitRep carregado - a mostrar dados de exemplo. Descarregue os relatorios oficiais no portal INSP, ou adicione um aqui (link de pagina ou ficheiro PDF):",
+      banner_nodata_cta: "Abrir biblioteca",
+      tp_themes: "Temas seguidos", tp_high: "Desafios graves", tp_rising: "Em alta", tp_new: "Novos", tp_heat_title: "Intensidade dos temas nos SitReps recentes", heat_low: "baixo", heat_high: "alto",
+      trend_rising: "Em alta", trend_persistent: "Persistente", trend_new: "Novo", trend_stable: "Estavel", trend_improving: "A melhorar",
+      ui_loading: "A analisar...", ui_error: "Servico indisponivel - a mostrar dados de demonstracao", status_holdout: "Teste (holdout)", tp_refresh: "Atualizar analise", tp_synth_title: "Sintese dos desafios", chat_error: "Servico indisponivel. Verifique se o servidor esta a correr e se as chaves API estao configuradas, e tente novamente.", empty_dq_single: "Selecione um relatorio e execute a avaliacao para ver os resultados.", empty_dq_compare: "Selecione dois relatorios e execute a comparacao para ver os resultados.", empty_topics: "Atualize a analise para extrair os temas e desafios dos relatorios.",
+    },
+  };
+
+  diseaseLabels = {
+    fr: "Maladie a Virus Ebola (MVE) - 17e epidemie",
+    en: "Ebola Virus Disease (EVD) - 17th epidemic",
+    pt: "Doenca por Virus Ebola (DVE) - 17a epidemia",
+  };
+
+  bump() { this.setState(s => ({ __hydrated: (s.__hydrated || 0) + 1 })); }
+
+  componentDidMount() {
+    // Environment check: surface missing API keys (orange banner) and an
+    // empty corpus (info banner) so a fresh install explains itself.
+    fetch(this.apiBase + "/api/health")
+      .then(r => r.ok ? r.json() : Promise.reject())
+      .then(d => {
+        const keys = (d && d.keys) || {};
+        const missing = [];
+        if (!keys.anthropic) missing.push("ANTHROPIC_API_KEY");
+        if (!keys.voyage) missing.push("VOYAGE_API_KEY");
+        this.setState({ keysMissing: missing, noData: !(d && d.datasets_built) });
+      })
+      .catch(() => {});
+
+    fetch(this.apiBase + "/api/overview")
+      .then(r => r.ok ? r.json() : Promise.reject())
+      .then(d => {
+        if (d.kpiNums) this.kpiNums = { ...this.kpiNums, ...d.kpiNums };
+        if (d.subs) this.overviewSubs = d.subs;
+        if (d.secNums) this.secNums = d.secNums;
+        if (d.report_date) this.overviewDate = d.report_date;
+        this.series = Array.isArray(d.series) ? d.series : [];
+        this.provincesData = Array.isArray(d.provinces) ? d.provinces : [];
+        this.zonesData = Array.isArray(d.zones) ? d.zones : [];
+        this.mapPos = this.zonesToMap(this.zonesData);
+        this.setState({ overviewError: false });
+      })
+      .catch(() => this.setState({ overviewError: true }));
+
+    this.loadSitreps();
+
+    // Topics: use any cached extraction so the screen shows live data on load.
+    fetch(this.apiBase + "/api/topics")
+      .then(r => r.ok ? r.json() : Promise.reject())
+      .then(d => { if (d && Array.isArray(d.rows) && d.rows.length) { this.applyTopics(d.rows); this.bump(); } })
+      .catch(() => {});
+  }
+
+  componentDidUpdate() {
+    const el = this.chatRef.current;
+    if (el && this.state.page === "chat") el.scrollTop = el.scrollHeight;
+  }
+
+  L(v, lang) { lang = lang || this.state.lang; return (v && typeof v === "object" && v.fr !== undefined) ? (v[lang] || v.fr) : v; }
+
+  // ---- Markdown rendering for assistant replies ----
+  // The chat model answers in Markdown (tables, bold, lists). The template
+  // engine escapes plain strings, so we parse a safe subset to HTML here and
+  // return a React element; the runtime renders elements as-is (no escaping).
+  // All text is HTML-escaped first and only a fixed tag set is emitted, so the
+  // model's output cannot inject markup.
+  mdEscape(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+
+  mdInline(s) {
+    let t = this.mdEscape(s);
+    t = t.replace(/`([^`]+)`/g, (m, c) => `<code style="background:#EEF2F4;padding:1px 4px;border-radius:4px;font-family:'IBM Plex Mono',monospace;font-size:12.5px">${c}</code>`);
+    t = t.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+    t = t.replace(/(^|[^*])\*([^*\n]+)\*/g, "$1<em>$2</em>");
+    t = t.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (m, txt, url) => {
+      const safe = /^(https?:|mailto:|\/)/i.test(url) ? url : "#";
+      return `<a href="${safe}" target="_blank" rel="noopener noreferrer" style="color:#0B7285;text-decoration:underline">${txt}</a>`;
+    });
+    return t;
+  }
+
+  mdToHtml(src) {
+    const lines = String(src).replace(/\r\n/g, "\n").split("\n");
+    const out = [];
+    let i = 0;
+    const isSep = s => /^\s*\|?\s*:?-{2,}:?\s*(\|\s*:?-{2,}:?\s*)+\|?\s*$/.test(s);
+    const isList = s => /^\s*[-*+]\s+/.test(s);
+    const isOl = s => /^\s*\d+\.\s+/.test(s);
+    const splitRow = r => r.replace(/^\s*\|/, "").replace(/\|\s*$/, "").split("|").map(c => c.trim());
+    while (i < lines.length) {
+      const line = lines[i];
+      if (!line.trim()) { i++; continue; }
+      if (/^```/.test(line.trim())) {
+        const buf = []; i++;
+        while (i < lines.length && !/^```/.test(lines[i].trim())) { buf.push(lines[i]); i++; }
+        i++;
+        out.push(`<pre style="background:#F4F6F8;padding:10px 12px;border-radius:8px;overflow:auto;margin:8px 0"><code style="font-family:'IBM Plex Mono',monospace;font-size:12.5px">${this.mdEscape(buf.join("\n"))}</code></pre>`);
+        continue;
+      }
+      const hm = line.match(/^(#{1,6})\s+(.*)$/);
+      if (hm) { const sz = [null, "18px", "16px", "15px", "14px", "13px", "13px"][hm[1].length]; out.push(`<div style="font-weight:700;font-size:${sz};margin:10px 0 4px">${this.mdInline(hm[2])}</div>`); i++; continue; }
+      if (line.includes("|") && i + 1 < lines.length && isSep(lines[i + 1])) {
+        const headers = splitRow(line); i += 2; const rows = [];
+        while (i < lines.length && lines[i].includes("|") && lines[i].trim() && !isSep(lines[i])) { rows.push(splitRow(lines[i])); i++; }
+        let html = '<table style="border-collapse:collapse;margin:8px 0;font-size:13px"><thead><tr>';
+        html += headers.map(c => `<th style="border:1px solid #D7DEE2;padding:5px 9px;text-align:left;background:#F4F6F8;font-weight:600">${this.mdInline(c)}</th>`).join("");
+        html += "</tr></thead><tbody>";
+        for (const r of rows) html += "<tr>" + headers.map((_, ci) => `<td style="border:1px solid #D7DEE2;padding:5px 9px">${this.mdInline(r[ci] || "")}</td>`).join("") + "</tr>";
+        out.push(html + "</tbody></table>");
+        continue;
+      }
+      if (isList(line)) {
+        const items = [];
+        while (i < lines.length && isList(lines[i])) { items.push(lines[i].replace(/^\s*[-*+]\s+/, "")); i++; }
+        out.push(`<ul style="margin:6px 0;padding-left:20px">${items.map(it => `<li style="margin:2px 0">${this.mdInline(it)}</li>`).join("")}</ul>`);
+        continue;
+      }
+      if (isOl(line)) {
+        const items = [];
+        while (i < lines.length && isOl(lines[i])) { items.push(lines[i].replace(/^\s*\d+\.\s+/, "")); i++; }
+        out.push(`<ol style="margin:6px 0;padding-left:22px">${items.map(it => `<li style="margin:2px 0">${this.mdInline(it)}</li>`).join("")}</ol>`);
+        continue;
+      }
+      if (/^\s*>\s?/.test(line)) {
+        const buf = [];
+        while (i < lines.length && /^\s*>\s?/.test(lines[i])) { buf.push(lines[i].replace(/^\s*>\s?/, "")); i++; }
+        out.push(`<blockquote style="margin:6px 0;padding:4px 12px;border-left:3px solid #B9C4CA;color:#48565D">${this.mdInline(buf.join(" "))}</blockquote>`);
+        continue;
+      }
+      const buf = [];
+      while (i < lines.length && lines[i].trim() && !/^```/.test(lines[i].trim()) && !/^#{1,6}\s/.test(lines[i]) && !isList(lines[i]) && !isOl(lines[i]) && !/^\s*>\s?/.test(lines[i]) && !(lines[i].includes("|") && i + 1 < lines.length && isSep(lines[i + 1]))) { buf.push(lines[i]); i++; }
+      out.push(`<p style="margin:6px 0">${buf.map(b => this.mdInline(b)).join("<br>")}</p>`);
+    }
+    return out.join("");
+  }
+
+  // Returns a React element rendering the Markdown, or the raw string when the
+  // text has no Markdown features (keeps the typing placeholder etc. simple).
+  renderMarkdown(text) {
+    if (text == null || typeof text !== "string") return text;
+    if (!/[*`#|>\[]|^\s*[-+]\s|\d+\.\s/m.test(text)) return text;
+    return React.createElement("div", { dangerouslySetInnerHTML: { __html: this.mdToHtml(text) } });
+  }
+
+  // Thousands-spaced integer, or "-" when the value is missing (data driven).
+  fmtNum(n) { return (typeof n === "number") ? String(n).replace(/\B(?=(\d{3})+(?!\d))/g, " ") : "-"; }
+
+  // Readable fallback label from a key like "dim_completeness" -> "Completeness".
+  humanize(k) { return (k || "").replace(/^(dim|cat)_/, "").replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase()); }
+
+  sevColor(s) { return s === "High" ? "#C0392B" : s === "Medium" ? "#D98E04" : "#2F9E44"; }
+  trendColor(t) { if (t === "Rising" || t === "New") return "#C0392B"; if (t === "Persistent") return "#D98E04"; if (t === "Improving") return "#2F9E44"; return "#93A1A8"; }
+  flagColor(f) { return f === "ok" ? "#2F9E44" : f === "warn" ? "#D98E04" : f === "info" ? "#0B7285" : "#C0392B"; }
+  statusColor(s) { return s === "Indexed" ? "#2F9E44" : s === "Processing" ? "#D98E04" : s === "Holdout" ? "#0B7285" : "#C0392B"; }
+  zoneFill(p) { return p === "NK" ? "#C0392B" : p === "SK" ? "#D98E04" : "#0B7285"; }
+
+  buildEpi() {
+    const s = this.series, W = 520, H = 200, padL = 42, padR = 12, padT = 14, padB = 26;
+    const plotW = W - padL - padR, plotH = H - padT - padB, baseY = padT + plotH, maxC = 1250, n = s.length;
+    const yC = v => baseY - v / maxC * plotH;
+    const yticks0 = [0, 250, 500, 750, 1000, 1250].map(t => ({ y: yC(t), x: padL - 7, t: String(t) }));
+    const grid0 = [250, 500, 750, 1000, 1250].map(t => ({ y: yC(t), x1: padL, x2: padL + plotW }));
+    if (!n) return { W, H, confPts: "", dthPts: "", area: "", yticks: yticks0, grid: grid0, xlabels: [] };
+    const xAt = i => padL + (plotW * i / Math.max(1, n - 1));
+    const confPts = s.map((d, i) => xAt(i) + "," + yC(d.conf)).join(" ");
+    const dthPts = s.map((d, i) => xAt(i) + "," + yC(d.dth)).join(" ");
+    let area = "M " + xAt(0) + "," + baseY + " ";
+    s.forEach((d, i) => { area += "L " + xAt(i).toFixed(1) + "," + yC(d.conf).toFixed(1) + " "; });
+    area += "L " + xAt(n - 1) + "," + baseY + " Z";
+    const yticks = [0, 250, 500, 750, 1000, 1250].map(t => ({ y: yC(t), x: padL - 7, t: String(t) }));
+    const grid = [250, 500, 750, 1000, 1250].map(t => ({ y: yC(t), x1: padL, x2: padL + plotW }));
+    const labIdx = [0, 4, 8, 12, 15, 17, 19];
+    const xlabels = labIdx.filter(i => i < n).map(i => ({ x: xAt(i), y: baseY + 15, t: "Jun" + s[i].d }));
+    return { W, H, confPts, dthPts, area, yticks, grid, xlabels };
+  }
+
+  buildCfr() {
+    const s = this.series, W = 520, H = 200, padL = 42, padR = 12, padT = 14, padB = 26;
+    const plotW = W - padL - padR, plotH = H - padT - padB, baseY = padT + plotH, maxV = 30, n = s.length;
+    const yV = v => baseY - v / maxV * plotH;
+    const yticks0 = [0, 10, 20, 30].map(t => ({ y: yV(t), x: padL - 7, t: t + "%" }));
+    const grid0 = [10, 20, 30].map(t => ({ y: yV(t), x1: padL, x2: padL + plotW }));
+    if (!n) return { W, H, poly: "", pts: [], yticks: yticks0, grid: grid0, xlabels: [] };
+    const xAt = i => padL + (plotW * i / Math.max(1, n - 1));
+    const poly = s.map((d, i) => xAt(i) + "," + yV(d.cfr)).join(" ");
+    const pts = s.map((d, i) => ({ cx: xAt(i), cy: yV(d.cfr) }));
+    const yticks = [0, 10, 20, 30].map(t => ({ y: yV(t), x: padL - 7, t: t + "%" }));
+    const grid = [10, 20, 30].map(t => ({ y: yV(t), x1: padL, x2: padL + plotW }));
+    const labIdx = [0, 4, 8, 12, 15, 17, 19];
+    const xlabels = labIdx.filter(i => i < n).map(i => ({ x: xAt(i), y: baseY + 15, t: "Jun" + s[i].d }));
+    return { W, H, poly, pts, yticks, grid, xlabels };
+  }
+
+  buildZone() {
+    const z = [...this.zonesData].sort((a, b) => b.cases - a.cases).slice(0, 10);
+    const W = 520, H = 210, padT = 8, padB = 8, labelW = 84, padL = 8;
+    if (!z.length) return { W, H, rows: [] };
+    const rowH = (H - padT - padB) / z.length, barX = padL + labelW, maxW = W - barX - 78, max = z[0].cases || 1;
+    const rows = z.map((d, i) => {
+      const cy = padT + rowH * i + rowH / 2, bh = Math.min(14, rowH - 7), by = cy - bh / 2, cw = d.cases / max * maxW;
+      const val = d.cfr ? (d.cases + " · " + d.cfr) : String(d.cases);
+      return { name: d.name, labelX: padL + labelW - 8, labelY: cy + 4, bx: barX, by, cw, bh, valX: barX + cw + 7, valY: cy + 4, val, fill: this.zoneFill(d.prov) };
+    });
+    return { W, H, rows };
+  }
+
+  // Quality dimensions: HTML label/value + an SVG track whose fill width (0-200)
+  // is a bound rect attribute. Labels are HTML text, so they always render.
+  dimsView(S) {
+    return this.dims.map(it => {
+      const v = (typeof it.v === "number") ? it.v : 0;
+      const clamped = Math.max(0, Math.min(100, v));
+      const color = v >= 80 ? "#2F9E44" : v >= 70 ? "#0B7285" : "#D98E04";
+      const label = S[it.key] || this.L(it.label) || this.humanize(it.key) || "?";
+      return { label, color, bw: clamped * 2, val: String(it.v) };
+    });
+  }
+
+  // Lay out the live health-zone rows as bubbles inside their province band.
+  // Positions are layout only; the bubble size encodes the real case count.
+  zonesToMap(zones) {
+    const bands = { IT: { y: 58, x0: 72, x1: 290 }, NK: { y: 152, x0: 84, x1: 278 }, SK: { y: 210, x0: 120, x1: 240 } };
+    const by = { IT: [], NK: [], SK: [] };
+    (zones || []).forEach(z => { (by[z.prov] || by.IT).push(z); });
+    const out = [];
+    ["IT", "NK", "SK"].forEach(p => {
+      const list = by[p].slice().sort((a, b) => (b.cases || 0) - (a.cases || 0)).slice(0, 6);
+      const band = bands[p];
+      list.forEach((z, i) => {
+        const cx = list.length > 1 ? band.x0 + (band.x1 - band.x0) * i / (list.length - 1) : (band.x0 + band.x1) / 2;
+        out.push({ name: z.name, cx, cy: band.y, cases: z.cases || 0, prov: p, epi: !!z.epi });
+      });
+    });
+    return out;
+  }
+
+  buildHeat(lang) {
+    const sits = this.heatSits && this.heatSits.length ? this.heatSits : ["037", "038", "039", "040", "041", "042"];
+    const cw = 34, ch = 20, gap = 5, x0 = 118, y0 = 22;
+    const rects = [], rowLabels = [], colLabels = [];
+    this.topicsData.forEach((t, r) => {
+      rowLabels.push({ x: x0 - 10, y: y0 + r * (ch + gap) + ch / 2 + 4, t: this.L(t.short, lang) });
+      t.heat.forEach((v, c) => rects.push({ x: x0 + c * (cw + gap), y: y0 + r * (ch + gap), w: cw, h: ch, op: (0.12 + v / 3 * 0.83).toFixed(2) }));
+    });
+    sits.forEach((s, c) => colLabels.push({ x: x0 + c * (cw + gap) + cw / 2, y: y0 - 8, t: s }));
+    const W = x0 + sits.length * (cw + gap) + 8, H = y0 + this.topicsData.length * (ch + gap) + 6;
+    return { W, H, rects, rowLabels, colLabels };
+  }
+
+  buildMap(lang) {
+    return this.mapPos.map(z => {
+      const r = Math.max(5, Math.min(20, Math.sqrt(z.cases) * 1.1));
+      return { name: this.L(z.name, lang), cx: z.cx, cy: z.cy, r: +r.toFixed(1), labelY: z.cy + r + 9, op: z.epi ? 0.95 : 0.78, fill: z.epi ? "#18B6C9" : this.zoneFill(z.prov), stroke: z.epi ? "#0B7285" : "none", sw: z.epi ? 2 : 0 };
+    });
+  }
+
+  go(p) { this.setState({ page: p }); }
+  setLang(l) { this.setState({ lang: l }); }
+
+  ask(q) {
+    if (!q || !q.trim()) return;
+    const text = q.trim();
+    const lang = this.state.lang;
+    const typing = { role: "assistant", text: { fr: "...", en: "...", pt: "..." }, typing: true };
+    const history = this.state.messages.flatMap(m => {
+      const c = this.L(m.text, lang);
+      return typeof c === "string" ? [{ role: m.role, content: c }] : [];
+    });
+    this.setState(s => ({ messages: [...s.messages, { role: "user", text }, typing], draft: "" }));
+    const replaceLast = a => this.setState(s => { const m = s.messages.slice(); m[m.length - 1] = a; return { messages: m }; });
+    fetch(this.apiBase + "/api/chat", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ message: text, lang, history }) })
+      .then(r => r.ok ? r.json() : Promise.reject(r.status))
+      .then(d => replaceLast({ role: "assistant", text: d.text, cites: d.cites || [], chart: d.chart || undefined }))
+      .catch(() => replaceLast({ role: "assistant", text: { fr: this.STR.fr.chat_error, en: this.STR.en.chat_error, pt: this.STR.pt.chat_error } }));
+  }
+
+
+  // ---- live data wiring -----------------------------------------------
+  parseNum(label) { const m = String(label || "").match(/\d+/); return m ? parseInt(m[0], 10) : null; }
+
+  fmtDate(s) {
+    const M = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || "");
+    return m ? (parseInt(m[3], 10) + " " + M[parseInt(m[2], 10) - 1] + " " + m[1]) : (s || "-");
+  }
+
+  // SitRep library: real manifest rows, with holdout reports marked.
+  loadSitreps() {
+    fetch(this.apiBase + "/api/sitreps")
+      .then(r => r.ok ? r.json() : Promise.reject())
+      .then(d => {
+        if (Array.isArray(d.indexed)) this.indexedCount = d.indexed.length;
+        this.sitrepsData = (Array.isArray(d.reports) && d.reports.length) ? this.mapSitreps(d) : [];
+        // The data-quality selections start empty, and the corpus has gaps
+        // (missing report numbers), so a selection may not exist in the
+        // library. Snap any such selection to a real report: newest for
+        // single review and compare target, second newest for the baseline.
+        const labels = this.sitrepsData.map(x => x.n)
+          .sort((a, b) => this.parseNum(b) - this.parseNum(a));
+        const patch = { sitrepsError: false };
+        if (labels.length) {
+          if (!labels.includes(this.state.dqReview)) patch.dqReview = labels[0];
+          if (!labels.includes(this.state.cmpB)) patch.cmpB = labels[0];
+          if (!labels.includes(this.state.cmpA)) patch.cmpA = labels[1] || labels[0];
+        }
+        this.setState(patch);
+      })
+      .catch(() => this.setState({ sitrepsError: true }));
+  }
+
+  // ---- add / replace a SitRep (page URL, PDF URL, or uploaded file) ----
+  shortErr(e) { e = String(e); return e.length > 80 ? e.slice(0, 79) + "…" : e; }
+
+  stepLabel(step) {
+    const S = this.STR[this.state.lang];
+    return { download: S.doc_step_download, read: S.doc_step_read,
+             extract: S.doc_step_extract, index: S.doc_step_index }[step] || S.doc_ingesting;
+  }
+
+  ingestStatusFor(d) {
+    const S = this.STR[this.state.lang];
+    const n = "N " + String(d.sitrep_number).padStart(3, "0");
+    let s = n + " " + (d.reprocessed ? S.doc_reprocess_done : S.doc_ingest_done);
+    if (d.pages != null) s += " (" + d.pages + "p)";
+    if (d.chunks_indexed != null) s += " · " + d.chunks_indexed + " chunks";
+    const err = d.reextract_error || d.reindex_error;
+    if (err) s += " · " + S.doc_extract_pending + " (" + this.shortErr(err) + ")";
+    return s;
+  }
+
+  // Re-run extraction + indexing for one already-archived report.
+  reprocessSitrep(num) {
+    if (this.state.ingestBusy) return;
+    this.finishIngest(fetch(this.apiBase + "/api/sitreps/" + num + "/reprocess-stream", { method: "POST" }));
+  }
+
+  // Drive an NDJSON streaming ingest, showing a spinner + the current step.
+  finishIngest(promise) {
+    const S = this.STR[this.state.lang];
+    this.setState({ ingestBusy: true, ingestStatus: S.doc_ingesting });
+    const fail = j => this.setState({ ingestBusy: false,
+      ingestStatus: S.doc_ingest_fail + (j && j.detail ? " - " + j.detail : "") });
+    promise.then(async r => {
+      if (!r.ok || !r.body) { return fail(await r.json().catch(() => null)); }
+      const reader = r.body.getReader(), dec = new TextDecoder();
+      let buf = "", result = null;
+      for (;;) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        buf += dec.decode(value, { stream: true });
+        let nl;
+        while ((nl = buf.indexOf("\n")) >= 0) {
+          const line = buf.slice(0, nl).trim(); buf = buf.slice(nl + 1);
+          if (!line) continue;
+          let ev; try { ev = JSON.parse(line); } catch (_) { continue; }
+          if (ev.error) return fail({ detail: ev.error });
+          if (ev.result) result = ev.result;
+          else if (ev.step) this.setState({ ingestStatus: this.stepLabel(ev.step) });
+        }
+      }
+      if (result) {
+        this.setState({ ingestBusy: false, ingestStatus: this.ingestStatusFor(result), ingestUrl: "" });
+        this.loadSitreps();
+      } else fail(null);
+    }).catch(() => fail(null));
+  }
+
+  onIngestUrl(e) { this.setState({ ingestUrl: e.target.value }); }
+  onIngestKey(e) { if (e.key === "Enter") this.addFromUrl(); }
+  onPreviewNum(e) { this.setState({ previewNum: e.target.value }); }
+  onPreviewDate(e) { this.setState({ previewDate: e.target.value }); }
+  cancelIngest() { this.setState({ previewUrl: "", ingestStatus: "", ingestBusy: false }); }
+
+  // Step 1: resolve the URL to a PDF + detected number/date for confirmation.
+  addFromUrl() {
+    const url = (this.state.ingestUrl || "").trim();
+    if (!url) return;
+    const S = this.STR[this.state.lang];
+    this.setState({ ingestStatus: S.doc_resolving, ingestBusy: true, previewUrl: "" });
+    fetch(this.apiBase + "/api/sitreps/resolve", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ url }),
+    })
+      .then(r => r.json().then(j => r.ok ? j : Promise.reject(j)))
+      .then(d => this.setState({
+        previewUrl: url, previewPdf: d.pdf_url || url,
+        previewNum: d.number != null ? String(d.number) : "",
+        previewDate: d.report_date || "", ingestStatus: "", ingestBusy: false,
+      }))
+      .catch(j => this.setState({ ingestBusy: false, ingestStatus: S.doc_ingest_fail + (j && j.detail ? " - " + j.detail : "") }));
+  }
+
+  // Step 2: ingest the confirmed PDF with the (possibly edited) number/date.
+  confirmIngest() {
+    if (!this.state.previewUrl) return;
+    const number = this.state.previewNum ? parseInt(this.state.previewNum, 10) : null;
+    const date = this.state.previewDate || null;
+    const url = this.state.previewPdf || this.state.previewUrl;
+    this.setState({ previewUrl: "" });
+    this.finishIngest(fetch(this.apiBase + "/api/sitreps/ingest-url-stream", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ url, number, date }),
+    }));
+  }
+
+  onFile(e) {
+    const f = e.target.files && e.target.files[0];
+    if (!f) return;
+    if (!/\.pdf$/i.test(f.name)) { this.setState({ ingestStatus: this.STR[this.state.lang].doc_pdf_only }); return; }
+    const fd = new FormData();
+    fd.append("file", f);
+    this.finishIngest(fetch(this.apiBase + "/api/sitreps/ingest-file-stream", { method: "POST", body: fd }));
+  }
+
+  mapSitreps(d) {
+    const holdout = new Set((d.holdout || []).map(Number));
+    return d.reports.map(r => {
+      const num = parseInt(r.sitrep_number, 10);
+      return { num, n: "N " + String(num).padStart(3, "0"), date: this.fmtDate(r.report_date),
+               srcKey: "src_moh", pages: "-", chunks: "-",
+               status: holdout.has(num) ? "Holdout" : "Indexed" };
+    });
+  }
+
+  // Turn the per-report extracted gaps (theme/detail rows) into the card and
+  // heatmap shapes the Topics screen already renders.
+  aggregateTopics(rows) {
+    if (!Array.isArray(rows) || !rows.length) return null;
+    const nums = [...new Set(rows.map(r => +r.sitrep_number))].sort((a, b) => a - b);
+    const cols = nums.slice(-6);
+    const heatSits = cols.map(n => String(n).padStart(3, "0"));
+    const groups = {};
+    rows.forEach(r => { const t = r.theme || "Autre"; (groups[t] = groups[t] || []).push(r); });
+    const themes = Object.keys(groups);
+    const maxCount = Math.max(1, ...themes.map(t => new Set(groups[t].map(r => +r.sitrep_number)).size));
+    const topics = themes.map(t => {
+      const items = groups[t].slice().sort((a, b) => (+a.sitrep_number) - (+b.sitrep_number));
+      const reportsWith = new Set(items.map(r => +r.sitrep_number));
+      const count = reportsWith.size;
+      const heat = cols.map(n => Math.min(3, items.filter(r => (+r.sitrep_number) === n).length));
+      const last = items[items.length - 1];
+      const firstNum = Math.min(...reportsWith), earlier = count - cols.filter(n => reportsWith.has(n)).length;
+      let trend;
+      if (earlier === 0 && firstNum >= cols[0]) trend = "New";
+      else {
+        const lastV = heat[heat.length - 1], prevV = heat.slice(0, -1).reduce((a, b) => a + b, 0) / Math.max(1, heat.length - 1);
+        if (lastV > prevV * 1.2 && lastV > 0) trend = "Rising";
+        else if (lastV < prevV * 0.8) trend = "Improving";
+        else trend = count >= maxCount * 0.5 ? "Persistent" : "Stable";
+      }
+      const sev = count >= maxCount * 0.6 ? "High" : count >= maxCount * 0.3 ? "Medium" : "Low";
+      const short = t.length > 12 ? t.slice(0, 11) + "." : t;
+      return { sev, trend, cite: "N " + String(last.sitrep_number).padStart(3, "0"),
+               heat, short, name: t, quote: last.detail || "", _count: count };
+    }).sort((a, b) => b._count - a._count);
+    return {
+      topics, heatSits,
+      nums: { themes: String(topics.length),
+              high: String(topics.filter(t => t.sev === "High").length),
+              rising: String(topics.filter(t => t.trend === "Rising" || t.trend === "New").length),
+              new: String(topics.filter(t => t.trend === "New").length) },
+    };
+  }
+
+  applyTopics(rows, synthesis) {
+    const agg = this.aggregateTopics(rows);
+    if (agg) { this.topicsData = agg.topics; this.heatSits = agg.heatSits; this.topicNums = agg.nums; this.topicsLoaded = true; }
+    if (synthesis !== undefined && synthesis !== null) this.topicSynthesisText = synthesis;
+  }
+
+  runAssess() {
+    const n = this.parseNum(this.state.dqReview);
+    if (n == null) return;
+    // Clear any prior result so the panel shows only this run's API response.
+    this.dims = []; this.issuesData = []; this.dqScore = null; this.dqNarrativeLive = "";
+    this.setState({ dqLoading: true, dqError: false });
+    fetch(this.apiBase + "/api/data-quality/assess", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ n, lang: this.state.lang }) })
+      .then(r => r.ok ? r.json() : Promise.reject(r.status))
+      .then(d => {
+        this.dims = Array.isArray(d.dimensions) ? d.dimensions : [];
+        this.issuesData = Array.isArray(d.issues) ? d.issues : [];
+        this.dqScore = (d.score == null) ? null : Number(d.score);
+        this.dqNarrativeLive = d.narrative || "";
+        this.dqResultLoaded = true;
+        this.setState({ dqLoading: false, dqError: false });
+      })
+      .catch(() => this.setState({ dqLoading: false, dqError: true }));
+  }
+
+  runCompare() {
+    const a = this.parseNum(this.state.cmpA), b = this.parseNum(this.state.cmpB);
+    if (a == null || b == null) return;
+    // Clear any prior result so the panel shows only this run's API response.
+    this.metricsData = []; this.sectionsData = []; this.dqcIssuesData = []; this.dqcBannerLive = "";
+    this.setState({ dqcLoading: true, dqcError: false });
+    fetch(this.apiBase + "/api/data-quality/compare", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ a, b, lang: this.state.lang }) })
+      .then(r => r.ok ? r.json() : Promise.reject(r.status))
+      .then(d => {
+        this.metricsData = Array.isArray(d.metrics) ? d.metrics : [];
+        this.sectionsData = Array.isArray(d.sections) ? d.sections : [];
+        this.dqcIssuesData = Array.isArray(d.issues) ? d.issues : [];
+        this.dqcBannerLive = d.banner || "";
+        this.dqcResultLoaded = true;
+        this.setState({ dqcLoading: false, dqcError: false });
+      })
+      .catch(() => this.setState({ dqcLoading: false, dqcError: true }));
+  }
+
+  runTopics() {
+    this.setState({ topicsLoading: true, topicsError: false });
+    fetch(this.apiBase + "/api/topics/run?lang=" + encodeURIComponent(this.state.lang), { method: "POST" })
+      .then(r => r.ok ? r.json() : Promise.reject(r.status))
+      .then(d => { this.applyTopics(d.rows || [], d.synthesis || ""); this.setState({ topicsLoading: false, topicsError: false }); })
+      .catch(() => this.setState({ topicsLoading: false, topicsError: true }));
+  }
+
+  renderVals() {
+    const lang = this.state.lang, page = this.state.page, S = this.STR[lang];
+    const titles = { overview: S.title_overview, chat: S.title_chat, documents: S.title_documents, dq_review: S.title_dqreview, dq_compare: S.title_dqcompare, topics: S.title_topics };
+    const navItems = [
+      { key: "overview", label: S.nav_overview, group: S.group_monitor, iconPath: "M3 3h7v7H3z M14 3h7v7h-7z M14 14h7v7h-7z M3 14h7v7H3z" },
+      { key: "chat", label: S.nav_chat, group: S.group_monitor, iconPath: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" },
+      { key: "documents", label: S.nav_documents, group: S.group_documents, iconPath: "M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z M14 2v6h6" },
+      { key: "dq_review", label: S.nav_dqreview, group: S.group_quality, iconPath: "M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z M9 12l2 2 4-4" },
+      { key: "dq_compare", label: S.nav_dqcompare, group: S.group_quality, iconPath: "M9 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h4 M15 3h4a2 2 0 0 0 2 2v14a2 2 0 0 0-2 2h-4 M12 2v20" },
+      { key: "topics", label: S.nav_topics, group: S.group_analysis, iconPath: "M20.6 13.4l-7.2 7.2a2 2 0 0 1-2.8 0L2 12V2h10l8.6 8.6a2 2 0 0 1 0 2.8z M7 7h.01" },
+    ];
+    const order = [S.group_monitor, S.group_documents, S.group_quality, S.group_analysis];
+    const navGroups = order.map(name => ({ name, items: navItems.filter(it => it.group === name).map(it => ({ label: it.label, iconPath: it.iconPath, active: page === it.key, inactive: page !== it.key, onClick: () => this.go(it.key) })) }));
+
+    const langs = [["FR", "fr"], ["EN", "en"], ["PT", "pt"]].map(([code, key]) => ({ code, active: lang === key, inactive: lang !== key, onClick: () => this.setLang(key) }));
+
+    const msgs = this.state.messages.map((m, i) => ({
+      id: i, isUser: m.role === "user", isAssistant: m.role === "assistant",
+      // User text stays literal; assistant replies are Markdown -> rendered.
+      text: m.role === "assistant" ? this.renderMarkdown(this.L(m.text, lang)) : this.L(m.text, lang),
+      bullets: (m.bullets || []).map(b => this.L(b, lang)), hasBullets: !!(m.bullets && m.bullets.length),
+      cites: m.cites || [], hasCites: !!(m.cites && m.cites.length),
+      chartEpi: m.chart === "epi", chartCfr: m.chart === "cfr", chartZone: m.chart === "zone",
+    }));
+    const suggestions = this.suggestionList.map(o => { const q = this.L(o, lang); return { q, onClick: () => this.ask(q) }; });
+
+    const sitreps = this.sitrepsData.map(d => ({ n: d.n, date: d.date, src: S[d.srcKey], pages: d.pages, chunks: d.chunks, statusColor: this.statusColor(d.status), statusLabel: d.status === "Processing" ? (S.status_processing + " " + d.pct) : d.status === "Failed" ? S.status_failed : d.status === "Holdout" ? S.status_holdout : S.status_indexed, reprocess: () => this.reprocessSitrep(d.num) }));
+    // Dropdown options for the data-quality screens: every ingested report,
+    // newest first, behind a "Select a SitRep" placeholder that holds the
+    // slot until /api/sitreps has loaded (or if the library is empty).
+    const reportOptions = [{ v: "", label: S.select_sitrep }].concat(
+      this.sitrepsData.map(d => ({ v: d.n, label: d.n }))
+        .sort((x, y) => this.parseNum(y.v) - this.parseNum(x.v)));
+    const issues = this.issuesData.map(i => ({ sevColor: this.sevColor(i.sev), sevLabel: S["sev_" + i.sev.toLowerCase()], catLabel: S[i.cat], loc: i.loc, text: this.L(i.text, lang) }));
+    const flagLabel = f => f === "ok" ? S.flag_ok : f === "warn" ? S.flag_check : f === "alert" ? S.flag_alert : S.flag_note;
+    const metrics = this.metricsData.map(r => ({ m: this.L(r.m, lang), a: r.a, b: r.b, d: r.d, flagColor: this.flagColor(r.flag), flagLabel: flagLabel(r.flag) }));
+    const sectionColor = t => t === "type_added" ? "#2F9E44" : t === "type_changed" ? "#0B7285" : "#93A1A8";
+    const sections = this.sectionsData.map(s => ({ typeLabel: S[s.type], color: s.color || sectionColor(s.type), text: this.L(s.text, lang) }));
+    const topics = this.topicsData.map(t => ({ name: this.L(t.name, lang), quote: this.L(t.quote, lang), cite: t.cite, sevColor: this.sevColor(t.sev), sevLabel: S["sev_" + t.sev.toLowerCase()], trend: S["trend_" + t.trend.toLowerCase()], trendColor: this.trendColor(t.trend) }));
+    const gapsTop = this.topicsData.filter(t => t.sev === "High").slice(0, 4).map(t => ({ name: this.L(t.name, lang), trend: S["trend_" + t.trend.toLowerCase()], sevColor: this.sevColor(t.sev) }));
+
+    const ring = { dash: (this.dqScore / 100 * 2 * Math.PI * 52).toFixed(1) };
+
+    const dqStatus = this.state.dqLoading ? S.ui_loading : this.state.dqError ? S.ui_error : S.dqr_generated;
+    const dqcStatus = this.state.dqcLoading ? S.ui_loading : this.state.dqcError ? S.ui_error : "";
+    const topicStatus = this.state.topicsLoading ? S.ui_loading : this.state.topicsError ? S.ui_error : "";
+
+    // Data-driven KPI sub-lines and secondary stats, from /api/overview.
+    const sub = this.overviewSubs || {}, f = n => this.fmtNum(n), has = v => v !== null && v !== undefined;
+    const fill = (tpl, n) => has(n) ? tpl.replace("{n}", n) : "";
+    const subConf24h = fill(S.sub_24h_conf, has(sub.new_conf_24h) ? ((sub.new_conf_24h >= 0 ? "+" : "") + f(sub.new_conf_24h)) : null);
+    const subDeaths24h = fill(S.sub_24h_deaths, has(sub.new_deaths_24h) ? f(sub.new_deaths_24h) : null);
+    const subZones = fill(S.sub_zones, has(sub.zones_total) ? f(sub.zones_total) : null);
+    const subHcw = (has(sub.hcw_deaths) || has(sub.hcw_cfr))
+      ? S.sub_hcw.replace("{d}", has(sub.hcw_deaths) ? f(sub.hcw_deaths) : "-").replace("{c}", has(sub.hcw_cfr) ? sub.hcw_cfr : "-") : "";
+    const subNew24hDeaths = fill(S.sub_new24h, has(sub.new_deaths_24h) ? f(sub.new_deaths_24h) : null);
+    const subContactsRate = fill(S.sub_contacts, has(sub.contacts_rate) ? sub.contacts_rate : null);
+    const secNums = { new24h: f(this.secNums.new24h), suspects: f(this.secNums.suspects), contacts: f(this.secNums.contacts), recovered: f(this.secNums.recovered) };
+    const dataAsOf = S.dataAsOf.replace("{date}", this.overviewDate ? this.fmtDate(this.overviewDate) : "-");
+    const docsIndexed = S.docsIndexed.replace("{n}", has(this.indexedCount) ? this.indexedCount : "-");
+
+    return {
+      S, lang, page, pageTitle: titles[page], diseaseLabel: this.diseaseLabels[lang], strain: "Bundibugyo ebolavirus",
+      isOverview: page === "overview", isChat: page === "chat", isDocuments: page === "documents", isDqReview: page === "dq_review", isDqCompare: page === "dq_compare", isTopics: page === "topics",
+      navGroups, langs, msgs, suggestions, sitreps, issues, metrics, sections, topics, gapsTop, ring,
+      kpiNums: this.kpiNums, secNums, topicNums: this.topicNums, provinces: this.provincesData,
+      subConf24h, subDeaths24h, subZones, subHcw, subNew24hDeaths, subContactsRate, dataAsOf, docsIndexed,
+      dqScore: (this.dqScore == null) ? "" : this.dqScore, dqNarrative: this.dqNarrativeLive || "", dqIssuesTitle: S.dqr_issues + " (" + this.issuesData.length + ")",
+      overviewError: this.state.overviewError, sitrepsError: this.state.sitrepsError,
+      dqStatus, dqcStatus, dqcBanner: this.dqcBannerLive || "",
+      dqLoadingState: this.state.dqLoading, dqHasResult: this.dqResultLoaded && !this.state.dqLoading, dqNoResult: !this.dqResultLoaded && !this.state.dqLoading,
+      dqcLoadingState: this.state.dqcLoading, dqcHasResult: this.dqcResultLoaded && !this.state.dqcLoading, dqcNoResult: !this.dqcResultLoaded && !this.state.dqcLoading,
+      topicsHasResult: this.topicsLoaded, topicsNoResult: !this.topicsLoaded,
+      dqcIssues: this.dqcIssuesData.map(i => ({ sevColor: this.sevColor(i.sev), sevLabel: S["sev_" + i.sev.toLowerCase()], catLabel: S[i.cat], loc: i.loc, text: this.L(i.text, lang) })),
+      dqcHasIssues: this.dqcResultLoaded && this.dqcIssuesData.length > 0, dqcIssuesTitle: S.dqr_issues + " (" + this.dqcIssuesData.length + ")",
+      topicStatus, topicSynthesis: this.renderMarkdown(this.topicSynthesisText), hasTopicSynthesis: !!this.topicSynthesisText,
+      runAssess: () => this.runAssess(), runCompare: () => this.runCompare(), runTopics: () => this.runTopics(),
+      ingestUrl: this.state.ingestUrl, onIngestUrl: (e) => this.onIngestUrl(e), onIngestKey: (e) => this.onIngestKey(e),
+      addFromUrl: () => this.addFromUrl(), onFile: (e) => this.onFile(e),
+      ingestStatus: this.state.ingestStatus, hasIngestStatus: !!this.state.ingestStatus, ingestBusy: this.state.ingestBusy,
+      hasPreview: !!this.state.previewUrl, previewPdf: this.state.previewPdf,
+      previewNum: this.state.previewNum, previewDate: this.state.previewDate,
+      onPreviewNum: (e) => this.onPreviewNum(e), onPreviewDate: (e) => this.onPreviewDate(e),
+      confirmIngest: () => this.confirmIngest(), cancelIngest: () => this.cancelIngest(),
+      goTopics: () => this.go("topics"),
+      showKeyBanner: this.state.keysMissing.length > 0,
+      keyBannerText: S.banner_keys.replace("{keys}", this.state.keysMissing.join(", ")),
+      showDataBanner: this.state.noData, dataBannerHref: "https://insp.cd", goLibrary: () => this.go("documents"),
+      draft: this.state.draft, onDraft: (e) => this.setState({ draft: e.target.value }), onKey: (e) => { if (e.key === "Enter") this.ask(this.state.draft); }, send: () => this.ask(this.state.draft), chatRef: this.chatRef,
+      reportOptions,
+      dqReview: this.state.dqReview, onDqReview: (e) => this.setState({ dqReview: e.target.value }),
+      cmpA: this.state.cmpA, onCmpA: (e) => this.setState({ cmpA: e.target.value }), cmpB: this.state.cmpB, onCmpB: (e) => this.setState({ cmpB: e.target.value }),
+      epiC: this.buildEpi(), cfrC: this.buildCfr(), zoneC: this.buildZone(), dimsView: this.dimsView(S), heatC: this.buildHeat(lang), mapZones: this.buildMap(lang),
+    };
+  }
+}
+</script>
+</body>
+</html>

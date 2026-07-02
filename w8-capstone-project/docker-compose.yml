@@ -1,0 +1,14 @@
+services:
+  sitrep:
+    build: .
+    image: graph-ai-project:latest
+    ports:
+      - "8007:8007"
+    # ANTHROPIC_API_KEY / VOYAGE_API_KEY (and optional overrides) come from .env
+    env_file:
+      - .env
+    # Persist the corpus and Chroma index across container restarts; this also
+    # shares the index with a local (non-Docker) run of the app.
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

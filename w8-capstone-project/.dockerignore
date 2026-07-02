@@ -1,0 +1,30 @@
+# VCS / editor / CI
+.git
+.github
+.vscode
+
+# Environments and caches
+.venv
+__pycache__
+*.py[oc]
+.pytest_cache
+.ruff_cache
+
+# Secrets — keys are injected at runtime (env_file / -e), never baked in
+.env
+
+# Regenerable or heavyweight data: the Chroma index is rebuilt or volume-mounted,
+# PDFs are re-fetched with scripts/download_pdfs.py
+data/chroma
+data/sitreps/pdf
+data/sitreps/datasets/by_report
+
+# Docs and artefacts not needed at runtime
+docs
+tests
+SitRep_Intelligence_Overview_v2.pptx
+
+# Docker files themselves
+Dockerfile
+docker-compose.yml
+.dockerignore

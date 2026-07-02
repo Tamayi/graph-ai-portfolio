@@ -1,0 +1,2678 @@
+[
+ {
+  "sitrep_number": 1,
+  "date": "2026-05-22",
+  "theme": "PCI",
+  "detail": "Manque d'isolement conforme, le plan d'amélioration de l'infection (PAI) n'est pas encore élaboré et le SGI n'est pas désigné."
+ },
+ {
+  "sitrep_number": 1,
+  "date": "2026-05-22",
+  "theme": "Logistique",
+  "detail": "Manque d'intrants PCI et de kits de prélèvement."
+ },
+ {
+  "sitrep_number": 1,
+  "date": "2026-05-22",
+  "theme": "Engagement communautaire",
+  "detail": "Besoin de CREC pour gérer les rumeurs communautaires persistantes."
+ },
+ {
+  "sitrep_number": 1,
+  "date": "2026-05-22",
+  "theme": "RH",
+  "detail": "Personnel non formé en PCI, prélèvement, transport et conservation d'échantillons, surveillance et prise en charge des maladies à potentiel épidémique."
+ },
+ {
+  "sitrep_number": 1,
+  "date": "2026-05-22",
+  "theme": "Surveillance",
+  "detail": "Manque de triage à l'HGR de Mongbwalu et dans les centres de santé."
+ },
+ {
+  "sitrep_number": 1,
+  "date": "2026-05-22",
+  "theme": "Surveillance",
+  "detail": "Réalisation des enterrements dignes et sécurisés (EDS) complets non encore effectuée."
+ },
+ {
+  "sitrep_number": 1,
+  "date": "2026-05-22",
+  "theme": "Logistique",
+  "detail": "Besoin urgent de centres de traitement Ebola (CTE) normés dans les 3 zones de santé en épidémie."
+ },
+ {
+  "sitrep_number": 1,
+  "date": "2026-05-22",
+  "theme": "Financement",
+  "detail": "Appel à mobilisation des partenaires techniques et financiers pour soutenir la réponse, selon le principe d'une coordination, un plan et un budget."
+ },
+ {
+  "sitrep_number": 2,
+  "date": "2026-05-22",
+  "theme": "Logistique",
+  "detail": "Manque d'isolement conforme et absence de CTE normé dans les 3 zones de santé en épidémie."
+ },
+ {
+  "sitrep_number": 2,
+  "date": "2026-05-22",
+  "theme": "Coordination",
+  "detail": "Le plan d'action de l'incident (PAI) est encore en cours d'élaboration et le SGI n'a pas encore été désigné."
+ },
+ {
+  "sitrep_number": 2,
+  "date": "2026-05-22",
+  "theme": "Logistique",
+  "detail": "Manque d'intrants PCI et de kits de prélèvement."
+ },
+ {
+  "sitrep_number": 2,
+  "date": "2026-05-22",
+  "theme": "Engagement communautaire",
+  "detail": "Besoin de CREC pour gérer les rumeurs communautaires persistantes."
+ },
+ {
+  "sitrep_number": 2,
+  "date": "2026-05-22",
+  "theme": "RH",
+  "detail": "Personnel non formé en PCI, prélèvement, transport et conservation d'échantillons, surveillance et prise en charge des maladies à potentiel épidémique."
+ },
+ {
+  "sitrep_number": 2,
+  "date": "2026-05-22",
+  "theme": "Surveillance",
+  "detail": "Manque de triage à l'HGR de Mongbwalu et dans les centres de santé."
+ },
+ {
+  "sitrep_number": 2,
+  "date": "2026-05-22",
+  "theme": "Surveillance",
+  "detail": "L'enquête descriptive complète (EDS complète) n'a pas encore été réalisée."
+ },
+ {
+  "sitrep_number": 4,
+  "date": "2026-05-22",
+  "theme": "Logistique",
+  "detail": "Difficulté de mobilité des équipes pour l'investigation au niveau de la DPS et des zones de santé."
+ },
+ {
+  "sitrep_number": 4,
+  "date": "2026-05-22",
+  "theme": "Logistique",
+  "detail": "Difficulté d'expédition des échantillons de Mongbwalu vers le laboratoire provincial de Bunia."
+ },
+ {
+  "sitrep_number": 4,
+  "date": "2026-05-22",
+  "theme": "Laboratoire",
+  "detail": "Insuffisance des kits de prélèvements disponibles."
+ },
+ {
+  "sitrep_number": 4,
+  "date": "2026-05-22",
+  "theme": "Surveillance",
+  "detail": "Insuffisance des kits de protection et des outils de surveillance."
+ },
+ {
+  "sitrep_number": 4,
+  "date": "2026-05-22",
+  "theme": "Surveillance",
+  "detail": "Neuf alertes non investiguées dans la zone de santé de Mongbwalu au 18 mai 2026."
+ },
+ {
+  "sitrep_number": 4,
+  "date": "2026-05-22",
+  "theme": "Surveillance",
+  "detail": "Présence de 18 malades suspects au CME Nyankunde sans isolement, dont 8 prestataires de soins."
+ },
+ {
+  "sitrep_number": 5,
+  "date": "2026-05-22",
+  "theme": "RH",
+  "detail": "Les équipes d'intervention dans les zones de santé touchées sont insuffisantes et doivent être renforcées."
+ },
+ {
+  "sitrep_number": 5,
+  "date": "2026-05-22",
+  "theme": "Logistique",
+  "detail": "Les moyens de déplacement (mobilité) manquent pour les équipes de terrain."
+ },
+ {
+  "sitrep_number": 5,
+  "date": "2026-05-22",
+  "theme": "Laboratoire",
+  "detail": "Il existe un gap en kits de prélèvement qui doit être comblé."
+ },
+ {
+  "sitrep_number": 5,
+  "date": "2026-05-22",
+  "theme": "Surveillance",
+  "detail": "Le listage des contacts n'est pas encore finalisé et le suivi des contacts n'a pas démarré dans toutes les zones de santé."
+ },
+ {
+  "sitrep_number": 5,
+  "date": "2026-05-22",
+  "theme": "Surveillance",
+  "detail": "La cartographie de la mobilité de la population dans les zones de santé touchées n'a pas encore été élaborée."
+ },
+ {
+  "sitrep_number": 5,
+  "date": "2026-05-22",
+  "theme": "Surveillance",
+  "detail": "La surveillance épidémiologique et la surveillance à base communautaire doivent être renforcées."
+ },
+ {
+  "sitrep_number": 5,
+  "date": "2026-05-22",
+  "theme": "RH",
+  "detail": "Les prestataires manquent de formation en surveillance épidémiologique, surveillance à base communautaire et laboratoire."
+ },
+ {
+  "sitrep_number": 5,
+  "date": "2026-05-22",
+  "theme": "RH",
+  "detail": "Il y a une insuffisance de techniciens de surface dans l'HGR de Mongbwalu."
+ },
+ {
+  "sitrep_number": 5,
+  "date": "2026-05-22",
+  "theme": "RH",
+  "detail": "Les membres de la sous-commission PCI n'ont pas reçu de formation."
+ },
+ {
+  "sitrep_number": 5,
+  "date": "2026-05-22",
+  "theme": "Logistique",
+  "detail": "Il manque des équipements de protection individuelle (EPI) pour réaliser les enterrements dignes et sécurisés (EDS)."
+ },
+ {
+  "sitrep_number": 6,
+  "date": "2026-05-22",
+  "theme": "Prise en charge",
+  "detail": "Absence de centres de traitement (CT) et centres de traitement Ebola (CTE) normés."
+ },
+ {
+  "sitrep_number": 6,
+  "date": "2026-05-22",
+  "theme": "Logistique",
+  "detail": "Manque de matériels de prévention et contrôle de l'infection (EPI, DLM, chlore) au Nord-Kivu."
+ },
+ {
+  "sitrep_number": 6,
+  "date": "2026-05-22",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes par les zones de santé."
+ },
+ {
+  "sitrep_number": 6,
+  "date": "2026-05-22",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières pour appuyer tous les piliers de la riposte."
+ },
+ {
+  "sitrep_number": 6,
+  "date": "2026-05-22",
+  "theme": "Laboratoire",
+  "detail": "Difficulté d'acheminement des échantillons vers les laboratoires de Goma et Kinshasa."
+ },
+ {
+  "sitrep_number": 6,
+  "date": "2026-05-22",
+  "theme": "Engagement communautaire",
+  "detail": "Propagation des rumeurs et prolifération des recettes de traitement traditionnel."
+ },
+ {
+  "sitrep_number": 6,
+  "date": "2026-05-22",
+  "theme": "Engagement communautaire",
+  "detail": "Absence de supports et outils de communication pour la sensibilisation communautaire."
+ },
+ {
+  "sitrep_number": 6,
+  "date": "2026-05-22",
+  "theme": "Logistique",
+  "detail": "Manque de fournitures et d'équipements informatiques de bureau."
+ },
+ {
+  "sitrep_number": 6,
+  "date": "2026-05-22",
+  "theme": "Logistique",
+  "detail": "Insuffisance de véhicules pour le déplacement des équipes sur le terrain."
+ },
+ {
+  "sitrep_number": 7,
+  "date": "2026-05-22",
+  "theme": "Prise en charge",
+  "detail": "Absence de centres de traitement (CT) et centres de traitement Ebola (CTE) normés."
+ },
+ {
+  "sitrep_number": 7,
+  "date": "2026-05-22",
+  "theme": "Logistique",
+  "detail": "Manque de matériels de prévention et contrôle de l'infection (EPI, DLM, chlore) au Nord-Kivu."
+ },
+ {
+  "sitrep_number": 7,
+  "date": "2026-05-22",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes par les zones de santé."
+ },
+ {
+  "sitrep_number": 7,
+  "date": "2026-05-22",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières pour appuyer tous les piliers de la riposte."
+ },
+ {
+  "sitrep_number": 7,
+  "date": "2026-05-22",
+  "theme": "Laboratoire",
+  "detail": "Difficulté d'acheminement des échantillons vers les laboratoires de Goma et Kinshasa."
+ },
+ {
+  "sitrep_number": 7,
+  "date": "2026-05-22",
+  "theme": "Engagement communautaire",
+  "detail": "Propagation des rumeurs et prolifération des recettes de traitement traditionnel."
+ },
+ {
+  "sitrep_number": 7,
+  "date": "2026-05-22",
+  "theme": "Engagement communautaire",
+  "detail": "Absence de supports et outils de communication."
+ },
+ {
+  "sitrep_number": 7,
+  "date": "2026-05-22",
+  "theme": "Laboratoire",
+  "detail": "Faible capacité de diagnostic et quantité insuffisante en intrants et réactifs."
+ },
+ {
+  "sitrep_number": 8,
+  "date": "2026-05-23",
+  "theme": "Logistique",
+  "detail": "Absence de centres de traitement (CT et CTE) normés opérationnels."
+ },
+ {
+  "sitrep_number": 8,
+  "date": "2026-05-23",
+  "theme": "Logistique",
+  "detail": "Manque de matériels de prévention et contrôle de l'infection (EPI, DLM, chlore) au Nord-Kivu."
+ },
+ {
+  "sitrep_number": 8,
+  "date": "2026-05-23",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes par les zones de santé."
+ },
+ {
+  "sitrep_number": 8,
+  "date": "2026-05-23",
+  "theme": "Laboratoire",
+  "detail": "Retard dans le prélèvement des échantillons."
+ },
+ {
+  "sitrep_number": 8,
+  "date": "2026-05-23",
+  "theme": "Prise en charge",
+  "detail": "Absence d'appui nutritionnel pour les patients."
+ },
+ {
+  "sitrep_number": 8,
+  "date": "2026-05-23",
+  "theme": "Engagement communautaire",
+  "detail": "Absence d'interventions psycho-sociales à Mongbwalu."
+ },
+ {
+  "sitrep_number": 8,
+  "date": "2026-05-23",
+  "theme": "Logistique",
+  "detail": "Retard dans l'aménagement des sites d'isolement."
+ },
+ {
+  "sitrep_number": 9,
+  "date": "2026-05-24",
+  "theme": "Engagement communautaire",
+  "detail": "Résistance de la communauté pour la décontamination de leurs ménages dans la ZS de Rwampara."
+ },
+ {
+  "sitrep_number": 9,
+  "date": "2026-05-24",
+  "theme": "Surveillance",
+  "detail": "Le suivi des contacts demeure non optimal, nécessitant des briefings en cascade au niveau des zones de santé actives et à haut risque."
+ },
+ {
+  "sitrep_number": 9,
+  "date": "2026-05-24",
+  "theme": "Logistique",
+  "detail": "Difficulté de mobilité des équipes provinciales et des zones de santé (un seul véhicule par ZS, absence de motos)."
+ },
+ {
+  "sitrep_number": 9,
+  "date": "2026-05-24",
+  "theme": "Logistique",
+  "detail": "Insuffisance des kits de protection individuelle pour les équipes sur le terrain."
+ },
+ {
+  "sitrep_number": 9,
+  "date": "2026-05-24",
+  "theme": "RH",
+  "detail": "Non-déploiement de l'équipe d'intervention rapide multidisciplinaire dans les ZS de Mongbwalu, Aru et les zones à haut risque."
+ },
+ {
+  "sitrep_number": 9,
+  "date": "2026-05-24",
+  "theme": "Logistique",
+  "detail": "Absence de mobilité pour les équipes PCI à Mongbwalu face à un nombre d'alertes journalières de décès supérieur à 10."
+ },
+ {
+  "sitrep_number": 9,
+  "date": "2026-05-24",
+  "theme": "Logistique",
+  "detail": "Manque de cercueils dans certaines familles à Mongbwalu, retardant la réalisation des enterrements dignes et sécurisés."
+ },
+ {
+  "sitrep_number": 9,
+  "date": "2026-05-24",
+  "theme": "Prise en charge",
+  "detail": "Évasions de patients (18 suspects évadés à Mongbwalu, une patiente évadée à Rwampara refusant de retourner) compromettant la prise en charge et le contrôle de l'épidémie."
+ },
+ {
+  "sitrep_number": 10,
+  "date": "2026-05-25",
+  "theme": "Laboratoire",
+  "detail": "Rupture de 24 heures en kits d'analyse RADIONE."
+ },
+ {
+  "sitrep_number": 10,
+  "date": "2026-05-25",
+  "theme": "Prise en charge",
+  "detail": "Absence de Centre de Transit et de Centre de Traitement Ebola normés en Ituri."
+ },
+ {
+  "sitrep_number": 10,
+  "date": "2026-05-25",
+  "theme": "Logistique",
+  "detail": "Manque de matériels PCI (EPI, DLM, chlore) au Nord-Kivu."
+ },
+ {
+  "sitrep_number": 10,
+  "date": "2026-05-25",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes par les zones dans les trois provinces touchées (Ituri, Nord-Kivu et Sud-Kivu)."
+ },
+ {
+  "sitrep_number": 10,
+  "date": "2026-05-25",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières pour appuyer tous les piliers de la riposte dans les zones de santé touchées."
+ },
+ {
+  "sitrep_number": 10,
+  "date": "2026-05-25",
+  "theme": "Laboratoire",
+  "detail": "Difficulté d'acheminement des échantillons vers les laboratoires de Goma et Kinshasa."
+ },
+ {
+  "sitrep_number": 10,
+  "date": "2026-05-25",
+  "theme": "Engagement communautaire",
+  "detail": "Propagation de rumeurs et prolifération de recettes de traitement traditionnel."
+ },
+ {
+  "sitrep_number": 10,
+  "date": "2026-05-25",
+  "theme": "Engagement communautaire",
+  "detail": "Absence de supports et outils de communication."
+ },
+ {
+  "sitrep_number": 10,
+  "date": "2026-05-25",
+  "theme": "Laboratoire",
+  "detail": "Faible capacité de diagnostic et quantité insuffisante en intrants et réactifs."
+ },
+ {
+  "sitrep_number": 10,
+  "date": "2026-05-25",
+  "theme": "Securite",
+  "detail": "Insécurité dans les zones de santé d'intervention, dont l'incendie du centre de transit de Rwampara et de Mongbwalu."
+ },
+ {
+  "sitrep_number": 11,
+  "date": "2026-05-27",
+  "theme": "Engagement communautaire",
+  "detail": "Résistance de la communauté pour la décontamination de leurs ménages et la réalisation d'EDS dans les ZS de Mongbwalu et Rwampara."
+ },
+ {
+  "sitrep_number": 11,
+  "date": "2026-05-27",
+  "theme": "Logistique",
+  "detail": "Retard dans la construction des CTE dans tous les sites (Nyankunde, CME, HGR Rwampara)."
+ },
+ {
+  "sitrep_number": 11,
+  "date": "2026-05-27",
+  "theme": "Logistique",
+  "detail": "Besoin d'une crèche à l'HGR Bunia signalé comme défi non couvert."
+ },
+ {
+  "sitrep_number": 11,
+  "date": "2026-05-27",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'intrants (EPI, médicaments, etc.)."
+ },
+ {
+  "sitrep_number": 11,
+  "date": "2026-05-27",
+  "theme": "Laboratoire",
+  "detail": "Retard dans le rendu des résultats de laboratoire, impactant la capacité d'isolement déjà limitée."
+ },
+ {
+  "sitrep_number": 11,
+  "date": "2026-05-27",
+  "theme": "RH",
+  "detail": "Démotivation du personnel de riposte."
+ },
+ {
+  "sitrep_number": 11,
+  "date": "2026-05-27",
+  "theme": "Logistique",
+  "detail": "Indisponibilité des ambulances pour le transfert des malades, avec seulement une ambulance disponible."
+ },
+ {
+  "sitrep_number": 11,
+  "date": "2026-05-27",
+  "theme": "Laboratoire",
+  "detail": "Aucun échantillon n'a été analysé en Ituri, avec 203 échantillons non analysés ramenés à Kinshasa."
+ },
+ {
+  "sitrep_number": 12,
+  "date": "2026-05-27",
+  "theme": "Surveillance",
+  "detail": "Le suivi des contacts demeure non optimal, nécessitant des briefings en cascade au niveau des zones de santé actives et à haut risque."
+ },
+ {
+  "sitrep_number": 12,
+  "date": "2026-05-27",
+  "theme": "Logistique",
+  "detail": "La mobilité des équipes provinciales et des zones de santé reste insuffisante : un seul véhicule par ZS et absence de motos."
+ },
+ {
+  "sitrep_number": 12,
+  "date": "2026-05-27",
+  "theme": "Laboratoire",
+  "detail": "Le retard dans le rendu des résultats de laboratoire impacte la capacité d'isolement des cas."
+ },
+ {
+  "sitrep_number": 12,
+  "date": "2026-05-27",
+  "theme": "Logistique",
+  "detail": "La construction des CTE accuse des retards sur tous les sites concernés (Nyankunde, HGR Bunia, HGR Rwampara)."
+ },
+ {
+  "sitrep_number": 12,
+  "date": "2026-05-27",
+  "theme": "Logistique",
+  "detail": "Les intrants de protection pour les prestataires de soins sont insuffisants."
+ },
+ {
+  "sitrep_number": 12,
+  "date": "2026-05-27",
+  "theme": "Logistique",
+  "detail": "Les travaux d'aménagement des sites d'isolement (CME, HGR Bunia, Rwampara) progressent lentement."
+ },
+ {
+  "sitrep_number": 12,
+  "date": "2026-05-27",
+  "theme": "Engagement communautaire",
+  "detail": "La communauté résiste à la décontamination de leurs ménages et à la réalisation des enterrements dignes et sécurisés (EDS)."
+ },
+ {
+  "sitrep_number": 13,
+  "date": "2026-05-28",
+  "theme": "Engagement communautaire",
+  "detail": "Réticence des familles face aux prélèvements post-mortem, avec refus formel de faire réaliser les tests de diagnostic (swabs) sur les corps des défunts dans les morgues."
+ },
+ {
+  "sitrep_number": 13,
+  "date": "2026-05-28",
+  "theme": "Logistique",
+  "detail": "Absence de Centre Transit et Centre de Traitement Ebola normés en Ituri."
+ },
+ {
+  "sitrep_number": 13,
+  "date": "2026-05-28",
+  "theme": "Surveillance",
+  "detail": "Faiblesse du suivi des contacts et déficit de formation des acteurs, avec persistance de lacunes dans l'identification et la surveillance rigoureuse des cas contacts dans les zones actives et à haut risque."
+ },
+ {
+  "sitrep_number": 13,
+  "date": "2026-05-28",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes par les zones dans les trois provinces touchées (Ituri, Nord-Kivu et Sud-Kivu)."
+ },
+ {
+  "sitrep_number": 13,
+  "date": "2026-05-28",
+  "theme": "Prise en charge",
+  "detail": "Absence totale de médicaments essentiels au CTE et au bloc d'isolement de Rwampara et de Nyankunde."
+ },
+ {
+  "sitrep_number": 13,
+  "date": "2026-05-28",
+  "theme": "Prise en charge",
+  "detail": "Manque de dotation en Médicaments Essentiels Génériques (MEG) au sein des quatre HGR ciblés, fragilisant la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 13,
+  "date": "2026-05-28",
+  "theme": "Logistique",
+  "detail": "Manque de matériels PCI (EPI, DLM, chlore) au Nord-Kivu."
+ },
+ {
+  "sitrep_number": 13,
+  "date": "2026-05-28",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières pour appuyer tous les piliers de la riposte dans les zones de santé touchées."
+ },
+ {
+  "sitrep_number": 13,
+  "date": "2026-05-28",
+  "theme": "Laboratoire",
+  "detail": "Difficulté d'acheminement des échantillons vers les laboratoires de Goma et Kinshasa."
+ },
+ {
+  "sitrep_number": 13,
+  "date": "2026-05-28",
+  "theme": "Engagement communautaire",
+  "detail": "Propagation des rumeurs et prolifération des recettes de traitement traditionnel."
+ },
+ {
+  "sitrep_number": 13,
+  "date": "2026-05-28",
+  "theme": "Engagement communautaire",
+  "detail": "Absence de supports et outils de communication."
+ },
+ {
+  "sitrep_number": 13,
+  "date": "2026-05-28",
+  "theme": "Laboratoire",
+  "detail": "Faible capacité de diagnostic."
+ },
+ {
+  "sitrep_number": 13,
+  "date": "2026-05-28",
+  "theme": "Securite",
+  "detail": "Insécurité dans les zones de santé d'intervention, notamment l'incendie du centre de traitement de Rwampara et de Mongbwalu."
+ },
+ {
+  "sitrep_number": 14,
+  "date": "2026-05-30",
+  "theme": "Engagement communautaire",
+  "detail": "Les familles refusent formellement les prélèvements post-mortem (swabs) sur les corps des défunts dans les morgues."
+ },
+ {
+  "sitrep_number": 14,
+  "date": "2026-05-30",
+  "theme": "Logistique",
+  "detail": "Absence de Centre de Transit et de Centre de Traitement Ebola (CTE) aux normes dans la province de l'Ituri."
+ },
+ {
+  "sitrep_number": 14,
+  "date": "2026-05-30",
+  "theme": "Surveillance",
+  "detail": "Persistance de lacunes dans l'identification et la surveillance rigoureuse des cas contacts dans les zones de santé actives et à haut risque."
+ },
+ {
+  "sitrep_number": 14,
+  "date": "2026-05-30",
+  "theme": "RH",
+  "detail": "Faiblesse du suivi des contacts et déficit de formation des acteurs impliqués dans la riposte."
+ },
+ {
+  "sitrep_number": 14,
+  "date": "2026-05-30",
+  "theme": "Logistique",
+  "detail": "Absence totale de médicaments essentiels au CTE et au bloc d'isolement de Rwampara et de Nyankunde."
+ },
+ {
+  "sitrep_number": 14,
+  "date": "2026-05-30",
+  "theme": "Logistique",
+  "detail": "Manque de dotation en Médicaments Essentiels Génériques (MEG) dans les quatre Hôpitaux Généraux de Référence ciblés, fragilisant la prise en charge des patients."
+ },
+ {
+  "sitrep_number": 14,
+  "date": "2026-05-30",
+  "theme": "Logistique",
+  "detail": "Manque de matériels PCI (EPI, DLM, chlore) au Nord-Kivu."
+ },
+ {
+  "sitrep_number": 14,
+  "date": "2026-05-30",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes par les zones de santé dans les trois provinces touchées (Ituri, Nord-Kivu et Sud-Kivu)."
+ },
+ {
+  "sitrep_number": 14,
+  "date": "2026-05-30",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières pour appuyer tous les piliers de la riposte dans les zones de santé touchées."
+ },
+ {
+  "sitrep_number": 14,
+  "date": "2026-05-30",
+  "theme": "Laboratoire",
+  "detail": "Difficultés d'acheminement des échantillons vers les laboratoires de Goma et de Kinshasa."
+ },
+ {
+  "sitrep_number": 14,
+  "date": "2026-05-30",
+  "theme": "Engagement communautaire",
+  "detail": "Propagation de rumeurs et prolifération de recettes de traitement traditionnel au sein des communautés."
+ },
+ {
+  "sitrep_number": 14,
+  "date": "2026-05-30",
+  "theme": "Engagement communautaire",
+  "detail": "Absence de supports et outils de communication pour les activités de sensibilisation."
+ },
+ {
+  "sitrep_number": 15,
+  "date": "2026-05-31",
+  "theme": "Engagement communautaire",
+  "detail": "Les familles refusent formellement les prélèvements post-mortem (swabs) sur les corps des défunts dans les morgues."
+ },
+ {
+  "sitrep_number": 15,
+  "date": "2026-05-31",
+  "theme": "Logistique",
+  "detail": "Absence de Centre de Transit et de Centre de Traitement Ebola (CTE) aux normes dans la province de l'Ituri."
+ },
+ {
+  "sitrep_number": 15,
+  "date": "2026-05-31",
+  "theme": "Surveillance",
+  "detail": "Persistance de lacunes dans l'identification et la surveillance rigoureuse des cas contacts dans les zones de santé actives et à haut risque."
+ },
+ {
+  "sitrep_number": 15,
+  "date": "2026-05-31",
+  "theme": "Surveillance",
+  "detail": "Faiblesse du suivi des contacts et déficit de formation des acteurs impliqués dans la riposte."
+ },
+ {
+  "sitrep_number": 15,
+  "date": "2026-05-31",
+  "theme": "Prise en charge",
+  "detail": "Absence totale de médicaments essentiels au CTE et au bloc d'isolement de Rwampara et de Nyankunde."
+ },
+ {
+  "sitrep_number": 15,
+  "date": "2026-05-31",
+  "theme": "Prise en charge",
+  "detail": "Manque de dotation en Médicaments Essentiels Génériques (MEG) au sein des quatre Hôpitaux Généraux de Référence ciblés, fragilisant la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 15,
+  "date": "2026-05-31",
+  "theme": "Logistique",
+  "detail": "Manque de matériels PCI (EPI, désinfectants, chlore) au Nord-Kivu."
+ },
+ {
+  "sitrep_number": 15,
+  "date": "2026-05-31",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes par les zones dans les trois provinces touchées (Ituri, Nord-Kivu et Sud-Kivu)."
+ },
+ {
+  "sitrep_number": 15,
+  "date": "2026-05-31",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières pour appuyer tous les piliers de la riposte dans les zones de santé touchées."
+ },
+ {
+  "sitrep_number": 15,
+  "date": "2026-05-31",
+  "theme": "Laboratoire",
+  "detail": "Difficulté d'acheminement des échantillons vers les laboratoires de Goma et de Kinshasa."
+ },
+ {
+  "sitrep_number": 15,
+  "date": "2026-05-31",
+  "theme": "Engagement communautaire",
+  "detail": "Propagation de rumeurs et prolifération de recettes de traitement traditionnel au sein des communautés."
+ },
+ {
+  "sitrep_number": 15,
+  "date": "2026-05-31",
+  "theme": "Engagement communautaire",
+  "detail": "Absence de supports et d'outils de communication pour les activités de sensibilisation communautaire."
+ },
+ {
+  "sitrep_number": 15,
+  "date": "2026-05-31",
+  "theme": "Prise en charge",
+  "detail": "Évasion de onze cas suspects à l'HGR Bambu en raison du manque d'appui nutritionnel."
+ },
+ {
+  "sitrep_number": 16,
+  "date": "2026-05-31",
+  "theme": "Engagement communautaire",
+  "detail": "Les familles refusent formellement les prélèvements post-mortem (swabs) sur les corps des défunts dans les morgues."
+ },
+ {
+  "sitrep_number": 16,
+  "date": "2026-05-31",
+  "theme": "Logistique",
+  "detail": "Absence de Centre de Transit et de Centre de Traitement Ebola (CTE) normés en Ituri."
+ },
+ {
+  "sitrep_number": 16,
+  "date": "2026-05-31",
+  "theme": "Surveillance",
+  "detail": "Persistance de lacunes dans l'identification et la surveillance rigoureuse des cas contacts au niveau des zones de santé actives et à haut risque."
+ },
+ {
+  "sitrep_number": 16,
+  "date": "2026-05-31",
+  "theme": "Surveillance",
+  "detail": "Faiblesse du suivi des contacts et déficit de formation des acteurs impliqués dans cette activité."
+ },
+ {
+  "sitrep_number": 16,
+  "date": "2026-05-31",
+  "theme": "Logistique",
+  "detail": "Absence totale de médicaments essentiels au CTE et au bloc d'isolement de Rwampara et de Nyankunde."
+ },
+ {
+  "sitrep_number": 16,
+  "date": "2026-05-31",
+  "theme": "Logistique",
+  "detail": "Manque de dotation en Médicaments Essentiels Génériques (MEG) dans les quatre Hôpitaux Généraux de Référence ciblés, fragilisant la prise en charge des patients."
+ },
+ {
+  "sitrep_number": 16,
+  "date": "2026-05-31",
+  "theme": "Logistique",
+  "detail": "Manque de matériels PCI (EPI, DLM, chlore) au Nord-Kivu."
+ },
+ {
+  "sitrep_number": 16,
+  "date": "2026-05-31",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes par les zones dans les trois provinces touchées (Ituri, Nord-Kivu et Sud-Kivu)."
+ },
+ {
+  "sitrep_number": 16,
+  "date": "2026-05-31",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières pour appuyer tous les piliers de la riposte dans les zones de santé touchées."
+ },
+ {
+  "sitrep_number": 16,
+  "date": "2026-05-31",
+  "theme": "Laboratoire",
+  "detail": "Difficultés d'acheminement des échantillons vers les laboratoires de Goma et Kinshasa."
+ },
+ {
+  "sitrep_number": 16,
+  "date": "2026-05-31",
+  "theme": "Engagement communautaire",
+  "detail": "Propagation de rumeurs et prolifération de recettes de traitement traditionnel au sein des communautés."
+ },
+ {
+  "sitrep_number": 16,
+  "date": "2026-05-31",
+  "theme": "Engagement communautaire",
+  "detail": "Absence de supports et d'outils de communication pour les activités de sensibilisation."
+ },
+ {
+  "sitrep_number": 17,
+  "date": "2026-06-01",
+  "theme": "Engagement communautaire",
+  "detail": "Résistance communautaire dans la zone de santé de Nizi pour le listage et le suivi des contacts autour des cas confirmés."
+ },
+ {
+  "sitrep_number": 17,
+  "date": "2026-06-01",
+  "theme": "Engagement communautaire",
+  "detail": "Douze alertes confrontées à des résistances communautaires dans la zone de santé de Bunia, entravant leur vérification."
+ },
+ {
+  "sitrep_number": 17,
+  "date": "2026-06-01",
+  "theme": "Laboratoire",
+  "detail": "47 échantillons en attente d'analyse en raison d'une capacité de traitement insuffisante, retardant la confirmation diagnostique et le début de la prise en charge."
+ },
+ {
+  "sitrep_number": 17,
+  "date": "2026-06-01",
+  "theme": "Securite",
+  "detail": "La présence de groupes armés dans les territoires de Djugu, Irumu et Mambasa continue de limiter l'accès humanitaire dans plusieurs zones de santé touchées ou à risque."
+ },
+ {
+  "sitrep_number": 17,
+  "date": "2026-06-01",
+  "theme": "Surveillance",
+  "detail": "Réticence aux prélèvements post-mortem (swabs) entraînant un retard de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 17,
+  "date": "2026-06-01",
+  "theme": "Logistique",
+  "detail": "Capacité insuffisante en CTE normés malgré l'ouverture du CTE de Rwampara, avec un risque de saturation des CTE existants."
+ },
+ {
+  "sitrep_number": 17,
+  "date": "2026-06-01",
+  "theme": "Surveillance",
+  "detail": "Faiblesse du suivi des contacts avec un taux global de 43% contre une cible de 95%, compromettant l'interruption des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 17,
+  "date": "2026-06-01",
+  "theme": "Logistique",
+  "detail": "Défaut d'approvisionnement en Médicaments Essentiels Génériques (MEG) dans les HGR ciblés, fragilisant la prise en charge globale."
+ },
+ {
+  "sitrep_number": 17,
+  "date": "2026-06-01",
+  "theme": "Logistique",
+  "detail": "Manque de matériels PCI (EPI, DLM, chlore) au Nord-Kivu, exposant à un risque nosocomial."
+ },
+ {
+  "sitrep_number": 17,
+  "date": "2026-06-01",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes dans les trois provinces, entraînant un retard de détection des cas."
+ },
+ {
+  "sitrep_number": 17,
+  "date": "2026-06-01",
+  "theme": "Engagement communautaire",
+  "detail": "Propagation de rumeurs et de recettes traditionnelles engendrant une défiance envers la riposte et des retards de consultation."
+ },
+ {
+  "sitrep_number": 17,
+  "date": "2026-06-01",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières pour tous les piliers de la riposte, avec un gap estimé à 21,5 millions USD ralentissant les opérations."
+ },
+ {
+  "sitrep_number": 18,
+  "date": "2026-06-02",
+  "theme": "Engagement communautaire",
+  "detail": "Réticence aux prélèvements post-mortem (swabs) entraînant des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 18,
+  "date": "2026-06-02",
+  "theme": "Logistique",
+  "detail": "Capacité insuffisante en CTE normés malgré l'ouverture de Rwampara, avec risque de saturation des CTE existants."
+ },
+ {
+  "sitrep_number": 18,
+  "date": "2026-06-02",
+  "theme": "Surveillance",
+  "detail": "Faiblesse du suivi des contacts avec un taux global de 39,3 % en Ituri (cible 95 %), compromettant l'interruption des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 18,
+  "date": "2026-06-02",
+  "theme": "Logistique",
+  "detail": "Défaut d'approvisionnement en médicaments essentiels génériques (MEG) dans les HGR ciblés, fragilisant la prise en charge globale."
+ },
+ {
+  "sitrep_number": 18,
+  "date": "2026-06-02",
+  "theme": "Laboratoire",
+  "detail": "Insuffisance de matériels PCI (EPI, DLM, chlore) au Nord-Kivu, engendrant un risque nosocomial."
+ },
+ {
+  "sitrep_number": 18,
+  "date": "2026-06-02",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes dans les trois provinces, entraînant des retards de détection des cas."
+ },
+ {
+  "sitrep_number": 18,
+  "date": "2026-06-02",
+  "theme": "Engagement communautaire",
+  "detail": "Propagation de rumeurs et de recettes traditionnelles créant une défiance envers la riposte et des retards de consultation."
+ },
+ {
+  "sitrep_number": 18,
+  "date": "2026-06-02",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières pour tous les piliers de la réponse, avec un gap estimé à 21,5 millions USD ralentissant les opérations."
+ },
+ {
+  "sitrep_number": 18,
+  "date": "2026-06-02",
+  "theme": "Surveillance",
+  "detail": "Résistance communautaire dans les zones de santé de Nizi et Bunia pour le listage et le suivi des contacts autour des cas confirmés."
+ },
+ {
+  "sitrep_number": 18,
+  "date": "2026-06-02",
+  "theme": "Securite",
+  "detail": "La présence de groupes armés dans les territoires de Djugu, Irumu et Mambasa continue de limiter l'accès humanitaire dans plusieurs zones de santé touchées."
+ },
+ {
+  "sitrep_number": 18,
+  "date": "2026-06-02",
+  "theme": "Securite",
+  "detail": "Les équipes d'EDS de la Croix-Rouge ont été agressées et passées à tabac au cimetière, perturbant les activités d'enterrement digne et sécurisé."
+ },
+ {
+  "sitrep_number": 18,
+  "date": "2026-06-02",
+  "theme": "Prise en charge",
+  "detail": "Quatre cas confirmés évadés des structures de soins (1 en Ituri, 3 au Nord-Kivu) constituent un risque majeur de transmission communautaire."
+ },
+ {
+  "sitrep_number": 18,
+  "date": "2026-06-02",
+  "theme": "Surveillance",
+  "detail": "Le taux de suivi des contacts au Nord-Kivu est de 59 % et trois zones (Kalunguta, Kyondo, Oicha) n'ont enregistré aucune visite de contact (0 %)."
+ },
+ {
+  "sitrep_number": 18,
+  "date": "2026-06-02",
+  "theme": "Prise en charge",
+  "detail": "La qualité des soins est compromise par la rupture d'intrants PCI signalée au Nord-Kivu et par un score PCI moyen de seulement 40 % dans les établissements évalués."
+ },
+ {
+  "sitrep_number": 19,
+  "date": "2026-06-03",
+  "theme": "Engagement communautaire",
+  "detail": "La réticence aux prélèvements post-mortem (swabs) entraîne des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 19,
+  "date": "2026-06-03",
+  "theme": "Prise en charge",
+  "detail": "La capacité insuffisante en CTE normés fait craindre une saturation potentielle des structures de soins existantes."
+ },
+ {
+  "sitrep_number": 19,
+  "date": "2026-06-03",
+  "theme": "Surveillance",
+  "detail": "Le suivi des contacts est faible (taux global de 45,5 % contre une cible de 95 %), compromettant l'interruption des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 19,
+  "date": "2026-06-03",
+  "theme": "Logistique",
+  "detail": "Le défaut d'approvisionnement en Médicaments Essentiels Génériques (MEG) dans les HGR ciblés fragilise la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 19,
+  "date": "2026-06-03",
+  "theme": "Logistique",
+  "detail": "L'insuffisance de matériels PCI (EPI, DLM, chlore) au Nord-Kivu expose le personnel à un risque nosocomial élevé."
+ },
+ {
+  "sitrep_number": 19,
+  "date": "2026-06-03",
+  "theme": "Surveillance",
+  "detail": "La faible remontée des alertes dans les trois provinces retarde la détection des cas."
+ },
+ {
+  "sitrep_number": 19,
+  "date": "2026-06-03",
+  "theme": "Financement",
+  "detail": "L'insuffisance des ressources financières pour tous les piliers ralentit les opérations, avec un gap estimé à 21,5 millions USD."
+ },
+ {
+  "sitrep_number": 19,
+  "date": "2026-06-03",
+  "theme": "Surveillance",
+  "detail": "Le taux de suivi des contacts en Ituri est particulièrement bas (41,2 %) et au Nord-Kivu (62,8 %), constituant des obstacles majeurs à la riposte."
+ },
+ {
+  "sitrep_number": 19,
+  "date": "2026-06-03",
+  "theme": "Securite",
+  "detail": "L'évasion de trois cas confirmés au Nord-Kivu et les agressions des équipes EDS au Sud-Kivu (Katana) et en Ituri (Bunia) constituent des obstacles majeurs à la riposte."
+ },
+ {
+  "sitrep_number": 19,
+  "date": "2026-06-03",
+  "theme": "Securite",
+  "detail": "La présence de groupes armés dans les territoires de Djugu, Irumu et Mambasa continue de limiter l'accès humanitaire dans plusieurs zones de santé affectées ou à risque."
+ },
+ {
+  "sitrep_number": 19,
+  "date": "2026-06-03",
+  "theme": "Laboratoire",
+  "detail": "Au Nord-Kivu, 42 résultats d'échantillons restent en attente en raison d'un délai de rendu supérieur à 5 jours."
+ },
+ {
+  "sitrep_number": 19,
+  "date": "2026-06-03",
+  "theme": "Prise en charge",
+  "detail": "Le score PCI moyen alarmant de 40 % au Nord-Kivu indique des pratiques de prévention et contrôle de l'infection insuffisantes dans les structures de soins."
+ },
+ {
+  "sitrep_number": 19,
+  "date": "2026-06-03",
+  "theme": "Engagement communautaire",
+  "detail": "511 cas de réticence communautaire ont été signalés au Nord-Kivu, reflétant une défiance structurelle, avec persistance de croyances en des traitements traditionnels et méfiance envers les vaccins."
+ },
+ {
+  "sitrep_number": 19,
+  "date": "2026-06-03",
+  "theme": "Logistique",
+  "detail": "Au Sud-Kivu, l'insuffisance de véhicules et l'absence de connectivité Internet à Miti-Murhesa limitent les opérations de riposte."
+ },
+ {
+  "sitrep_number": 20,
+  "date": "2026-06-04",
+  "theme": "Engagement communautaire",
+  "detail": "La réticence aux prélèvements post-mortem (swabs) entraîne des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 20,
+  "date": "2026-06-04",
+  "theme": "Logistique",
+  "detail": "La capacité insuffisante en CTE normés fait peser un risque de saturation des structures d'isolement existantes."
+ },
+ {
+  "sitrep_number": 20,
+  "date": "2026-06-04",
+  "theme": "Surveillance",
+  "detail": "Le taux global de suivi des contacts est de 55,5 % (cible 95 %), compromettant l'interruption des chaînes de transmission, avec des disparités marquées notamment à Kalunguta (0 %)."
+ },
+ {
+  "sitrep_number": 20,
+  "date": "2026-06-04",
+  "theme": "Laboratoire",
+  "detail": "147 résultats d'échantillons sont en attente au Nord-Kivu avec un délai moyen supérieur à 5 jours, retardant la confirmation des cas et leur prise en charge."
+ },
+ {
+  "sitrep_number": 20,
+  "date": "2026-06-04",
+  "theme": "Logistique",
+  "detail": "Une rupture d'intrants PCI et de tubes de prélèvement est signalée au Nord-Kivu, créant un risque nosocomial élevé."
+ },
+ {
+  "sitrep_number": 20,
+  "date": "2026-06-04",
+  "theme": "Surveillance",
+  "detail": "Vingt évasions de patients (2 confirmés et 17 suspects en Ituri, 1 confirmé au Sud-Kivu) favorisent la propagation communautaire et traduisent une défiance envers la riposte."
+ },
+ {
+  "sitrep_number": 20,
+  "date": "2026-06-04",
+  "theme": "Securite",
+  "detail": "L'insécurité persistante liée aux ADF et aux groupes armés laisse des zones non couvertes et retarde la détection des cas."
+ },
+ {
+  "sitrep_number": 20,
+  "date": "2026-06-04",
+  "theme": "Logistique",
+  "detail": "Le défaut d'approvisionnement en médicaments essentiels génériques (MEG) dans les HGR ciblés fragilise la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 20,
+  "date": "2026-06-04",
+  "theme": "Financement",
+  "detail": "L'insuffisance des ressources financières ralentit l'ensemble des opérations de riposte."
+ },
+ {
+  "sitrep_number": 20,
+  "date": "2026-06-04",
+  "theme": "Securite",
+  "detail": "Les incidents répétés contre les équipes EDS (Katana, Mongbwalu, Bunia) provoquent l'abandon de corps et risquent de générer de nouvelles chaînes de transmission."
+ },
+ {
+  "sitrep_number": 20,
+  "date": "2026-06-04",
+  "theme": "Surveillance",
+  "detail": "Le taux d'investigation des alertes en Ituri n'est que de 62 % en 24h en raison de données partielles, limitant la détection rapide des cas."
+ },
+ {
+  "sitrep_number": 20,
+  "date": "2026-06-04",
+  "theme": "Securite",
+  "detail": "Les activités de riposte ont été paralysées à Beni, Butembo et Oicha (Nord-Kivu) à la suite de manifestations et du massacre d'environ 24 civils à Mbau attribué aux ADF."
+ },
+ {
+  "sitrep_number": 20,
+  "date": "2026-06-04",
+  "theme": "Logistique",
+  "detail": "Le Sud-Kivu manque de deux véhicules supplémentaires et d'un kit Internet à Miti-Murhesa, limitant les capacités opérationnelles."
+ },
+ {
+  "sitrep_number": 21,
+  "date": "2026-06-05",
+  "theme": "Engagement communautaire",
+  "detail": "Réticence aux prélèvements post-mortem (swabs) entraînant des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 21,
+  "date": "2026-06-05",
+  "theme": "Logistique",
+  "detail": "Capacité insuffisante en CTE normés malgré l'ouverture de Rwampara, avec risque de saturation des structures existantes."
+ },
+ {
+  "sitrep_number": 21,
+  "date": "2026-06-05",
+  "theme": "Surveillance",
+  "detail": "Faiblesse du suivi des contacts avec un taux global de 45,5% contre une cible de 95%, compromettant l'interruption des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 21,
+  "date": "2026-06-05",
+  "theme": "Logistique",
+  "detail": "Défaut d'approvisionnement en Médicaments Essentiels Génériques (MEG) dans les HGR ciblés, fragilisant la prise en charge globale."
+ },
+ {
+  "sitrep_number": 21,
+  "date": "2026-06-05",
+  "theme": "Laboratoire",
+  "detail": "Insuffisance de matériels PCI (EPI, DLM, chlore) au Nord-Kivu, entraînant un risque nosocomial."
+ },
+ {
+  "sitrep_number": 21,
+  "date": "2026-06-05",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes dans les trois provinces, provoquant des retards de détection des cas."
+ },
+ {
+  "sitrep_number": 21,
+  "date": "2026-06-05",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières pour tous les piliers de la riposte, avec un gap estimé à 21,5 millions USD ralentissant les opérations."
+ },
+ {
+  "sitrep_number": 21,
+  "date": "2026-06-05",
+  "theme": "Securite",
+  "detail": "La présence de groupes armés dans les territoires de Djugu, Irumu et Mambasa continue de limiter l'accès humanitaire dans plusieurs zones de santé affectées ou à risque."
+ },
+ {
+  "sitrep_number": 21,
+  "date": "2026-06-05",
+  "theme": "Prise en charge",
+  "detail": "Évasion de trois cas confirmés des structures de soins au Nord-Kivu, contribuant à une létalité préoccupante de 60,0% dans cette province."
+ },
+ {
+  "sitrep_number": 21,
+  "date": "2026-06-05",
+  "theme": "Laboratoire",
+  "detail": "118 résultats d'échantillons restent en attente d'analyse au Nord-Kivu, retardant la confirmation des cas."
+ },
+ {
+  "sitrep_number": 22,
+  "date": "2026-06-06",
+  "theme": "Engagement communautaire",
+  "detail": "Réticence aux prélèvements post mortem (swabs) entraînant des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 22,
+  "date": "2026-06-06",
+  "theme": "Logistique",
+  "detail": "Capacité insuffisante en CTE normés malgré l'ouverture de Rwampara, avec risque de saturation des structures existantes."
+ },
+ {
+  "sitrep_number": 22,
+  "date": "2026-06-06",
+  "theme": "Surveillance",
+  "detail": "Faiblesse du suivi des contacts avec un taux global de 67,2 % contre une cible de 95 %, compromettant l'interruption des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 22,
+  "date": "2026-06-06",
+  "theme": "Logistique",
+  "detail": "Défaut d'approvisionnement en Médicaments Essentiels Génériques (MEG) dans les HGR ciblés, fragilisant la prise en charge globale."
+ },
+ {
+  "sitrep_number": 22,
+  "date": "2026-06-06",
+  "theme": "Logistique",
+  "detail": "Insuffisance des matériels PCI (EPI, DLM, chlore) au Nord-Kivu, exposant les agents à un risque nosocomial."
+ },
+ {
+  "sitrep_number": 22,
+  "date": "2026-06-06",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes dans les 3 provinces entraînant des retards de détection des cas."
+ },
+ {
+  "sitrep_number": 22,
+  "date": "2026-06-06",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières pour tous les piliers de la riposte, avec un gap estimé à 21,5 millions USD."
+ },
+ {
+  "sitrep_number": 22,
+  "date": "2026-06-06",
+  "theme": "Laboratoire",
+  "detail": "159 résultats d'échantillons en attente au Nord-Kivu par manque de réactifs."
+ },
+ {
+  "sitrep_number": 22,
+  "date": "2026-06-06",
+  "theme": "Securite",
+  "detail": "La présence de groupes armés dans les territoires de Djugu, Irumu et Mambasa continue de limiter l'accès humanitaire dans plusieurs zones de santé affectées ou à risque."
+ },
+ {
+  "sitrep_number": 22,
+  "date": "2026-06-06",
+  "theme": "Surveillance",
+  "detail": "Seulement 21,8 % des points de contrôle (PoC) sont activés sur les 55 prévus, limitant la surveillance aux points d'entrée."
+ },
+ {
+  "sitrep_number": 23,
+  "date": "2026-06-07",
+  "theme": "Engagement communautaire",
+  "detail": "Une réticence aux prélèvements post mortem (swabs) entraîne des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 23,
+  "date": "2026-06-07",
+  "theme": "Logistique",
+  "detail": "La capacité insuffisante en CTE normés fait peser un risque de saturation malgré l'ouverture du CTE de Rwampara."
+ },
+ {
+  "sitrep_number": 23,
+  "date": "2026-06-07",
+  "theme": "Surveillance",
+  "detail": "Le suivi des contacts est insuffisant avec un taux global de 50,3% contre une cible de 95%, compromettant l'interruption des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 23,
+  "date": "2026-06-07",
+  "theme": "Logistique",
+  "detail": "Un défaut d'approvisionnement en Médicaments Essentiels Génériques (MEG) dans les HGR ciblés fragilise la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 23,
+  "date": "2026-06-07",
+  "theme": "Laboratoire",
+  "detail": "Une insuffisance de matériels PCI (EPI, DLM, chlore) au Nord-Kivu crée un risque nosocomial."
+ },
+ {
+  "sitrep_number": 23,
+  "date": "2026-06-07",
+  "theme": "Surveillance",
+  "detail": "La faible remontée des alertes dans les trois provinces entraîne des retards de détection des cas."
+ },
+ {
+  "sitrep_number": 23,
+  "date": "2026-06-07",
+  "theme": "Financement",
+  "detail": "L'insuffisance des ressources financières pour tous les piliers ralentit les opérations, avec un gap estimé à 21,5 millions USD."
+ },
+ {
+  "sitrep_number": 23,
+  "date": "2026-06-07",
+  "theme": "Surveillance",
+  "detail": "Le taux d'investigation des alertes en Ituri est le plus faible (82,8%), laissant 17,2% des alertes non investiguées."
+ },
+ {
+  "sitrep_number": 23,
+  "date": "2026-06-07",
+  "theme": "Laboratoire",
+  "detail": "193 résultats d'échantillons au Nord-Kivu restent en attente d'analyse par manque de réactifs."
+ },
+ {
+  "sitrep_number": 23,
+  "date": "2026-06-07",
+  "theme": "Securite",
+  "detail": "La présence de groupes armés dans les territoires de Djugu, Irumu et Mambasa continue de limiter l'accès humanitaire dans plusieurs zones de santé affectées ou à risque."
+ },
+ {
+  "sitrep_number": 23,
+  "date": "2026-06-07",
+  "theme": "Prise en charge",
+  "detail": "La faible disponibilité de la prise en charge, notamment nutritionnelle, est à la base de multiples évasions de patients confirmés des structures de soins."
+ },
+ {
+  "sitrep_number": 23,
+  "date": "2026-06-07",
+  "theme": "Logistique",
+  "detail": "Le Sud-Kivu manque de véhicules supplémentaires, de kit Internet à Miti-Murhesa et de crédits de communication pour les IT/ECZS."
+ },
+ {
+  "sitrep_number": 24,
+  "date": "2026-06-08",
+  "theme": "Engagement communautaire",
+  "detail": "La réticence aux prélèvements post mortem (swabs) entraîne un retard de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 24,
+  "date": "2026-06-08",
+  "theme": "Logistique",
+  "detail": "La capacité insuffisante en CTE normés, malgré l'ouverture de Rwampara, expose les structures existantes à une saturation potentielle."
+ },
+ {
+  "sitrep_number": 24,
+  "date": "2026-06-08",
+  "theme": "Surveillance",
+  "detail": "Le taux global de suivi des contacts est de 64,4 %, bien en deçà de la cible de 95 %, ce qui compromet l'interruption des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 24,
+  "date": "2026-06-08",
+  "theme": "Logistique",
+  "detail": "Le défaut d'approvisionnement en Médicaments Essentiels Génériques (MEG) dans les HGR ciblés fragilise la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 24,
+  "date": "2026-06-08",
+  "theme": "Logistique",
+  "detail": "L'insuffisance de matériels PCI (EPI, DLM, chlore) au Nord-Kivu expose le personnel et les patients à un risque nosocomial."
+ },
+ {
+  "sitrep_number": 24,
+  "date": "2026-06-08",
+  "theme": "Surveillance",
+  "detail": "La faible remontée des alertes dans les trois provinces entraîne un retard de détection des cas."
+ },
+ {
+  "sitrep_number": 24,
+  "date": "2026-06-08",
+  "theme": "Financement",
+  "detail": "L'insuffisance des ressources financières pour tous les piliers ralentit les opérations, avec un gap estimé à 21,5 millions USD."
+ },
+ {
+  "sitrep_number": 24,
+  "date": "2026-06-08",
+  "theme": "Laboratoire",
+  "detail": "183 résultats d'échantillons au Nord-Kivu restent en attente d'analyse par insuffisance de réactifs."
+ },
+ {
+  "sitrep_number": 24,
+  "date": "2026-06-08",
+  "theme": "Securite",
+  "detail": "Une équipe EDS a été attaquée par des personnes non identifiées au cimetière Nyamurongo, causant 2 blessés graves et 2 véhicules endommagés."
+ },
+ {
+  "sitrep_number": 24,
+  "date": "2026-06-08",
+  "theme": "Securite",
+  "detail": "La présence de groupes armés dans les territoires de Djugu, Irumu et Mambasa continue de limiter l'accès humanitaire dans plusieurs zones de santé affectées ou à risque."
+ },
+ {
+  "sitrep_number": 24,
+  "date": "2026-06-08",
+  "theme": "Surveillance",
+  "detail": "Le taux d'investigation des alertes en Ituri n'est que de 75,8 %, le plus faible parmi les trois provinces touchées."
+ },
+ {
+  "sitrep_number": 24,
+  "date": "2026-06-08",
+  "theme": "Engagement communautaire",
+  "detail": "Deux EDS à Mongbwalu n'ont pas pu être réalisés en raison de la résistance communautaire."
+ },
+ {
+  "sitrep_number": 25,
+  "date": "2026-06-09",
+  "theme": "Engagement communautaire",
+  "detail": "La réticence aux prélèvements post mortem (swabs) entraîne des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 25,
+  "date": "2026-06-09",
+  "theme": "Logistique",
+  "detail": "La capacité insuffisante en CTE normés, malgré l'ouverture de Rwampara, risque de provoquer une saturation des CTE existants."
+ },
+ {
+  "sitrep_number": 25,
+  "date": "2026-06-09",
+  "theme": "Surveillance",
+  "detail": "Le suivi des contacts reste très insuffisant avec un taux global de 56,3% contre une cible de 95%, compromettant l'interruption des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 25,
+  "date": "2026-06-09",
+  "theme": "Logistique",
+  "detail": "Le défaut d'approvisionnement en Médicaments Essentiels Génériques (MEG) dans les HGR ciblés fragilise la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 25,
+  "date": "2026-06-09",
+  "theme": "Laboratoire",
+  "detail": "L'insuffisance de réactifs au Nord-Kivu laisse 146 résultats d'échantillons en attente d'analyse."
+ },
+ {
+  "sitrep_number": 25,
+  "date": "2026-06-09",
+  "theme": "PCI",
+  "detail": "L'insuffisance de matériels PCI (EPI, DLM, chlore) au Nord-Kivu crée un risque nosocomial important."
+ },
+ {
+  "sitrep_number": 25,
+  "date": "2026-06-09",
+  "theme": "Surveillance",
+  "detail": "La faible remontée des alertes dans les 3 provinces, notamment en Ituri (taux d'investigation de 79,3%), retarde la détection des cas."
+ },
+ {
+  "sitrep_number": 25,
+  "date": "2026-06-09",
+  "theme": "Financement",
+  "detail": "L'insuffisance des ressources financières pour tous les piliers ralentit les opérations, avec un gap estimé à 21,5 millions USD."
+ },
+ {
+  "sitrep_number": 25,
+  "date": "2026-06-09",
+  "theme": "Securite",
+  "detail": "La présence de groupes armés dans les territoires de Djugu, Irumu et Mambasa continue de limiter l'accès humanitaire dans plusieurs zones de santé affectées ou à risque."
+ },
+ {
+  "sitrep_number": 25,
+  "date": "2026-06-09",
+  "theme": "Logistique",
+  "detail": "Plusieurs ESS évalués à Mongbwalu n'ont pas d'infrastructures adéquates, dont 3 sans infrastructures normées et 1 nécessitant une réhabilitation."
+ },
+ {
+  "sitrep_number": 25,
+  "date": "2026-06-09",
+  "theme": "Engagement communautaire",
+  "detail": "Des camionneurs refusent le lavage des mains aux points de contrôle et propagent des messages de négation de la maladie, entravant les mesures de prévention."
+ },
+ {
+  "sitrep_number": 25,
+  "date": "2026-06-09",
+  "theme": "Engagement communautaire",
+  "detail": "Un message viral sur les réseaux sociaux concernant le décès d'un médecin au CTE génère des commentaires négatifs sur la qualité des centres de prise en charge MVE."
+ },
+ {
+  "sitrep_number": 26,
+  "date": "2026-06-10",
+  "theme": "Engagement communautaire",
+  "detail": "La réticence aux prélèvements post mortem (swabs) entraîne des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 26,
+  "date": "2026-06-10",
+  "theme": "Logistique",
+  "detail": "La capacité insuffisante en CTE normés, malgré l'ouverture de Rwampara, expose les structures existantes à une saturation potentielle."
+ },
+ {
+  "sitrep_number": 26,
+  "date": "2026-06-10",
+  "theme": "Surveillance",
+  "detail": "Le taux de suivi des contacts est faible (61,1% contre une cible de 95%), compromettant l'interruption des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 26,
+  "date": "2026-06-10",
+  "theme": "Logistique",
+  "detail": "Le défaut d'approvisionnement en Médicaments Essentiels Génériques (MEG) dans les HGR ciblés fragilise la prise en charge globale."
+ },
+ {
+  "sitrep_number": 26,
+  "date": "2026-06-10",
+  "theme": "Logistique",
+  "detail": "L'insuffisance de matériels PCI (EPI, DLM, chlore) au Nord-Kivu génère un risque nosocomial élevé."
+ },
+ {
+  "sitrep_number": 26,
+  "date": "2026-06-10",
+  "theme": "Surveillance",
+  "detail": "La faible remontée des alertes dans les trois provinces entraîne des retards de détection des cas."
+ },
+ {
+  "sitrep_number": 26,
+  "date": "2026-06-10",
+  "theme": "Financement",
+  "detail": "L'insuffisance des ressources financières pour tous les piliers ralentit les opérations, avec un gap estimé à 21,5 millions USD."
+ },
+ {
+  "sitrep_number": 26,
+  "date": "2026-06-10",
+  "theme": "Securite",
+  "detail": "L'activisme de groupes armés dans les territoires de Djugu, Irumu et Mambasa continue de limiter l'accès humanitaire dans plusieurs zones de santé affectées ou à risque."
+ },
+ {
+  "sitrep_number": 26,
+  "date": "2026-06-10",
+  "theme": "Laboratoire",
+  "detail": "Au Nord-Kivu, 182 résultats d'échantillons restent en attente d'analyse par insuffisance de réactifs."
+ },
+ {
+  "sitrep_number": 26,
+  "date": "2026-06-10",
+  "theme": "Logistique",
+  "detail": "Au Sud-Kivu, un manque de véhicules (2 supplémentaires requis) et l'absence de connectivité Internet à Miti-Murhesa ainsi que l'insuffisance de crédits de communication freinent les opérations."
+ },
+ {
+  "sitrep_number": 27,
+  "date": "2026-06-11",
+  "theme": "Engagement communautaire",
+  "detail": "La réticence aux prélèvements post mortem (swabs) entraîne des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 27,
+  "date": "2026-06-11",
+  "theme": "Logistique",
+  "detail": "La capacité insuffisante en CTE normés, malgré l'ouverture de Rwampara, expose les CTE existants à une saturation potentielle."
+ },
+ {
+  "sitrep_number": 27,
+  "date": "2026-06-11",
+  "theme": "Surveillance",
+  "detail": "Le suivi des contacts reste insuffisant avec un taux global de 71,8% contre une cible de 95%, compromettant l'interruption des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 27,
+  "date": "2026-06-11",
+  "theme": "Logistique",
+  "detail": "Le défaut d'approvisionnement en Médicaments Essentiels Génériques (MEG) dans les HGR ciblés fragilise la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 27,
+  "date": "2026-06-11",
+  "theme": "Logistique",
+  "detail": "L'insuffisance de matériels PCI (EPI, DLM, chlore) au Nord-Kivu crée un risque nosocomial élevé."
+ },
+ {
+  "sitrep_number": 27,
+  "date": "2026-06-11",
+  "theme": "Surveillance",
+  "detail": "La faible remontée des alertes dans les trois provinces entraîne des retards de détection des cas."
+ },
+ {
+  "sitrep_number": 27,
+  "date": "2026-06-11",
+  "theme": "Financement",
+  "detail": "L'insuffisance des ressources financières pour tous les piliers ralentit les opérations, avec un gap estimé à 21,5 millions USD."
+ },
+ {
+  "sitrep_number": 27,
+  "date": "2026-06-11",
+  "theme": "Securite",
+  "detail": "L'activisme de groupes armés dans les territoires de Djugu, Irumu et Mambasa continue de limiter l'accès humanitaire dans plusieurs zones de santé affectées ou à risque."
+ },
+ {
+  "sitrep_number": 27,
+  "date": "2026-06-11",
+  "theme": "Engagement communautaire",
+  "detail": "Les équipes EDS arrivent toujours en retard et des jeunes prennent en charge les corps en défiant les RECO, compromettant les enterrements dignes et sécurisés."
+ },
+ {
+  "sitrep_number": 27,
+  "date": "2026-06-11",
+  "theme": "Prise en charge",
+  "detail": "Les plaintes des malades au CTE signalent une prise en charge alimentaire insuffisante, certains patients quittant l'hôpital pour se nourrir à l'extérieur."
+ },
+ {
+  "sitrep_number": 27,
+  "date": "2026-06-11",
+  "theme": "Logistique",
+  "detail": "Le Sud-Kivu manque de véhicules supplémentaires, de kit Internet à Miti-Murhesa et de crédits de communication pour les IT/ECZS."
+ },
+ {
+  "sitrep_number": 27,
+  "date": "2026-06-11",
+  "theme": "Surveillance",
+  "detail": "Seulement 48,6% des points de contrôle (PoC) sont activés et aucune alerte aux PoE/PoC n'a été investiguée dans les 24h, avec 0% de résultats disponibles dans les délais."
+ },
+ {
+  "sitrep_number": 28,
+  "date": "2026-06-12",
+  "theme": "Engagement communautaire",
+  "detail": "Une réticence aux prélèvements post mortem (swabs) entraîne des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 28,
+  "date": "2026-06-12",
+  "theme": "Logistique",
+  "detail": "La capacité insuffisante en CTE normés, malgré l'ouverture de Rwampara, expose les structures à une saturation potentielle."
+ },
+ {
+  "sitrep_number": 28,
+  "date": "2026-06-12",
+  "theme": "Logistique",
+  "detail": "Le défaut d'approvisionnement en Médicaments Essentiels Génériques (MEG) dans les HGR ciblés fragilise la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 28,
+  "date": "2026-06-12",
+  "theme": "Logistique",
+  "detail": "L'insuffisance de matériels PCI (EPI, DLM, chlore) au Nord-Kivu fait peser un risque nosocomial sur les équipes et les patients."
+ },
+ {
+  "sitrep_number": 28,
+  "date": "2026-06-12",
+  "theme": "Surveillance",
+  "detail": "La faible remontée des alertes dans les 3 provinces provoque des retards de détection des cas, notamment en Ituri où le taux d'investigation n'atteint que 70,6 %."
+ },
+ {
+  "sitrep_number": 28,
+  "date": "2026-06-12",
+  "theme": "Financement",
+  "detail": "L'insuffisance des ressources financières pour tous les piliers (gap estimé à 21,5 millions USD) ralentit l'ensemble des opérations de riposte."
+ },
+ {
+  "sitrep_number": 28,
+  "date": "2026-06-12",
+  "theme": "Surveillance",
+  "detail": "Le suivi des contacts en Ituri est très faible (17,4 %), notamment en raison de données non rapportées pour les ZS de Rwampara et Bunia qui concentrent 55,6 % des contacts de la province."
+ },
+ {
+  "sitrep_number": 28,
+  "date": "2026-06-12",
+  "theme": "Laboratoire",
+  "detail": "172 échantillons sont en attente d'analyse au Nord-Kivu avec un délai supérieur à 5 jours, retardant la confirmation des cas."
+ },
+ {
+  "sitrep_number": 28,
+  "date": "2026-06-12",
+  "theme": "Securite",
+  "detail": "L'activisme de groupes armés dans les territoires de Djugu, Irumu et Mambasa continue de limiter l'accès humanitaire dans plusieurs zones de santé affectées ou à risque."
+ },
+ {
+  "sitrep_number": 28,
+  "date": "2026-06-12",
+  "theme": "Logistique",
+  "detail": "Le Sud-Kivu manque de 2 véhicules supplémentaires, d'un kit Internet à Miti-Murhesa et de crédits de communication pour les IT/ECZS, freinant les opérations de riposte."
+ },
+ {
+  "sitrep_number": 28,
+  "date": "2026-06-12",
+  "theme": "Surveillance",
+  "detail": "Aucune alerte investiguée dans les 24 heures aux points d'entrée/contrôle en Ituri (0 % de résultats disponibles dans les 24h), réduisant l'efficacité du screening aux frontières."
+ },
+ {
+  "sitrep_number": 30,
+  "date": "2026-06-14",
+  "theme": "Engagement communautaire",
+  "detail": "La réticence aux prélèvements post mortem (swabs) retarde la confirmation des cas et entraîne une sous-estimation du nombre de cas."
+ },
+ {
+  "sitrep_number": 30,
+  "date": "2026-06-14",
+  "theme": "Prise en charge",
+  "detail": "La capacité insuffisante en CTE normés, malgré l'ouverture de Rwampara, expose les structures existantes à une saturation potentielle."
+ },
+ {
+  "sitrep_number": 30,
+  "date": "2026-06-14",
+  "theme": "Surveillance",
+  "detail": "Le suivi des contacts est faible avec un taux global de 56,5 % contre une cible de 95 %, compromettant l'interruption des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 30,
+  "date": "2026-06-14",
+  "theme": "Logistique",
+  "detail": "Le défaut d'approvisionnement en Médicaments Essentiels Génériques (MEG) dans les HGR ciblés fragilise la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 30,
+  "date": "2026-06-14",
+  "theme": "Logistique",
+  "detail": "L'insuffisance de matériels PCI (EPI, DLM, chlore) au Nord-Kivu crée un risque nosocomial important."
+ },
+ {
+  "sitrep_number": 30,
+  "date": "2026-06-14",
+  "theme": "Surveillance",
+  "detail": "La faible remontée des alertes dans les trois provinces entraîne un retard dans la détection des cas."
+ },
+ {
+  "sitrep_number": 30,
+  "date": "2026-06-14",
+  "theme": "Financement",
+  "detail": "L'insuffisance des ressources financières pour tous les piliers ralentit les opérations, avec un gap estimé à 21,5 millions USD."
+ },
+ {
+  "sitrep_number": 30,
+  "date": "2026-06-14",
+  "theme": "Logistique",
+  "detail": "Les kits PCI constituent un gap signalé lors de l'ouverture des rings autour des cas confirmés dans les zones de santé de Bunia et Rwampara."
+ },
+ {
+  "sitrep_number": 30,
+  "date": "2026-06-14",
+  "theme": "Engagement communautaire",
+  "detail": "Les équipes EDS arrivent en nombre très réduit sur les lieux d'enterrement, obligeant les membres de la communauté à intervenir sans protection, augmentant le risque de contamination."
+ },
+ {
+  "sitrep_number": 30,
+  "date": "2026-06-14",
+  "theme": "Surveillance",
+  "detail": "Seuls 69,7 % des alertes remontées en Ituri ont été investiguées, indiquant une capacité d'investigation insuffisante dans cette province."
+ },
+ {
+  "sitrep_number": 31,
+  "date": "2026-06-16",
+  "theme": "Engagement communautaire",
+  "detail": "La réticence aux prélèvements post mortem (swabs) entraîne un retard de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 31,
+  "date": "2026-06-16",
+  "theme": "Logistique",
+  "detail": "La capacité insuffisante en CTE normés, malgré l'ouverture de Rwampara, expose les structures existantes à une saturation potentielle."
+ },
+ {
+  "sitrep_number": 31,
+  "date": "2026-06-16",
+  "theme": "Surveillance",
+  "detail": "Le taux de suivi des contacts est faible (63,1 % contre une cible de 95 %), compromettant l'interruption des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 31,
+  "date": "2026-06-16",
+  "theme": "Logistique",
+  "detail": "Le défaut d'approvisionnement en Médicaments Essentiels Génériques (MEG) dans les HGR ciblés fragilise la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 31,
+  "date": "2026-06-16",
+  "theme": "Laboratoire",
+  "detail": "L'insuffisance de matériels PCI (EPI, DLM, chlore) au Nord-Kivu crée un risque nosocomial nécessitant un approvisionnement urgent."
+ },
+ {
+  "sitrep_number": 31,
+  "date": "2026-06-16",
+  "theme": "Surveillance",
+  "detail": "La faible remontée des alertes dans les provinces de l'Ituri et du Sud-Kivu entraîne un retard de détection des cas communautaires."
+ },
+ {
+  "sitrep_number": 31,
+  "date": "2026-06-16",
+  "theme": "Financement",
+  "detail": "L'insuffisance des ressources financières pour tous les piliers ralentit les opérations, avec un gap estimé à 21,5 millions USD."
+ },
+ {
+  "sitrep_number": 32,
+  "date": "2026-06-16",
+  "theme": "Engagement communautaire",
+  "detail": "La réticence aux prélèvements post mortem (swabs) entraîne des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 32,
+  "date": "2026-06-16",
+  "theme": "Logistique",
+  "detail": "La capacité d'accueil en CTE normés est insuffisante malgré l'ouverture de Rwampara, entraînant une saturation potentielle des CTE existants."
+ },
+ {
+  "sitrep_number": 32,
+  "date": "2026-06-16",
+  "theme": "Surveillance",
+  "detail": "Le suivi des contacts reste faible avec un taux global de 64,4% contre une cible de 95%, compromettant l'interruption des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 32,
+  "date": "2026-06-16",
+  "theme": "Médicaments",
+  "detail": "L'approvisionnement insuffisant en Médicaments Essentiels Génériques (MEG) dans les HGR ciblés fragilise la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 32,
+  "date": "2026-06-16",
+  "theme": "Laboratoire",
+  "detail": "L'insuffisance de matériels PCI (EPI, DLM, chlore) au Nord-Kivu crée un risque nosocomial important."
+ },
+ {
+  "sitrep_number": 32,
+  "date": "2026-06-16",
+  "theme": "Surveillance",
+  "detail": "La faible remontée des alertes dans les provinces de l'Ituri et du Sud-Kivu entraîne des retards dans la détection des cas."
+ },
+ {
+  "sitrep_number": 32,
+  "date": "2026-06-16",
+  "theme": "Financement",
+  "detail": "L'insuffisance des ressources financières pour tous les piliers (gap de 21,5 millions USD) ralentit les opérations de riposte."
+ },
+ {
+  "sitrep_number": 32,
+  "date": "2026-06-16",
+  "theme": "Securite",
+  "detail": "Les équipes EDS ont été attaquées dans l'AS PLUTO (ZS Mongbwalu) lors d'un incident de résistance à l'enterrement digne et sécurisé."
+ },
+ {
+  "sitrep_number": 32,
+  "date": "2026-06-16",
+  "theme": "Securite",
+  "detail": "Cinq prestataires des PoE/PoC ont été séquestrés par des éléments en uniforme qui les accusent de propager la maladie."
+ },
+ {
+  "sitrep_number": 32,
+  "date": "2026-06-16",
+  "theme": "Surveillance",
+  "detail": "Deux corps sans vie interceptés aux PoC Dele et Nyori n'ont pas pu être swabés ni faire l'objet d'un EDS en raison de l'arrivée tardive des équipes."
+ },
+ {
+  "sitrep_number": 33,
+  "date": "2026-06-18",
+  "theme": "Engagement communautaire",
+  "detail": "La réticence aux prélèvements post mortem (swabs) entraîne un retard de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 33,
+  "date": "2026-06-18",
+  "theme": "Logistique",
+  "detail": "La capacité insuffisante en CTE normés, malgré l'ouverture de Rwampara, risque de provoquer la saturation des CTE existants."
+ },
+ {
+  "sitrep_number": 33,
+  "date": "2026-06-18",
+  "theme": "Surveillance",
+  "detail": "Le taux de suivi des contacts est insuffisant (71,6 % contre une cible de 95 %), compromettant la rupture des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 33,
+  "date": "2026-06-18",
+  "theme": "Logistique",
+  "detail": "L'approvisionnement insuffisant en Médicaments Essentiels Génériques (MEG) dans les HGR ciblés fragilise la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 33,
+  "date": "2026-06-18",
+  "theme": "Laboratoire",
+  "detail": "Des échantillons sont en attente d'analyse au Nord-Kivu, avec seulement 50 % des résultats disponibles dans les 24 heures aux points d'entrée."
+ },
+ {
+  "sitrep_number": 33,
+  "date": "2026-06-18",
+  "theme": "Logistique",
+  "detail": "L'insuffisance de matériels PCI (EPI, DLM, chlore) au Nord-Kivu crée un risque nosocomial élevé."
+ },
+ {
+  "sitrep_number": 33,
+  "date": "2026-06-18",
+  "theme": "Surveillance",
+  "detail": "La faible remontée des alertes dans la province du Sud-Kivu entraîne un retard de détection des cas."
+ },
+ {
+  "sitrep_number": 33,
+  "date": "2026-06-18",
+  "theme": "Financement",
+  "detail": "L'insuffisance des ressources financières pour tous les piliers ralentit les opérations, avec un gap estimé à 21,5 millions USD."
+ },
+ {
+  "sitrep_number": 34,
+  "date": "2026-06-18",
+  "theme": "Engagement communautaire",
+  "detail": "Réticence aux prélèvements post mortem (EDS/swabs) et résistance communautaire entraînant des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 34,
+  "date": "2026-06-18",
+  "theme": "Logistique",
+  "detail": "Capacité insuffisante en CTE et saturation en Ituri (96,4%) entraînant des retards d'admission et un risque accru de transmission nosocomiale."
+ },
+ {
+  "sitrep_number": 34,
+  "date": "2026-06-18",
+  "theme": "Surveillance",
+  "detail": "Faible performance du suivi des contacts (71,6% vs cible 95%) laissant des chaînes de transmission non interrompues."
+ },
+ {
+  "sitrep_number": 34,
+  "date": "2026-06-18",
+  "theme": "Surveillance",
+  "detail": "Seulement 33% des alertes investiguées en Ituri, favorisant une expansion silencieuse de l'épidémie."
+ },
+ {
+  "sitrep_number": 34,
+  "date": "2026-06-18",
+  "theme": "Surveillance",
+  "detail": "Environ 350 cas confirmés non localisés ou non classifiés, créant des lacunes majeures dans la reconstruction des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 34,
+  "date": "2026-06-18",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'approvisionnement en médicaments essentiels et intrants médicaux fragilisant la prise en charge globale."
+ },
+ {
+  "sitrep_number": 34,
+  "date": "2026-06-18",
+  "theme": "Laboratoire",
+  "detail": "Stock d'échantillons non encore analysés (backlog) au laboratoire du Nord-Kivu entraînant des retards de confirmation et une létalité élevée (58,9%)."
+ },
+ {
+  "sitrep_number": 34,
+  "date": "2026-06-18",
+  "theme": "Logistique",
+  "detail": "Insuffisance des intrants PCI (EPI, chlore) et formation limitée exposant le personnel à un risque élevé d'infections nosocomiales (75 cas HCW, létalité 22,6%)."
+ },
+ {
+  "sitrep_number": 34,
+  "date": "2026-06-18",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'ambulances et gap de 20 centres d'isolement entraînant des retards de transfert et augmentant le risque de transmission."
+ },
+ {
+  "sitrep_number": 34,
+  "date": "2026-06-18",
+  "theme": "Coordination",
+  "detail": "Coordination insuffisante et faible utilisation des cadres COUSP générant une inefficience opérationnelle et des décisions retardées."
+ },
+ {
+  "sitrep_number": 34,
+  "date": "2026-06-18",
+  "theme": "Financement",
+  "detail": "Gap financier estimé à 200 millions USD limitant la mise en œuvre de tous les piliers de la riposte."
+ },
+ {
+  "sitrep_number": 34,
+  "date": "2026-06-18",
+  "theme": "Securite",
+  "detail": "Insécurité et accès limité (CODECO, ADF) restreignant les opérations et l'accès aux zones à haut risque."
+ },
+ {
+  "sitrep_number": 34,
+  "date": "2026-06-18",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes notamment au Sud-Kivu, entraînant des retards dans la détection des cas."
+ },
+ {
+  "sitrep_number": 34,
+  "date": "2026-06-18",
+  "theme": "Logistique",
+  "detail": "Continuité des services essentiels de santé (CEHS) compromise, augmentant la mortalité indirecte non liée à Ebola."
+ },
+ {
+  "sitrep_number": 34,
+  "date": "2026-06-18",
+  "theme": "Surveillance",
+  "detail": "Forte mobilité des populations présentant un risque élevé d'expansion géographique rapide de l'épidémie."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "Engagement communautaire",
+  "detail": "Réticence aux prélèvements post-mortem (EDS/swabs) et résistance communautaire entraînant un retard de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "Logistique",
+  "detail": "Capacité insuffisante en CTE et saturation en Ituri (taux d'occupation 103,3%) augmentant le risque de transmission nosocomiale."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "Surveillance",
+  "detail": "Faible performance du suivi des contacts (72,3% vs cible 95%) laissant des chaînes de transmission non interrompues."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "Surveillance",
+  "detail": "Seulement 36,5% des alertes investiguées en Ituri, favorisant une expansion silencieuse de l'épidémie."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "Surveillance",
+  "detail": "Environ 17 cas confirmés non localisés ou non classifiés, créant des lacunes majeures dans la reconstruction des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'approvisionnement en médicaments essentiels et intrants médicaux fragilisant la prise en charge globale."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "PCI",
+  "detail": "Insuffisance des intrants PCI (EPI, chlore) et formation limitée exposant le personnel soignant à un risque élevé d'infections nosocomiales (75 cas chez les agents de santé, létalité 22,6%)."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "Laboratoire",
+  "detail": "Stock d'échantillons non encore analysés (backlog) au laboratoire au Nord-Kivu entraînant un diagnostic tardif et contribuant à une létalité élevée (58,4%)."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'ambulances et de structures d'isolement (gap de 20 centres) provoquant des retards de transfert et augmentant le risque de transmission."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "Coordination",
+  "detail": "Coordination insuffisante et faible utilisation des cadres COUSP entraînant une inefficience opérationnelle et des décisions retardées."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières (gap de 20 millions USD) limitant la mise en œuvre de tous les piliers de la riposte."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "Securite",
+  "detail": "Insécurité et accès limité (CODECO, ADF) restreignant les opérations de riposte dans les zones à haut risque."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes notamment au Sud-Kivu entraînant un retard dans la détection des cas."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "Logistique",
+  "detail": "Continuité des services essentiels de santé (CEHS) compromise, augmentant la mortalité indirecte non liée à Ebola."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "Surveillance",
+  "detail": "Forte mobilité des populations représentant un risque élevé d'expansion géographique rapide de l'épidémie."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "PCI",
+  "detail": "En Nord-Kivu, triage non fonctionnel, insuffisance des dispositifs de lavage des mains, insuffisance des EPI, prestataires non formés, mauvaise gestion des déchets et absence d'incinérateur dans plusieurs établissements de soins."
+ },
+ {
+  "sitrep_number": 35,
+  "date": "2026-06-20",
+  "theme": "Engagement communautaire",
+  "detail": "Couverture insuffisante des ménages visités en Nord-Kivu (48% sur 15 990 ménages) avec une progression des connaissances de seulement 32% contre un objectif de 50%."
+ },
+ {
+  "sitrep_number": 36,
+  "date": "2026-06-20",
+  "theme": "Engagement communautaire",
+  "detail": "Réticence aux prélèvements post mortem (EDS/swabs) et résistance communautaire entraînant des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 36,
+  "date": "2026-06-20",
+  "theme": "Logistique",
+  "detail": "Capacité insuffisante en CTE et saturation des structures d'isolement en Ituri (taux d'occupation de 88,3%), avec un gap de 20 centres nécessaires."
+ },
+ {
+  "sitrep_number": 36,
+  "date": "2026-06-20",
+  "theme": "Surveillance",
+  "detail": "Faible performance du suivi des contacts (69,3% contre une cible de 95%), laissant des chaînes de transmission non interrompues."
+ },
+ {
+  "sitrep_number": 36,
+  "date": "2026-06-20",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes dans certaines zones de santé affectées, risquant une expansion silencieuse de l'épidémie."
+ },
+ {
+  "sitrep_number": 36,
+  "date": "2026-06-20",
+  "theme": "Surveillance",
+  "detail": "Environ 17 cas confirmés non localisés ou non classifiés, créant des lacunes majeures dans la reconstruction des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 36,
+  "date": "2026-06-20",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'approvisionnement en médicaments essentiels (MEG) et intrants médicaux, fragilisant la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 36,
+  "date": "2026-06-20",
+  "theme": "Laboratoire",
+  "detail": "Stock d'échantillons non encore analysés (backlog) au laboratoire du Nord-Kivu, entraînant des retards de confirmation et contribuant à la létalité élevée (57,0%)."
+ },
+ {
+  "sitrep_number": 36,
+  "date": "2026-06-20",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'ambulances et de structures d'isolement (gap de 20 centres), provoquant des retards de transfert et augmentant le risque de transmission."
+ },
+ {
+  "sitrep_number": 36,
+  "date": "2026-06-20",
+  "theme": "Coordination",
+  "detail": "Coordination insuffisante et faible utilisation des cadres COUSP, entraînant une inefficience opérationnelle et des décisions retardées."
+ },
+ {
+  "sitrep_number": 36,
+  "date": "2026-06-20",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières avec un gap estimé à 20 millions USD, limitant la mise en œuvre de tous les piliers de la riposte."
+ },
+ {
+  "sitrep_number": 36,
+  "date": "2026-06-20",
+  "theme": "Securite",
+  "detail": "Insécurité et accès limité dans certaines zones (CODECO, ADF) restreignant les opérations de riposte dans les zones à haut risque."
+ },
+ {
+  "sitrep_number": 36,
+  "date": "2026-06-20",
+  "theme": "Logistique",
+  "detail": "Continuité des services essentiels de santé (CEHS) compromise, augmentant la mortalité indirecte non liée à Ebola."
+ },
+ {
+  "sitrep_number": 36,
+  "date": "2026-06-20",
+  "theme": "Surveillance",
+  "detail": "Forte mobilité des populations et flux transfrontaliers représentant un risque élevé d'expansion géographique rapide de l'épidémie."
+ },
+ {
+  "sitrep_number": 36,
+  "date": "2026-06-20",
+  "theme": "PCI",
+  "detail": "Insuffisance des intrants PCI (EPI, chlore) et formation limitée des prestataires, avec 78 cas parmi les agents de santé dont 18 décès (létalité 23,1%)."
+ },
+ {
+  "sitrep_number": 37,
+  "date": "2026-06-22",
+  "theme": "Engagement communautaire",
+  "detail": "Réticence aux prélèvements post mortem (EDS/swabs) et résistance communautaire entraînant des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 37,
+  "date": "2026-06-22",
+  "theme": "Logistique",
+  "detail": "Capacité insuffisante en CTE et saturation en Ituri (82,8 %), entraînant des retards d'admission et un risque accru de transmission nosocomiale."
+ },
+ {
+  "sitrep_number": 37,
+  "date": "2026-06-22",
+  "theme": "Surveillance",
+  "detail": "Faible performance du suivi des contacts (67,0 % contre une cible de 95 %), laissant des chaînes de transmission non interrompues."
+ },
+ {
+  "sitrep_number": 37,
+  "date": "2026-06-22",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes dans certaines zones de santé affectées, favorisant une expansion silencieuse de l'épidémie."
+ },
+ {
+  "sitrep_number": 37,
+  "date": "2026-06-22",
+  "theme": "Surveillance",
+  "detail": "Dix-sept cas confirmés non localisés ou non classifiés, créant des lacunes majeures dans la reconstruction des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 37,
+  "date": "2026-06-22",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'approvisionnement en médicaments essentiels génériques et intrants médicaux, fragilisant la prise en charge globale."
+ },
+ {
+  "sitrep_number": 37,
+  "date": "2026-06-22",
+  "theme": "Logistique",
+  "detail": "Insuffisance des intrants PCI (EPI, chlore) et formation limitée, exposant le personnel de santé à un risque élevé d'infections nosocomiales (78 cas HCW dont 18 décès)."
+ },
+ {
+  "sitrep_number": 37,
+  "date": "2026-06-22",
+  "theme": "Laboratoire",
+  "detail": "Stock d'échantillons non encore analysés (backlog) au laboratoire du Nord-Kivu, entraînant un retard de confirmation et contribuant à une létalité élevée (57,1 %)."
+ },
+ {
+  "sitrep_number": 37,
+  "date": "2026-06-22",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'ambulances et de structures d'isolement (gap de 20 centres), causant des retards de transfert et augmentant le risque de transmission."
+ },
+ {
+  "sitrep_number": 37,
+  "date": "2026-06-22",
+  "theme": "Coordination",
+  "detail": "Coordination insuffisante et faible utilisation des cadres COUSP, entraînant une inefficience opérationnelle et des décisions retardées."
+ },
+ {
+  "sitrep_number": 37,
+  "date": "2026-06-22",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières (gap de 20 millions USD) limitant la mise en œuvre de tous les piliers de la riposte."
+ },
+ {
+  "sitrep_number": 37,
+  "date": "2026-06-22",
+  "theme": "Securite",
+  "detail": "Insécurité et accès limité (CODECO, ADF) restreignant les opérations et l'accès aux zones à haut risque."
+ },
+ {
+  "sitrep_number": 37,
+  "date": "2026-06-22",
+  "theme": "Continuité des soins",
+  "detail": "Continuité des services essentiels de santé compromise, augmentant la mortalité indirecte non liée à Ebola."
+ },
+ {
+  "sitrep_number": 37,
+  "date": "2026-06-22",
+  "theme": "Surveillance",
+  "detail": "Forte mobilité des populations présentant un risque élevé d'expansion géographique rapide de l'épidémie."
+ },
+ {
+  "sitrep_number": 38,
+  "date": "2026-06-22",
+  "theme": "Engagement communautaire",
+  "detail": "Réticence aux prélèvements post mortem (EDS/swabs) et résistances communautaires perturbent la confirmation des cas et les activités clés de riposte."
+ },
+ {
+  "sitrep_number": 38,
+  "date": "2026-06-22",
+  "theme": "Logistique",
+  "detail": "Capacité insuffisante en CTE et saturation à 84,1% en Ituri entraînent des retards d'admission et un risque accru de transmission nosocomiale."
+ },
+ {
+  "sitrep_number": 38,
+  "date": "2026-06-22",
+  "theme": "Surveillance",
+  "detail": "Le taux de suivi des contacts est de 70,8%, bien en deçà de la cible de 95%, laissant des chaînes de transmission non interrompues."
+ },
+ {
+  "sitrep_number": 38,
+  "date": "2026-06-22",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes dans certaines zones de santé affectées, favorisant une expansion silencieuse de l'épidémie."
+ },
+ {
+  "sitrep_number": 38,
+  "date": "2026-06-22",
+  "theme": "Surveillance",
+  "detail": "Dix-sept cas confirmés non localisés ou non classifiés créent des lacunes majeures dans la reconstruction des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 38,
+  "date": "2026-06-22",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'approvisionnement en médicaments essentiels et intrants médicaux fragilisant la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 38,
+  "date": "2026-06-22",
+  "theme": "Logistique",
+  "detail": "Insuffisance des intrants PCI (EPI, chlore) et formation limitée exposant le personnel soignant à un risque élevé d'infections nosocomiales (78 cas HCW dont 18 décès)."
+ },
+ {
+  "sitrep_number": 38,
+  "date": "2026-06-22",
+  "theme": "Laboratoire",
+  "detail": "Backlog d'échantillons non encore analysés au Nord-Kivu entraînant des retards de confirmation et contribuant à une létalité élevée de 54,9%."
+ },
+ {
+  "sitrep_number": 38,
+  "date": "2026-06-22",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'ambulances et gap de 20 centres d'isolement provoquant des retards de transfert et augmentant le risque de transmission."
+ },
+ {
+  "sitrep_number": 38,
+  "date": "2026-06-22",
+  "theme": "Coordination",
+  "detail": "Coordination insuffisante et faible utilisation des cadres COUSP entraînant une inefficience opérationnelle et des décisions retardées."
+ },
+ {
+  "sitrep_number": 38,
+  "date": "2026-06-22",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières avec un gap estimé à 20 millions USD limitant la mise en œuvre de tous les piliers de la riposte."
+ },
+ {
+  "sitrep_number": 38,
+  "date": "2026-06-22",
+  "theme": "Securite",
+  "detail": "Insécurité liée aux groupes armés (CODECO, ADF) restreignant les opérations et l'accès aux zones à haut risque."
+ },
+ {
+  "sitrep_number": 38,
+  "date": "2026-06-22",
+  "theme": "Logistique",
+  "detail": "Continuité des services de santé essentiels compromise, augmentant la mortalité indirecte non liée à Ebola."
+ },
+ {
+  "sitrep_number": 38,
+  "date": "2026-06-22",
+  "theme": "Surveillance",
+  "detail": "Forte mobilité des populations et flux transfrontaliers non maîtrisés représentent un risque élevé d'expansion géographique rapide de l'épidémie."
+ },
+ {
+  "sitrep_number": 39,
+  "date": "2026-06-23",
+  "theme": "Engagement communautaire",
+  "detail": "Réticence aux prélèvements post mortem (EDS/swabs) et résistance communautaire entraînant des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 39,
+  "date": "2026-06-23",
+  "theme": "Logistique",
+  "detail": "Capacité insuffisante en CTE avec saturation à 87,0% en Ituri, entraînant des retards d'admission et un risque accru de transmission nosocomiale."
+ },
+ {
+  "sitrep_number": 39,
+  "date": "2026-06-23",
+  "theme": "Surveillance",
+  "detail": "Faible performance du suivi des contacts (72,8% vs cible de 95%), laissant des chaînes de transmission non interrompues."
+ },
+ {
+  "sitrep_number": 39,
+  "date": "2026-06-23",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes dans certaines zones de santé affectées, favorisant une expansion silencieuse de l'épidémie."
+ },
+ {
+  "sitrep_number": 39,
+  "date": "2026-06-23",
+  "theme": "Surveillance",
+  "detail": "Dix-sept cas confirmés non localisés ou non classifiés, créant des lacunes majeures dans la reconstruction des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 39,
+  "date": "2026-06-23",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'approvisionnement en médicaments essentiels génériques (MEG) et intrants médicaux, fragilisant la prise en charge globale."
+ },
+ {
+  "sitrep_number": 39,
+  "date": "2026-06-23",
+  "theme": "Laboratoire",
+  "detail": "Stock d'échantillons non encore analysés (backlog) au laboratoire au Nord-Kivu, contribuant à un diagnostic tardif et à une létalité élevée (53,2%)."
+ },
+ {
+  "sitrep_number": 39,
+  "date": "2026-06-23",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'ambulances et manque de structures d'isolement (gap de 20 centres), entraînant des retards de transfert et un risque accru de transmission."
+ },
+ {
+  "sitrep_number": 39,
+  "date": "2026-06-23",
+  "theme": "Logistique",
+  "detail": "Insuffisance des intrants PCI (EPI, chlore) et formation limitée du personnel soignant, avec un risque élevé d'infections nosocomiales (78 cas HCW dont 18 décès)."
+ },
+ {
+  "sitrep_number": 39,
+  "date": "2026-06-23",
+  "theme": "Coordination",
+  "detail": "Coordination insuffisante et faible utilisation des cadres COUSP, entraînant une inefficience opérationnelle et des décisions retardées."
+ },
+ {
+  "sitrep_number": 39,
+  "date": "2026-06-23",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières (gap de 20 millions USD) limitant la mise en œuvre de tous les piliers de la riposte."
+ },
+ {
+  "sitrep_number": 39,
+  "date": "2026-06-23",
+  "theme": "Securite",
+  "detail": "Insécurité et accès limité lié aux groupes armés (CODECO, ADF) restreignant les opérations dans les zones à haut risque."
+ },
+ {
+  "sitrep_number": 39,
+  "date": "2026-06-23",
+  "theme": "Logistique",
+  "detail": "Continuité des services essentiels de santé (CEHS) compromise, augmentant la mortalité indirecte non liée à Ebola."
+ },
+ {
+  "sitrep_number": 39,
+  "date": "2026-06-23",
+  "theme": "Surveillance",
+  "detail": "Forte mobilité des populations, notamment les flux transfrontaliers, représentant un risque élevé d'expansion géographique rapide de l'épidémie."
+ },
+ {
+  "sitrep_number": 39,
+  "date": "2026-06-23",
+  "theme": "Surveillance",
+  "detail": "Toutes les alertes remontées au Sud-Kivu n'ont pas été investiguées par manque de carburant pour la descente des équipes sur le terrain."
+ },
+ {
+  "sitrep_number": 40,
+  "date": "2026-06-25",
+  "theme": "Engagement communautaire",
+  "detail": "Réticence aux prélèvements post-mortem (EDS/swabs) et résistance communautaire entraînant des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 40,
+  "date": "2026-06-25",
+  "theme": "Logistique",
+  "detail": "Capacité insuffisante et saturation des CTE en Ituri (taux d'occupation de 91,3%), augmentant le risque de transmission nosocomiale."
+ },
+ {
+  "sitrep_number": 40,
+  "date": "2026-06-25",
+  "theme": "Surveillance",
+  "detail": "Faible performance du suivi des contacts (77,1% vs cible de 95%), laissant des chaînes de transmission non interrompues."
+ },
+ {
+  "sitrep_number": 40,
+  "date": "2026-06-25",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes dans certaines zones de santé affectées, favorisant une expansion silencieuse de l'épidémie."
+ },
+ {
+  "sitrep_number": 40,
+  "date": "2026-06-25",
+  "theme": "Surveillance",
+  "detail": "Dix-sept cas confirmés non localisés ou non classifiés, engendrant des lacunes majeures dans la reconstruction des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 40,
+  "date": "2026-06-25",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'approvisionnement en médicaments essentiels et intrants médicaux, fragilisant la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 40,
+  "date": "2026-06-25",
+  "theme": "Logistique",
+  "detail": "Insuffisance des intrants PCI (EPI, chlore) et formation limitée du personnel de santé, avec un risque élevé d'infections nosocomiales (78 cas HCW dont 18 décès)."
+ },
+ {
+  "sitrep_number": 40,
+  "date": "2026-06-25",
+  "theme": "Laboratoire",
+  "detail": "Stock d'échantillons non encore analysés (backlog) au laboratoire du Nord-Kivu, entraînant des retards de confirmation et une létalité élevée (54,7%)."
+ },
+ {
+  "sitrep_number": 40,
+  "date": "2026-06-25",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'ambulances et de structures d'isolement (gap de 20 centres), provoquant des retards de transfert et augmentant le risque de transmission."
+ },
+ {
+  "sitrep_number": 40,
+  "date": "2026-06-25",
+  "theme": "Coordination",
+  "detail": "Coordination insuffisante et faible utilisation des cadres COUSP, générant une inefficience opérationnelle et des décisions retardées."
+ },
+ {
+  "sitrep_number": 40,
+  "date": "2026-06-25",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières (gap de 20 millions USD) limitant la mise en œuvre de tous les piliers de la riposte."
+ },
+ {
+  "sitrep_number": 40,
+  "date": "2026-06-25",
+  "theme": "Securite",
+  "detail": "Insécurité et accès limité dans certaines zones (CODECO, ADF) restreignant les opérations et l'accès aux zones à haut risque."
+ },
+ {
+  "sitrep_number": 40,
+  "date": "2026-06-25",
+  "theme": "Logistique",
+  "detail": "Continuité des services essentiels de santé (CEHS) compromise, augmentant la mortalité indirecte non liée à Ebola."
+ },
+ {
+  "sitrep_number": 40,
+  "date": "2026-06-25",
+  "theme": "Surveillance",
+  "detail": "Forte mobilité des populations présentant un risque élevé d'expansion géographique rapide de l'épidémie au-delà des zones affectées."
+ },
+ {
+  "sitrep_number": 41,
+  "date": "2026-06-25",
+  "theme": "Engagement communautaire",
+  "detail": "Réticence aux prélèvements post mortem (EDS/swabs) et résistance communautaire entraînant un retard de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 41,
+  "date": "2026-06-25",
+  "theme": "Logistique",
+  "detail": "Capacité insuffisante en CTE proche de la saturation en Ituri (85,3%), entraînant des retards d'admission et un risque accru de transmission nosocomiale."
+ },
+ {
+  "sitrep_number": 41,
+  "date": "2026-06-25",
+  "theme": "Surveillance",
+  "detail": "Faible performance du suivi des contacts (79,2% vs cible 95%), laissant des chaînes de transmission non interrompues."
+ },
+ {
+  "sitrep_number": 41,
+  "date": "2026-06-25",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes dans certaines zones de santé affectées, favorisant une expansion silencieuse de l'épidémie."
+ },
+ {
+  "sitrep_number": 41,
+  "date": "2026-06-25",
+  "theme": "Surveillance",
+  "detail": "Dix-sept cas confirmés non localisés ou non classifiés, créant des lacunes majeures dans la reconstruction des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 41,
+  "date": "2026-06-25",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'approvisionnement en médicaments essentiels et intrants médicaux, fragilisant la prise en charge globale des patients."
+ },
+ {
+  "sitrep_number": 41,
+  "date": "2026-06-25",
+  "theme": "Laboratoire",
+  "detail": "Stock d'échantillons non encore analysés (backlog) au laboratoire au Nord-Kivu, entraînant un retard de confirmation et contribuant à la létalité élevée (54,1%)."
+ },
+ {
+  "sitrep_number": 41,
+  "date": "2026-06-25",
+  "theme": "Logistique",
+  "detail": "Insuffisance des intrants PCI (EPI, chlore) et formation limitée, exposant les agents de santé à un risque élevé d'infections nosocomiales (78 cas HCW dont 18 décès)."
+ },
+ {
+  "sitrep_number": 41,
+  "date": "2026-06-25",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'ambulances et de structures d'isolement (gap de 20 centres), entraînant des retards de transfert et augmentant le risque de transmission."
+ },
+ {
+  "sitrep_number": 41,
+  "date": "2026-06-25",
+  "theme": "Coordination",
+  "detail": "Coordination insuffisante et faible utilisation des cadres COUSP, entraînant une inefficience opérationnelle et des décisions retardées."
+ },
+ {
+  "sitrep_number": 41,
+  "date": "2026-06-25",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières (gap de 20 millions USD), limitant la mise en œuvre de tous les piliers de la riposte."
+ },
+ {
+  "sitrep_number": 41,
+  "date": "2026-06-25",
+  "theme": "Securite",
+  "detail": "Insécurité et accès limité (CODECO, ADF) restreignant les opérations et l'accès aux zones à haut risque."
+ },
+ {
+  "sitrep_number": 41,
+  "date": "2026-06-25",
+  "theme": "Continuité des soins",
+  "detail": "Continuité des services essentiels de santé (CEHS) compromise, augmentant la mortalité indirecte non liée à Ebola."
+ },
+ {
+  "sitrep_number": 41,
+  "date": "2026-06-25",
+  "theme": "Surveillance",
+  "detail": "Forte mobilité des populations exposant à un risque élevé d'expansion géographique rapide de l'épidémie."
+ },
+ {
+  "sitrep_number": 42,
+  "date": "2026-06-26",
+  "theme": "Engagement communautaire",
+  "detail": "Réticence aux prélèvements post mortem (EDS/swabs) et résistance communautaire entraînant des retards de confirmation et une sous-estimation des cas."
+ },
+ {
+  "sitrep_number": 42,
+  "date": "2026-06-26",
+  "theme": "Logistique",
+  "detail": "Capacité des CTE insuffisante et proche de la saturation en Ituri (89,8%), augmentant le risque de transmission nosocomiale."
+ },
+ {
+  "sitrep_number": 42,
+  "date": "2026-06-26",
+  "theme": "Surveillance",
+  "detail": "Faible performance du suivi des contacts (82,8% vs cible 95%), laissant des chaînes de transmission non interrompues."
+ },
+ {
+  "sitrep_number": 42,
+  "date": "2026-06-26",
+  "theme": "Surveillance",
+  "detail": "Faible remontée des alertes dans certaines zones de santé affectées, favorisant une expansion silencieuse de l'épidémie."
+ },
+ {
+  "sitrep_number": 42,
+  "date": "2026-06-26",
+  "theme": "Surveillance",
+  "detail": "17 cas confirmés non encore ventilés par zone de santé, créant des lacunes majeures dans la reconstruction des chaînes de transmission."
+ },
+ {
+  "sitrep_number": 42,
+  "date": "2026-06-26",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'approvisionnement en médicaments essentiels génériques (MEG) et intrants médicaux, fragilisant la prise en charge globale."
+ },
+ {
+  "sitrep_number": 42,
+  "date": "2026-06-26",
+  "theme": "Laboratoire",
+  "detail": "Stock d'échantillons non encore analysés (backlog) au laboratoire au Nord-Kivu, entraînant un diagnostic tardif et une létalité élevée (54,8%)."
+ },
+ {
+  "sitrep_number": 42,
+  "date": "2026-06-26",
+  "theme": "Logistique",
+  "detail": "Insuffisance d'ambulances et gap de 20 centres d'isolement, provoquant des retards de transfert et augmentant le risque de transmission."
+ },
+ {
+  "sitrep_number": 42,
+  "date": "2026-06-26",
+  "theme": "Logistique",
+  "detail": "Insuffisance des intrants PCI (EPI, chlore) et formation limitée, exposant les agents de santé à un risque élevé d'infections nosocomiales (78 cas HCW dont 18 décès)."
+ },
+ {
+  "sitrep_number": 42,
+  "date": "2026-06-26",
+  "theme": "Coordination",
+  "detail": "Coordination insuffisante et faible utilisation des cadres COUSP, entraînant une inefficience opérationnelle et des décisions retardées."
+ },
+ {
+  "sitrep_number": 42,
+  "date": "2026-06-26",
+  "theme": "Financement",
+  "detail": "Insuffisance des ressources financières (gap de 20 millions USD) limitant la mise en œuvre de tous les piliers de la riposte."
+ },
+ {
+  "sitrep_number": 42,
+  "date": "2026-06-26",
+  "theme": "Securite",
+  "detail": "Insécurité et accès limité liés aux groupes armés (CODECO, ADF) restreignant les opérations dans les zones à haut risque."
+ },
+ {
+  "sitrep_number": 42,
+  "date": "2026-06-26",
+  "theme": "Continuité des soins",
+  "detail": "Continuité des services essentiels de santé (CEHS) compromise, augmentant la mortalité indirecte non liée à Ebola."
+ },
+ {
+  "sitrep_number": 42,
+  "date": "2026-06-26",
+  "theme": "Surveillance",
+  "detail": "Forte mobilité des populations exposant à un risque élevé d'expansion géographique rapide de l'épidémie, y compris transfrontalière."
+ }
+]
