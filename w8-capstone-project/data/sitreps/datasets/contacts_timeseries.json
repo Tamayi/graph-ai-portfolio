@@ -1,0 +1,848 @@
+[
+ {
+  "sitrep_number": 1,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "under_followup": null,
+  "seen": null,
+  "followup_rate_pct": null,
+  "newly_listed": 63
+ },
+ {
+  "sitrep_number": 2,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "under_followup": null,
+  "seen": null,
+  "followup_rate_pct": null,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 4,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "under_followup": null,
+  "seen": null,
+  "followup_rate_pct": null,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 5,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "under_followup": null,
+  "seen": null,
+  "followup_rate_pct": null,
+  "newly_listed": 59
+ },
+ {
+  "sitrep_number": 5,
+  "report_date": "2026-05-22",
+  "province": "Nord-Kivu",
+  "under_followup": null,
+  "seen": null,
+  "followup_rate_pct": null,
+  "newly_listed": 0
+ },
+ {
+  "sitrep_number": 6,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "under_followup": 1261,
+  "seen": 1178,
+  "followup_rate_pct": 7,
+  "newly_listed": 414
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "under_followup": 290,
+  "seen": 87,
+  "followup_rate_pct": 30.0,
+  "newly_listed": 87
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "under_followup": 621,
+  "seen": 0,
+  "followup_rate_pct": 0.0,
+  "newly_listed": 0
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "under_followup": 340,
+  "seen": 207,
+  "followup_rate_pct": 61.0,
+  "newly_listed": 207
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "under_followup": 176,
+  "seen": 0,
+  "followup_rate_pct": 0.0,
+  "newly_listed": 176
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "under_followup": 176,
+  "seen": 48,
+  "followup_rate_pct": 27.0,
+  "newly_listed": 48
+ },
+ {
+  "sitrep_number": 8,
+  "report_date": "2026-05-23",
+  "province": "Ituri",
+  "under_followup": 1745,
+  "seen": 351,
+  "followup_rate_pct": 20.0,
+  "newly_listed": 142
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "under_followup": 404,
+  "seen": 71,
+  "followup_rate_pct": 17.6,
+  "newly_listed": 43
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "under_followup": 621,
+  "seen": null,
+  "followup_rate_pct": null,
+  "newly_listed": 0
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "under_followup": 365,
+  "seen": null,
+  "followup_rate_pct": null,
+  "newly_listed": 0
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "under_followup": 222,
+  "seen": null,
+  "followup_rate_pct": null,
+  "newly_listed": 0
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "under_followup": 22,
+  "seen": 15,
+  "followup_rate_pct": 68.2,
+  "newly_listed": 7
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "under_followup": 0,
+  "seen": null,
+  "followup_rate_pct": null,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "under_followup": 0,
+  "seen": null,
+  "followup_rate_pct": null,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Ituri",
+  "under_followup": null,
+  "seen": null,
+  "followup_rate_pct": null,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Ituri",
+  "under_followup": 2225,
+  "seen": null,
+  "followup_rate_pct": null,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Nord-Kivu",
+  "under_followup": 410,
+  "seen": null,
+  "followup_rate_pct": null,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Sud-Kivu",
+  "under_followup": 0,
+  "seen": null,
+  "followup_rate_pct": null,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "under_followup": 2671,
+  "seen": 487,
+  "followup_rate_pct": 18.23,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "under_followup": 529,
+  "seen": 480,
+  "followup_rate_pct": 90.74,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Sud-Kivu",
+  "under_followup": 0,
+  "seen": 0,
+  "followup_rate_pct": null,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "under_followup": 3350,
+  "seen": 1317,
+  "followup_rate_pct": 39.3,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Nord-Kivu",
+  "under_followup": 510,
+  "seen": 301,
+  "followup_rate_pct": 59.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Sud-Kivu",
+  "under_followup": 150,
+  "seen": 142,
+  "followup_rate_pct": 95.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "under_followup": 3637,
+  "seen": 1498,
+  "followup_rate_pct": 41.2,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Nord-Kivu",
+  "under_followup": 519,
+  "seen": 326,
+  "followup_rate_pct": 62.8,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Sud-Kivu",
+  "under_followup": 137,
+  "seen": 131,
+  "followup_rate_pct": 95.6,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "under_followup": 3837,
+  "seen": 2032,
+  "followup_rate_pct": 53.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Nord-Kivu",
+  "under_followup": 533,
+  "seen": 343,
+  "followup_rate_pct": 64.4,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Sud-Kivu",
+  "under_followup": 181,
+  "seen": 150,
+  "followup_rate_pct": 82.9,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "under_followup": 3997,
+  "seen": 2181,
+  "followup_rate_pct": 54.6,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Nord-Kivu",
+  "under_followup": 589,
+  "seen": 424,
+  "followup_rate_pct": 72.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Sud-Kivu",
+  "under_followup": 180,
+  "seen": 150,
+  "followup_rate_pct": 83.3,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "under_followup": 4281,
+  "seen": 2701,
+  "followup_rate_pct": 63.1,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Nord-Kivu",
+  "under_followup": 689,
+  "seen": 578,
+  "followup_rate_pct": 83.9,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Sud-Kivu",
+  "under_followup": 187,
+  "seen": 184,
+  "followup_rate_pct": 98.4,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "under_followup": 4118,
+  "seen": 1779,
+  "followup_rate_pct": 43.2,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Nord-Kivu",
+  "under_followup": 699,
+  "seen": 577,
+  "followup_rate_pct": 82.5,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Sud-Kivu",
+  "under_followup": 223,
+  "seen": 179,
+  "followup_rate_pct": 80.3,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "under_followup": 4454,
+  "seen": 2678,
+  "followup_rate_pct": 60.1,
+  "newly_listed": 212
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Nord-Kivu",
+  "under_followup": 738,
+  "seen": 587,
+  "followup_rate_pct": 79.5,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Sud-Kivu",
+  "under_followup": 226,
+  "seen": 224,
+  "followup_rate_pct": 99.1,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "under_followup": 4752,
+  "seen": 2487,
+  "followup_rate_pct": 52.3,
+  "newly_listed": 478
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Nord-Kivu",
+  "under_followup": 703,
+  "seen": 533,
+  "followup_rate_pct": 75.8,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Sud-Kivu",
+  "under_followup": 226,
+  "seen": 181,
+  "followup_rate_pct": 80.1,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "under_followup": 4955,
+  "seen": 2860,
+  "followup_rate_pct": 57.7,
+  "newly_listed": 439
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Nord-Kivu",
+  "under_followup": 841,
+  "seen": 597,
+  "followup_rate_pct": 71.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Sud-Kivu",
+  "under_followup": 226,
+  "seen": 222,
+  "followup_rate_pct": 98.2,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "under_followup": 4703,
+  "seen": 3357,
+  "followup_rate_pct": 71.4,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Nord-Kivu",
+  "under_followup": 841,
+  "seen": 597,
+  "followup_rate_pct": 71.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Sud-Kivu",
+  "under_followup": 224,
+  "seen": 187,
+  "followup_rate_pct": 83.5,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "under_followup": 4782,
+  "seen": 830,
+  "followup_rate_pct": 17.4,
+  "newly_listed": 234
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Nord-Kivu",
+  "under_followup": 1037,
+  "seen": 700,
+  "followup_rate_pct": 67.5,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Sud-Kivu",
+  "under_followup": 224,
+  "seen": 185,
+  "followup_rate_pct": 82.6,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "under_followup": 5065,
+  "seen": 2879,
+  "followup_rate_pct": 56.8,
+  "newly_listed": 449
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Nord-Kivu",
+  "under_followup": 1130,
+  "seen": 589,
+  "followup_rate_pct": 52.1,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Sud-Kivu",
+  "under_followup": 80,
+  "seen": 80,
+  "followup_rate_pct": 100.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "under_followup": 4828,
+  "seen": 3098,
+  "followup_rate_pct": 64.2,
+  "newly_listed": 314
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "under_followup": 1212,
+  "seen": 684,
+  "followup_rate_pct": 56.4,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Sud-Kivu",
+  "under_followup": 80,
+  "seen": 80,
+  "followup_rate_pct": 100.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "under_followup": 5208,
+  "seen": 3397,
+  "followup_rate_pct": 65.2,
+  "newly_listed": 466
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "under_followup": 1187,
+  "seen": 700,
+  "followup_rate_pct": 59.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Sud-Kivu",
+  "under_followup": 80,
+  "seen": 74,
+  "followup_rate_pct": 92.5,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "under_followup": 5309,
+  "seen": 3856,
+  "followup_rate_pct": 72.6,
+  "newly_listed": 371
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "under_followup": 1467,
+  "seen": 974,
+  "followup_rate_pct": 66.4,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Sud-Kivu",
+  "under_followup": 80,
+  "seen": 80,
+  "followup_rate_pct": 100.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "under_followup": 4659,
+  "seen": 3297,
+  "followup_rate_pct": 70.8,
+  "newly_listed": 319
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "under_followup": 1628,
+  "seen": 1148,
+  "followup_rate_pct": 70.5,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Sud-Kivu",
+  "under_followup": 80,
+  "seen": 80,
+  "followup_rate_pct": 100.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "under_followup": 5155,
+  "seen": 3961,
+  "followup_rate_pct": 76.8,
+  "newly_listed": 338
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "under_followup": 1821,
+  "seen": 1047,
+  "followup_rate_pct": 57.5,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Sud-Kivu",
+  "under_followup": 118,
+  "seen": 118,
+  "followup_rate_pct": 100.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "under_followup": 4688,
+  "seen": 3649,
+  "followup_rate_pct": 77.8,
+  "newly_listed": 333
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "under_followup": 1698,
+  "seen": 778,
+  "followup_rate_pct": 45.8,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Sud-Kivu",
+  "under_followup": null,
+  "seen": null,
+  "followup_rate_pct": null,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "under_followup": 5920,
+  "seen": 4056,
+  "followup_rate_pct": 68.5,
+  "newly_listed": 171
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "under_followup": 1935,
+  "seen": 1187,
+  "followup_rate_pct": 61.3,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Sud-Kivu",
+  "under_followup": 58,
+  "seen": 58,
+  "followup_rate_pct": 100.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "under_followup": 6244,
+  "seen": 4540,
+  "followup_rate_pct": 72.7,
+  "newly_listed": 405
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "under_followup": 2122,
+  "seen": 1364,
+  "followup_rate_pct": 64.3,
+  "newly_listed": 248
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Sud-Kivu",
+  "under_followup": 58,
+  "seen": 58,
+  "followup_rate_pct": 100.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "under_followup": 6244,
+  "seen": 4540,
+  "followup_rate_pct": 72.7,
+  "newly_listed": 411
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Nord-Kivu",
+  "under_followup": 1938,
+  "seen": 1387,
+  "followup_rate_pct": 71.6,
+  "newly_listed": 108
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Sud-Kivu",
+  "under_followup": 96,
+  "seen": 96,
+  "followup_rate_pct": 100.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "under_followup": 7235,
+  "seen": 6199,
+  "followup_rate_pct": 85.7,
+  "newly_listed": 210
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Nord-Kivu",
+  "under_followup": 1892,
+  "seen": 1747,
+  "followup_rate_pct": 92.3,
+  "newly_listed": 50
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Sud-Kivu",
+  "under_followup": 18,
+  "seen": 18,
+  "followup_rate_pct": 100.0,
+  "newly_listed": null
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "under_followup": 9335,
+  "seen": 7825,
+  "followup_rate_pct": 83.8,
+  "newly_listed": 872
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Nord-Kivu",
+  "under_followup": 2461,
+  "seen": 1931,
+  "followup_rate_pct": 78.5,
+  "newly_listed": 116
+ }
+]

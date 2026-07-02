@@ -1,0 +1,626 @@
+[
+ {
+  "sitrep_number": 1,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "samples_analysed": 28,
+  "positive": 8,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 2,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "samples_analysed": null,
+  "positive": 13,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 4,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "samples_analysed": 27,
+  "positive": 18,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 5,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "samples_analysed": 99,
+  "positive": 48,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 5,
+  "report_date": "2026-05-22",
+  "province": "Nord-Kivu (Goma)",
+  "samples_analysed": null,
+  "positive": 1,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 5,
+  "report_date": "2026-05-22",
+  "province": "Nord-Kivu (Butembo)",
+  "samples_analysed": null,
+  "positive": 2,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 6,
+  "report_date": "2026-05-22",
+  "province": null,
+  "samples_analysed": 134,
+  "positive": 64,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "samples_analysed": 171,
+  "positive": 77,
+  "positivity_pct": 45.9
+ },
+ {
+  "sitrep_number": 8,
+  "report_date": "2026-05-23",
+  "province": "Ituri",
+  "samples_analysed": 189,
+  "positive": 91,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "samples_analysed": 211,
+  "positive": 101,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": null,
+  "samples_analysed": 295,
+  "positive": 105,
+  "positivity_pct": 35.6
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": null,
+  "samples_analysed": 295,
+  "positive": 106,
+  "positivity_pct": 35.6
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Ituri",
+  "samples_analysed": 648,
+  "positive": 125,
+  "positivity_pct": 19.2
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": null,
+  "samples_analysed": 755,
+  "positive": 210,
+  "positivity_pct": 27.8
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "samples_analysed": 70,
+  "positive": 54,
+  "positivity_pct": 77.1
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "samples_analysed": 52,
+  "positive": 19,
+  "positivity_pct": 36.5
+ },
+ {
+  "sitrep_number": 17,
+  "report_date": "2026-06-01",
+  "province": null,
+  "samples_analysed": 18,
+  "positive": 12,
+  "positivity_pct": 66.6
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": null,
+  "samples_analysed": 76,
+  "positive": 23,
+  "positivity_pct": 30.3
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "samples_analysed": 70,
+  "positive": null,
+  "positivity_pct": 27.1
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Nord-Kivu",
+  "samples_analysed": null,
+  "positive": null,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Sud-Kivu",
+  "samples_analysed": null,
+  "positive": null,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "samples_analysed": 82,
+  "positive": 18,
+  "positivity_pct": 22.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Nord-Kivu",
+  "samples_analysed": 10,
+  "positive": 0,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Sud-Kivu",
+  "samples_analysed": null,
+  "positive": null,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "samples_analysed": 199,
+  "positive": null,
+  "positivity_pct": 32.6
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Nord-Kivu",
+  "samples_analysed": 57,
+  "positive": 6,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Sud-Kivu",
+  "samples_analysed": 2,
+  "positive": null,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "samples_analysed": 109,
+  "positive": 36,
+  "positivity_pct": 33.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Nord-Kivu",
+  "samples_analysed": 11,
+  "positive": 0,
+  "positivity_pct": 0.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Sud-Kivu",
+  "samples_analysed": 6,
+  "positive": 0,
+  "positivity_pct": 0.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "samples_analysed": 94,
+  "positive": 27,
+  "positivity_pct": 28.7
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Nord-Kivu",
+  "samples_analysed": 6,
+  "positive": 0,
+  "positivity_pct": 0.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Sud-Kivu",
+  "samples_analysed": 6,
+  "positive": 0,
+  "positivity_pct": 0.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "samples_analysed": 63,
+  "positive": 31,
+  "positivity_pct": 49.2
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Nord-Kivu",
+  "samples_analysed": null,
+  "positive": null,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Sud-Kivu",
+  "samples_analysed": 4,
+  "positive": 0,
+  "positivity_pct": 0.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "samples_analysed": 115,
+  "positive": 45,
+  "positivity_pct": 39.1
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Nord-Kivu",
+  "samples_analysed": null,
+  "positive": null,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Sud-Kivu",
+  "samples_analysed": 6,
+  "positive": 0,
+  "positivity_pct": 0.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "samples_analysed": 54,
+  "positive": 37,
+  "positivity_pct": 68.5
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Nord-Kivu",
+  "samples_analysed": 12,
+  "positive": 0,
+  "positivity_pct": 0.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Sud-Kivu",
+  "samples_analysed": 2,
+  "positive": 0,
+  "positivity_pct": 0.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "samples_analysed": 109,
+  "positive": 29,
+  "positivity_pct": 26.6
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Nord-Kivu",
+  "samples_analysed": null,
+  "positive": null,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Sud-Kivu",
+  "samples_analysed": null,
+  "positive": null,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "samples_analysed": 35,
+  "positive": 17,
+  "positivity_pct": 48.6
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Nord-Kivu",
+  "samples_analysed": null,
+  "positive": null,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "samples_analysed": 139,
+  "positive": 56,
+  "positivity_pct": 40.3
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Nord-Kivu",
+  "samples_analysed": 34,
+  "positive": 16,
+  "positivity_pct": 47.1
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Sud-Kivu",
+  "samples_analysed": 8,
+  "positive": 0,
+  "positivity_pct": 0.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "samples_analysed": 101,
+  "positive": 21,
+  "positivity_pct": 20.8
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "samples_analysed": 38,
+  "positive": 5,
+  "positivity_pct": 13.1
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Sud-Kivu",
+  "samples_analysed": 3,
+  "positive": 0,
+  "positivity_pct": 0.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "samples_analysed": 130,
+  "positive": 29,
+  "positivity_pct": 22.3
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Sud-Kivu",
+  "samples_analysed": 7,
+  "positive": 0,
+  "positivity_pct": 0.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "samples_analysed": 126,
+  "positive": 16,
+  "positivity_pct": 12.7
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "samples_analysed": 70,
+  "positive": 5,
+  "positivity_pct": 7.1
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Sud-Kivu",
+  "samples_analysed": 2,
+  "positive": 0,
+  "positivity_pct": 0.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "samples_analysed": 101,
+  "positive": 35,
+  "positivity_pct": 34.6
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "samples_analysed": 79,
+  "positive": 1,
+  "positivity_pct": 1.3
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Sud-Kivu",
+  "samples_analysed": null,
+  "positive": null,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "samples_analysed": 101,
+  "positive": 21,
+  "positivity_pct": 20.8
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "samples_analysed": 15,
+  "positive": 2,
+  "positivity_pct": 13.3
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Sud-Kivu",
+  "samples_analysed": null,
+  "positive": null,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "samples_analysed": 119,
+  "positive": 42,
+  "positivity_pct": 35.2
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "samples_analysed": 39,
+  "positive": 5,
+  "positivity_pct": 12.8
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Sud-Kivu",
+  "samples_analysed": 5,
+  "positive": 0,
+  "positivity_pct": 0.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "samples_analysed": 243,
+  "positive": 32,
+  "positivity_pct": 15.6
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "samples_analysed": 91,
+  "positive": 7,
+  "positivity_pct": 7.7
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Sud-Kivu",
+  "samples_analysed": 3,
+  "positive": 0,
+  "positivity_pct": 0.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "samples_analysed": 100,
+  "positive": 43,
+  "positivity_pct": 43.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Nord-Kivu",
+  "samples_analysed": 65,
+  "positive": 3,
+  "positivity_pct": 4.6
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "samples_analysed": 162,
+  "positive": 45,
+  "positivity_pct": 27.7
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Nord-Kivu",
+  "samples_analysed": 99,
+  "positive": 2,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Sud-Kivu",
+  "samples_analysed": 4,
+  "positive": 0,
+  "positivity_pct": null
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "samples_analysed": 64,
+  "positive": 17,
+  "positivity_pct": 26.6
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Nord-Kivu",
+  "samples_analysed": 77,
+  "positive": 9,
+  "positivity_pct": 11.7
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Sud-Kivu",
+  "samples_analysed": 0,
+  "positive": null,
+  "positivity_pct": null
+ }
+]

@@ -1,0 +1,7994 @@
+[
+ {
+  "sitrep_number": 1,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 1,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 1,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 2,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 0,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 2,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 13,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 2,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 0,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 4,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 74,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 4,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 38,
+  "deaths": 19,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 4,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 18,
+  "deaths": 6,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 4,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 1,
+  "deaths": 4,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 4,
+  "report_date": "2026-05-22",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 4,
+  "report_date": "2026-05-22",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 4,
+  "report_date": "2026-05-22",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 5,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 77,
+  "deaths": 13,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 5,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 43,
+  "deaths": 25,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 5,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 23,
+  "deaths": 6,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 5,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 5,
+  "deaths": 4,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 5,
+  "report_date": "2026-05-22",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 5,
+  "report_date": "2026-05-22",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 5,
+  "report_date": "2026-05-22",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 6,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 80,
+  "deaths": 13,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 6,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 44,
+  "deaths": 2,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 6,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 31,
+  "deaths": 11,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 6,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 5,
+  "deaths": 5,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 6,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 6,
+  "report_date": "2026-05-22",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 6,
+  "report_date": "2026-05-22",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 6,
+  "report_date": "2026-05-22",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 14,
+  "deaths": 84,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 31,
+  "deaths": 51,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 15,
+  "deaths": 34,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 6,
+  "deaths": 11,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Ituri",
+  "name": "Kilo Mission",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 0,
+  "deaths": 2,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 7,
+  "report_date": "2026-05-22",
+  "province": "Sud-Kivu",
+  "name": "Miti Murhesa",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 8,
+  "report_date": "2026-05-23",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 8,
+  "deaths": 8,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 8,
+  "report_date": "2026-05-23",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 32,
+  "deaths": 63,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 8,
+  "report_date": "2026-05-23",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 23,
+  "deaths": 42,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 8,
+  "report_date": "2026-05-23",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 9,
+  "deaths": 8,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 8,
+  "report_date": "2026-05-23",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 1,
+  "deaths": 2,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 8,
+  "report_date": "2026-05-23",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 8,
+  "report_date": "2026-05-23",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 8,
+  "report_date": "2026-05-23",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 8,
+  "report_date": "2026-05-23",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 8,
+  "report_date": "2026-05-23",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 8,
+  "report_date": "2026-05-23",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 0,
+  "deaths": 2,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 24,
+  "deaths": 48,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 1,
+  "deaths": 2,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 19,
+  "deaths": 88,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 9,
+  "deaths": 8,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 32,
+  "deaths": 69,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 4,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 9,
+  "report_date": "2026-05-24",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 0,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 24,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 19,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 2,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 9,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 32,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 3,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 4,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Nord-Kivu",
+  "name": "Karissibi",
+  "confirmed": 0,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 0,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 10,
+  "report_date": "2026-05-25",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 0,
+  "deaths": 2,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 24,
+  "deaths": 55,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 19,
+  "deaths": 88,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 9,
+  "deaths": 5,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 32,
+  "deaths": 75,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Echantillons sans fiche",
+  "confirmed": 6,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 4,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Nord-Kivu",
+  "name": "Karissibi",
+  "confirmed": 0,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 11,
+  "report_date": "2026-05-27",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 12,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 12,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 12,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 12,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 12,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 12,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 12,
+  "report_date": "2026-05-27",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 12,
+  "report_date": "2026-05-27",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 12,
+  "report_date": "2026-05-27",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 12,
+  "report_date": "2026-05-27",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 12,
+  "report_date": "2026-05-27",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 12,
+  "report_date": "2026-05-27",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 12,
+  "report_date": "2026-05-27",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 0,
+  "deaths": 2,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 48,
+  "deaths": 37,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 88,
+  "deaths": 20,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 11,
+  "deaths": 10,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 69,
+  "deaths": 33,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Ituri",
+  "name": "Echantillons sans fiche",
+  "confirmed": 0,
+  "deaths": 6,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 0,
+  "deaths": 5,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 0,
+  "deaths": 2,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 0,
+  "deaths": 4,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 0,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 0,
+  "deaths": 2,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 13,
+  "report_date": "2026-05-28",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 0,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 14,
+  "report_date": "2026-05-30",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 80,
+  "deaths": 8,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 2,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 47,
+  "deaths": 10,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 2,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 19,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 65,
+  "deaths": 13,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "ZS non identifiée",
+  "confirmed": 6,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Sans fiche",
+  "confirmed": 14,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 5,
+  "deaths": 2,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 4,
+  "deaths": 3,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Karisimbi",
+  "confirmed": 0,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Manguripa",
+  "confirmed": 0,
+  "deaths": 0,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 2,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 15,
+  "report_date": "2026-05-31",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 16,
+  "report_date": "2026-05-31",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": null,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 80,
+  "deaths": 8,
+  "cfr_pct": 10.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 65,
+  "deaths": 13,
+  "cfr_pct": 20.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 47,
+  "deaths": 10,
+  "cfr_pct": 21.3
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 19,
+  "deaths": 1,
+  "cfr_pct": 5.3
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 7,
+  "deaths": 5,
+  "cfr_pct": 71.4
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 5,
+  "deaths": 3,
+  "cfr_pct": 60.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 18,
+  "report_date": "2026-06-02",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 85,
+  "deaths": 8,
+  "cfr_pct": 9.4
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 72,
+  "deaths": 15,
+  "cfr_pct": 20.8
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 47,
+  "deaths": 10,
+  "cfr_pct": 21.3
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 22,
+  "deaths": 1,
+  "cfr_pct": 4.5
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Ituri",
+  "name": "Autres ZS (données non ventilées)",
+  "confirmed": 94,
+  "deaths": 10,
+  "cfr_pct": 10.6
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 7,
+  "deaths": 5,
+  "cfr_pct": 71.4
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 5,
+  "deaths": 3,
+  "cfr_pct": 60.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 19,
+  "report_date": "2026-06-03",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 97,
+  "deaths": 9,
+  "cfr_pct": 9.3
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 76,
+  "deaths": 16,
+  "cfr_pct": 21.1
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 47,
+  "deaths": 10,
+  "cfr_pct": 21.3
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 22,
+  "deaths": 1,
+  "cfr_pct": 4.5
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Ituri",
+  "name": "Autres ZS (non ventilées)",
+  "confirmed": 94,
+  "deaths": 10,
+  "cfr_pct": 10.6
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 7,
+  "deaths": 5,
+  "cfr_pct": 71.4
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 5,
+  "deaths": 3,
+  "cfr_pct": 60.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 20,
+  "report_date": "2026-06-04",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 123,
+  "deaths": 11,
+  "cfr_pct": 8.9
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 86,
+  "deaths": 18,
+  "cfr_pct": 20.9
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 64,
+  "deaths": 21,
+  "cfr_pct": 32.8
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 22,
+  "deaths": 1,
+  "cfr_pct": 4.5
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 5,
+  "deaths": 2,
+  "cfr_pct": 40.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 5,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Ituri",
+  "name": "Autres ZS (données non ventilées)",
+  "confirmed": 94,
+  "deaths": 10,
+  "cfr_pct": 10.6
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 11,
+  "deaths": 7,
+  "cfr_pct": 63.6
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 5,
+  "deaths": 3,
+  "cfr_pct": 60.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 4,
+  "deaths": 2,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 21,
+  "report_date": "2026-06-05",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 138,
+  "deaths": 14,
+  "cfr_pct": 10.1
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 93,
+  "deaths": 19,
+  "cfr_pct": 20.4
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 74,
+  "deaths": 21,
+  "cfr_pct": 28.4
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 24,
+  "deaths": 1,
+  "cfr_pct": 4.2
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 5,
+  "deaths": 2,
+  "cfr_pct": 40.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 4,
+  "deaths": 1,
+  "cfr_pct": 25.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 5,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 4,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 11,
+  "deaths": 7,
+  "cfr_pct": 63.6
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 5,
+  "deaths": 3,
+  "cfr_pct": 60.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 4,
+  "deaths": 2,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 22,
+  "report_date": "2026-06-06",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 142,
+  "deaths": 14,
+  "cfr_pct": 9.9
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 98,
+  "deaths": 19,
+  "cfr_pct": 19.4
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 92,
+  "deaths": 25,
+  "cfr_pct": 27.2
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 24,
+  "deaths": 1,
+  "cfr_pct": 4.2
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 5,
+  "deaths": 2,
+  "cfr_pct": 40.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 4,
+  "deaths": 1,
+  "cfr_pct": 25.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 5,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 4,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Ituri",
+  "name": "Autres ZS (données non ventilées)",
+  "confirmed": 94,
+  "deaths": 10,
+  "cfr_pct": 10.6
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 11,
+  "deaths": 8,
+  "cfr_pct": 72.7
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 5,
+  "deaths": 3,
+  "cfr_pct": 60.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 4,
+  "deaths": 2,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 23,
+  "report_date": "2026-06-07",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 152,
+  "deaths": 15,
+  "cfr_pct": 9.9
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 111,
+  "deaths": 20,
+  "cfr_pct": 18.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 98,
+  "deaths": 29,
+  "cfr_pct": 29.6
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 26,
+  "deaths": 1,
+  "cfr_pct": 3.8
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 5,
+  "deaths": 2,
+  "cfr_pct": 40.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 4,
+  "deaths": 1,
+  "cfr_pct": 25.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 5,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 4,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Ituri",
+  "name": "Autres ZS (données non ventilées)",
+  "confirmed": 94,
+  "deaths": 10,
+  "cfr_pct": 10.6
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 11,
+  "deaths": 8,
+  "cfr_pct": 72.7
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 9,
+  "deaths": 7,
+  "cfr_pct": 77.8
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 4,
+  "deaths": 2,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 24,
+  "report_date": "2026-06-08",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 163,
+  "deaths": 15,
+  "cfr_pct": 9.2
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 122,
+  "deaths": 20,
+  "cfr_pct": 16.4
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 114,
+  "deaths": 40,
+  "cfr_pct": 35.1
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 32,
+  "deaths": 1,
+  "cfr_pct": 3.1
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 5,
+  "deaths": 2,
+  "cfr_pct": 40.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 4,
+  "deaths": 1,
+  "cfr_pct": 25.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 5,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 4,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Ituri",
+  "name": "Autres ZS (données non ventilées)",
+  "confirmed": 94,
+  "deaths": 10,
+  "cfr_pct": 10.6
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 12,
+  "deaths": 8,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 9,
+  "deaths": 7,
+  "cfr_pct": 77.8
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 6,
+  "deaths": 4,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 25,
+  "report_date": "2026-06-09",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 173,
+  "deaths": 15,
+  "cfr_pct": 8.7
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 133,
+  "deaths": 25,
+  "cfr_pct": 18.8
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 127,
+  "deaths": 47,
+  "cfr_pct": 37.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 32,
+  "deaths": 1,
+  "cfr_pct": 3.1
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 5,
+  "deaths": 2,
+  "cfr_pct": 40.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 4,
+  "deaths": 1,
+  "cfr_pct": 25.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 5,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 5,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Tchomia",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Ituri",
+  "name": "Autres ZS (données non ventilées)",
+  "confirmed": 94,
+  "deaths": 10,
+  "cfr_pct": 10.6
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 12,
+  "deaths": 8,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 9,
+  "deaths": 7,
+  "cfr_pct": 77.8
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 6,
+  "deaths": 4,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 26,
+  "report_date": "2026-06-10",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 185,
+  "deaths": 17,
+  "cfr_pct": 9.2
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 137,
+  "deaths": 25,
+  "cfr_pct": 18.2
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 132,
+  "deaths": 49,
+  "cfr_pct": 37.1
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 33,
+  "deaths": 1,
+  "cfr_pct": 3.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 7,
+  "deaths": 2,
+  "cfr_pct": 28.6
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 4,
+  "deaths": 1,
+  "cfr_pct": 25.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 7,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 6,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Tchomia",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Kambala",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Ituri",
+  "name": "Autres ZS (données non ventilées)",
+  "confirmed": 94,
+  "deaths": 10,
+  "cfr_pct": 10.6
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 18,
+  "deaths": 10,
+  "cfr_pct": 55.6
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 9,
+  "deaths": 7,
+  "cfr_pct": 77.8
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 9,
+  "deaths": 5,
+  "cfr_pct": 55.6
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Nord-Kivu",
+  "name": "Masereka",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Nord-Kivu",
+  "name": "Vuhovi",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 27,
+  "report_date": "2026-06-11",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 191,
+  "deaths": 17,
+  "cfr_pct": 8.9
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 142,
+  "deaths": 26,
+  "cfr_pct": 18.3
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 136,
+  "deaths": 52,
+  "cfr_pct": 38.2
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 33,
+  "deaths": 1,
+  "cfr_pct": 3.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 7,
+  "deaths": 2,
+  "cfr_pct": 28.6
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 4,
+  "deaths": 1,
+  "cfr_pct": 25.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 9,
+  "deaths": 1,
+  "cfr_pct": 11.1
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 6,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Tchomia",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Kambala",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Ituri",
+  "name": "Autres ZS (données non ventilées)",
+  "confirmed": 94,
+  "deaths": 10,
+  "cfr_pct": 10.6
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 16,
+  "deaths": 9,
+  "cfr_pct": 56.3
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 9,
+  "deaths": 5,
+  "cfr_pct": 55.6
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 7,
+  "deaths": 5,
+  "cfr_pct": 71.4
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Nord-Kivu",
+  "name": "Masereka",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Nord-Kivu",
+  "name": "Vuhovi",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 28,
+  "report_date": "2026-06-12",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 212,
+  "deaths": 20,
+  "cfr_pct": 9.4
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 149,
+  "deaths": 27,
+  "cfr_pct": 18.1
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 164,
+  "deaths": 73,
+  "cfr_pct": 44.5
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 38,
+  "deaths": 4,
+  "cfr_pct": 10.5
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 7,
+  "deaths": 2,
+  "cfr_pct": 28.6
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 4,
+  "deaths": 1,
+  "cfr_pct": 25.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 11,
+  "deaths": 1,
+  "cfr_pct": 9.1
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 5,
+  "deaths": 3,
+  "cfr_pct": 60.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 4,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 6,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 6,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Tchomia",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Kambala",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Ituri",
+  "name": "Nia-Nia",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 21,
+  "deaths": 12,
+  "cfr_pct": 57.1
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 14,
+  "deaths": 10,
+  "cfr_pct": 71.4
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 18,
+  "deaths": 7,
+  "cfr_pct": 38.9
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Nord-Kivu",
+  "name": "Masereka",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Nord-Kivu",
+  "name": "Vuhovi",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Nord-Kivu",
+  "name": "Mabalako",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 30,
+  "report_date": "2026-06-14",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 215,
+  "deaths": 20,
+  "cfr_pct": 9.3
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 152,
+  "deaths": 27,
+  "cfr_pct": 17.8
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 175,
+  "deaths": 80,
+  "cfr_pct": 45.7
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 42,
+  "deaths": 4,
+  "cfr_pct": 9.5
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 7,
+  "deaths": 2,
+  "cfr_pct": 28.6
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 4,
+  "deaths": 1,
+  "cfr_pct": 25.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 11,
+  "deaths": 1,
+  "cfr_pct": 9.1
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 5,
+  "deaths": 3,
+  "cfr_pct": 60.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 4,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 6,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 6,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Tchomia",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Kambala",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Nia-Nia",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Autres ZS (données non ventilées)",
+  "confirmed": 94,
+  "deaths": 10,
+  "cfr_pct": 10.6
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 25,
+  "deaths": 16,
+  "cfr_pct": 64.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 14,
+  "deaths": 10,
+  "cfr_pct": 71.4
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 19,
+  "deaths": 7,
+  "cfr_pct": 36.8
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Masereka",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Vuhovi",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Mabalako",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 31,
+  "report_date": "2026-06-16",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 215,
+  "deaths": 20,
+  "cfr_pct": 9.3
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 159,
+  "deaths": 27,
+  "cfr_pct": 17.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 185,
+  "deaths": 83,
+  "cfr_pct": 44.9
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 45,
+  "deaths": 4,
+  "cfr_pct": 8.9
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 7,
+  "deaths": 2,
+  "cfr_pct": 28.6
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 4,
+  "deaths": 1,
+  "cfr_pct": 25.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 16,
+  "deaths": 1,
+  "cfr_pct": 6.3
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 5,
+  "deaths": 3,
+  "cfr_pct": 60.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 4,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 7,
+  "deaths": 1,
+  "cfr_pct": 14.3
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 9,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Tchomia",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Kambala",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Nia-Nia",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Ituri",
+  "name": "Autres ZS (données non ventilées)",
+  "confirmed": 94,
+  "deaths": 10,
+  "cfr_pct": 10.6
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 25,
+  "deaths": 16,
+  "cfr_pct": 64.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 14,
+  "deaths": 10,
+  "cfr_pct": 71.4
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 19,
+  "deaths": 7,
+  "cfr_pct": 36.8
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Masereka",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Vuhovi",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Nord-Kivu",
+  "name": "Mabalako",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 32,
+  "report_date": "2026-06-16",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 226,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 172,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 189,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 45,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 16,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 7,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 7,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 9,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 5,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Tchomia",
+  "confirmed": 5,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 4,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 4,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 2,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Fataki",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Kambala",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Nia-Nia",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 23,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 24,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 14,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 3,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 2,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 2,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Masereka",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Vuhovi",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Mabalako",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Musienene",
+  "confirmed": 1,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 33,
+  "report_date": "2026-06-18",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": null,
+  "cfr_pct": null
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 247,
+  "deaths": 41,
+  "cfr_pct": 16.6
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 195,
+  "deaths": 33,
+  "cfr_pct": 16.9
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 189,
+  "deaths": 83,
+  "cfr_pct": 43.9
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 68,
+  "deaths": 6,
+  "cfr_pct": 8.8
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 25,
+  "deaths": 5,
+  "cfr_pct": 20.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 18,
+  "deaths": 4,
+  "cfr_pct": 22.2
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 10,
+  "deaths": 3,
+  "cfr_pct": 30.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 9,
+  "deaths": 2,
+  "cfr_pct": 22.2
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 7,
+  "deaths": 1,
+  "cfr_pct": 14.3
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 5,
+  "deaths": 3,
+  "cfr_pct": 60.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Tchomia",
+  "confirmed": 5,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 4,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 4,
+  "deaths": 1,
+  "cfr_pct": 25.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Drodro",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Kambala",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Nia-Nia",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Fataki",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Ituri",
+  "name": "Autres zones non encore identifiées",
+  "confirmed": 17,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 25,
+  "deaths": 11,
+  "cfr_pct": 44.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 24,
+  "deaths": 16,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 15,
+  "deaths": 12,
+  "cfr_pct": 80.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 3,
+  "deaths": 2,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Masereka",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Vuhovi",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Mabalako",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Nord-Kivu",
+  "name": "Musienene",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 34,
+  "report_date": "2026-06-18",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 253,
+  "deaths": 42,
+  "cfr_pct": 16.6
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 199,
+  "deaths": 35,
+  "cfr_pct": 17.6
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 198,
+  "deaths": 87,
+  "cfr_pct": 43.9
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 77,
+  "deaths": 7,
+  "cfr_pct": 9.1
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 26,
+  "deaths": 5,
+  "cfr_pct": 19.2
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 20,
+  "deaths": 6,
+  "cfr_pct": 30.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 10,
+  "deaths": 3,
+  "cfr_pct": 30.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 9,
+  "deaths": 2,
+  "cfr_pct": 22.2
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 7,
+  "deaths": 1,
+  "cfr_pct": 14.3
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 7,
+  "deaths": 4,
+  "cfr_pct": 57.1
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Tchomia",
+  "confirmed": 5,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 4,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 6,
+  "deaths": 2,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Drodro",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Kambala",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Nia-Nia",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Fataki",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Autres zones non encore identifiées",
+  "confirmed": 17,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 25,
+  "deaths": 11,
+  "cfr_pct": 44.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 24,
+  "deaths": 16,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 16,
+  "deaths": 12,
+  "cfr_pct": 75.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 3,
+  "deaths": 2,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Masereka",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Vuhovi",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Mabalako",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Musienene",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 35,
+  "report_date": "2026-06-20",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 259,
+  "deaths": 42,
+  "cfr_pct": 16.2
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 201,
+  "deaths": 35,
+  "cfr_pct": 17.4
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 209,
+  "deaths": 89,
+  "cfr_pct": 42.6
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 79,
+  "deaths": 7,
+  "cfr_pct": 8.9
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 26,
+  "deaths": 5,
+  "cfr_pct": 19.2
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 20,
+  "deaths": 6,
+  "cfr_pct": 30.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 10,
+  "deaths": 3,
+  "cfr_pct": 30.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 9,
+  "deaths": 2,
+  "cfr_pct": 22.2
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 7,
+  "deaths": 1,
+  "cfr_pct": 14.3
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 7,
+  "deaths": 4,
+  "cfr_pct": 57.1
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Tchomia",
+  "confirmed": 5,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 4,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 6,
+  "deaths": 2,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Drodro",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Kambala",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Nia-Nia",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Fataki",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Ituri",
+  "name": "Autres zones non encore identifiées",
+  "confirmed": 17,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 25,
+  "deaths": 11,
+  "cfr_pct": 44.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 26,
+  "deaths": 16,
+  "cfr_pct": 61.5
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 16,
+  "deaths": 12,
+  "cfr_pct": 75.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 3,
+  "deaths": 2,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Masereka",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Vuhovi",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Mabalako",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Nord-Kivu",
+  "name": "Musienene",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 36,
+  "report_date": "2026-06-20",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 275,
+  "deaths": 44,
+  "cfr_pct": 16.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 211,
+  "deaths": 35,
+  "cfr_pct": 16.6
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 220,
+  "deaths": 91,
+  "cfr_pct": 41.4
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 79,
+  "deaths": 7,
+  "cfr_pct": 8.9
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 26,
+  "deaths": 5,
+  "cfr_pct": 19.2
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 20,
+  "deaths": 6,
+  "cfr_pct": 30.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 10,
+  "deaths": 3,
+  "cfr_pct": 30.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 14,
+  "deaths": 2,
+  "cfr_pct": 14.3
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 7,
+  "deaths": 1,
+  "cfr_pct": 14.3
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 7,
+  "deaths": 4,
+  "cfr_pct": 57.1
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Tchomia",
+  "confirmed": 5,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 4,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 6,
+  "deaths": 2,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Drodro",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Kambala",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Nia-Nia",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Fataki",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Autres zones non encore identifiées",
+  "confirmed": 17,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 27,
+  "deaths": 13,
+  "cfr_pct": 48.1
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 28,
+  "deaths": 17,
+  "cfr_pct": 60.7
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 17,
+  "deaths": 12,
+  "cfr_pct": 70.6
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 3,
+  "deaths": 2,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Masereka",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Vuhovi",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Mabalako",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Musienene",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 37,
+  "report_date": "2026-06-22",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 285,
+  "deaths": 45,
+  "cfr_pct": 15.8
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 215,
+  "deaths": 36,
+  "cfr_pct": 16.7
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 229,
+  "deaths": 96,
+  "cfr_pct": 41.9
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 86,
+  "deaths": 9,
+  "cfr_pct": 10.5
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 26,
+  "deaths": 5,
+  "cfr_pct": 19.2
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 21,
+  "deaths": 6,
+  "cfr_pct": 28.6
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 10,
+  "deaths": 3,
+  "cfr_pct": 30.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 14,
+  "deaths": 2,
+  "cfr_pct": 14.3
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 7,
+  "deaths": 1,
+  "cfr_pct": 14.3
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 11,
+  "deaths": 5,
+  "cfr_pct": 45.5
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Tchomia",
+  "confirmed": 7,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 4,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 6,
+  "deaths": 2,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 2,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Drodro",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Kambala",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Nia-Nia",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Fataki",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Ituri",
+  "name": "Autres zones non encore identifiées",
+  "confirmed": 17,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 28,
+  "deaths": 13,
+  "cfr_pct": 46.4
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 31,
+  "deaths": 19,
+  "cfr_pct": 61.3
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 18,
+  "deaths": 12,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 3,
+  "deaths": 2,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Masereka",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Vuhovi",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Mabalako",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Nord-Kivu",
+  "name": "Musienene",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 38,
+  "report_date": "2026-06-22",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 296,
+  "deaths": 48,
+  "cfr_pct": 16.2
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 225,
+  "deaths": 37,
+  "cfr_pct": 16.4
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 237,
+  "deaths": 100,
+  "cfr_pct": 42.2
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 86,
+  "deaths": 9,
+  "cfr_pct": 10.5
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 30,
+  "deaths": 6,
+  "cfr_pct": 20.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 24,
+  "deaths": 6,
+  "cfr_pct": 25.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 10,
+  "deaths": 3,
+  "cfr_pct": 30.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 14,
+  "deaths": 2,
+  "cfr_pct": 14.3
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 7,
+  "deaths": 1,
+  "cfr_pct": 14.3
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 14,
+  "deaths": 6,
+  "cfr_pct": 42.9
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Tchomia",
+  "confirmed": 8,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 4,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 6,
+  "deaths": 2,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 5,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Drodro",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Kambala",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Nia-Nia",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Fataki",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Ituri",
+  "name": "Autres zones non encore identifiées",
+  "confirmed": 17,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 28,
+  "deaths": 13,
+  "cfr_pct": 46.4
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 32,
+  "deaths": 19,
+  "cfr_pct": 59.4
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 20,
+  "deaths": 12,
+  "cfr_pct": 60.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 3,
+  "deaths": 2,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Nord-Kivu",
+  "name": "Masereka",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Nord-Kivu",
+  "name": "Vuhovi",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Nord-Kivu",
+  "name": "Mabalako",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Nord-Kivu",
+  "name": "Musienene",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 39,
+  "report_date": "2026-06-23",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 338,
+  "deaths": 71,
+  "cfr_pct": 21.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 282,
+  "deaths": 52,
+  "cfr_pct": 18.4
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 258,
+  "deaths": 118,
+  "cfr_pct": 45.7
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 94,
+  "deaths": 13,
+  "cfr_pct": 13.8
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 37,
+  "deaths": 9,
+  "cfr_pct": 24.3
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 27,
+  "deaths": 7,
+  "cfr_pct": 25.9
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 16,
+  "deaths": 5,
+  "cfr_pct": 31.3
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 16,
+  "deaths": 4,
+  "cfr_pct": 25.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 20,
+  "deaths": 9,
+  "cfr_pct": 45.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 9,
+  "deaths": 1,
+  "cfr_pct": 11.1
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Tchomia",
+  "confirmed": 11,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 5,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 6,
+  "deaths": 2,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 7,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Drodro",
+  "confirmed": 3,
+  "deaths": 3,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Kambala",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Nia-Nia",
+  "confirmed": 7,
+  "deaths": 4,
+  "cfr_pct": 57.1
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Fataki",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Mandima",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Ituri",
+  "name": "Autres zones non encore identifiées",
+  "confirmed": 17,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 33,
+  "deaths": 14,
+  "cfr_pct": 42.4
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 37,
+  "deaths": 23,
+  "cfr_pct": 62.2
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 22,
+  "deaths": 13,
+  "cfr_pct": 59.1
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 3,
+  "deaths": 2,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 3,
+  "deaths": 2,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Nord-Kivu",
+  "name": "Masereka",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Nord-Kivu",
+  "name": "Vuhovi",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Nord-Kivu",
+  "name": "Mabalako",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Nord-Kivu",
+  "name": "Musienene",
+  "confirmed": 2,
+  "deaths": 2,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 44,
+  "report_date": "2026-06-27",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Bunia",
+  "confirmed": 358,
+  "deaths": 82,
+  "cfr_pct": 22.9
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Rwampara",
+  "confirmed": 295,
+  "deaths": 60,
+  "cfr_pct": 20.3
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Mongbwalu",
+  "confirmed": 258,
+  "deaths": 123,
+  "cfr_pct": 47.7
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Nyankunde",
+  "confirmed": 94,
+  "deaths": 15,
+  "cfr_pct": 16.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Nizi",
+  "confirmed": 41,
+  "deaths": 9,
+  "cfr_pct": 22.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Lita",
+  "confirmed": 29,
+  "deaths": 9,
+  "cfr_pct": 31.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Komanda",
+  "confirmed": 16,
+  "deaths": 5,
+  "cfr_pct": 31.3
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Bambu",
+  "confirmed": 16,
+  "deaths": 4,
+  "cfr_pct": 25.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Kilo",
+  "confirmed": 9,
+  "deaths": 1,
+  "cfr_pct": 11.1
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Mangala",
+  "confirmed": 24,
+  "deaths": 12,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Tchomia",
+  "confirmed": 13,
+  "deaths": 2,
+  "cfr_pct": 15.4
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Damas",
+  "confirmed": 5,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Aungba",
+  "confirmed": 6,
+  "deaths": 2,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Rimba",
+  "confirmed": 3,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Aru",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Mambasa",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Logo",
+  "confirmed": 7,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Drodro",
+  "confirmed": 3,
+  "deaths": 3,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Gety",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Kambala",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Nia-Nia",
+  "confirmed": 11,
+  "deaths": 5,
+  "cfr_pct": 45.5
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Fataki",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Ituri",
+  "name": "Mandima",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Nord-Kivu",
+  "name": "Butembo",
+  "confirmed": 34,
+  "deaths": 14,
+  "cfr_pct": 41.2
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Nord-Kivu",
+  "name": "Katwa",
+  "confirmed": 45,
+  "deaths": 27,
+  "cfr_pct": 60.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Nord-Kivu",
+  "name": "Beni",
+  "confirmed": 22,
+  "deaths": 14,
+  "cfr_pct": 63.6
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Nord-Kivu",
+  "name": "Oicha",
+  "confirmed": 3,
+  "deaths": 2,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Nord-Kivu",
+  "name": "Kalunguta",
+  "confirmed": 2,
+  "deaths": 1,
+  "cfr_pct": 50.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Nord-Kivu",
+  "name": "Kyondo",
+  "confirmed": 3,
+  "deaths": 2,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Nord-Kivu",
+  "name": "Goma",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Nord-Kivu",
+  "name": "Masereka",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Nord-Kivu",
+  "name": "Vuhovi",
+  "confirmed": 1,
+  "deaths": 1,
+  "cfr_pct": 100.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Nord-Kivu",
+  "name": "Mabalako",
+  "confirmed": 1,
+  "deaths": 0,
+  "cfr_pct": 0.0
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Nord-Kivu",
+  "name": "Musienene",
+  "confirmed": 3,
+  "deaths": 2,
+  "cfr_pct": 66.7
+ },
+ {
+  "sitrep_number": 46,
+  "report_date": "2026-06-29",
+  "province": "Sud-Kivu",
+  "name": "Miti-Murhesa",
+  "confirmed": 3,
+  "deaths": 1,
+  "cfr_pct": 33.3
+ }
+]

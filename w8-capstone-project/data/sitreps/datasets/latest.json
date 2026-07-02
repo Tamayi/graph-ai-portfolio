@@ -1,0 +1,355 @@
+{
+ "data_as_of": "2026-06-29",
+ "totals": {
+  "cumulative_confirmed": 1333,
+  "cumulative_deaths": 399,
+  "cfr_pct": 29.9,
+  "new_confirmed_24h": 26,
+  "new_deaths_24h": 8,
+  "health_zones_affected": 35,
+  "health_zones_total": 104,
+  "patients_in_isolation": 609,
+  "cumulative_recovered": 189,
+  "contacts_under_followup": 11796,
+  "contacts_seen": 9756,
+  "contact_followup_rate_pct": 82.7,
+  "suspect_cases_day": 309,
+  "hcw_infected": 96,
+  "hcw_deaths": 19
+ },
+ "provinces": [
+  {
+   "name": "Ituri",
+   "confirmed": 1214,
+   "deaths": 335,
+   "cfr_pct": 27.6,
+   "zones_affected": 23,
+   "zones_total": 36,
+   "new_24h": 17
+  },
+  {
+   "name": "Nord-Kivu",
+   "confirmed": 116,
+   "deaths": 63,
+   "cfr_pct": 54.3,
+   "zones_affected": 11,
+   "zones_total": 34,
+   "new_24h": 9
+  },
+  {
+   "name": "Sud-Kivu",
+   "confirmed": 3,
+   "deaths": 1,
+   "cfr_pct": 33.3,
+   "zones_affected": 1,
+   "zones_total": 34,
+   "new_24h": 0
+  }
+ ],
+ "health_zones": [
+  {
+   "province": "Ituri",
+   "name": "Bunia",
+   "confirmed": 358,
+   "deaths": 82,
+   "cfr_pct": 22.9
+  },
+  {
+   "province": "Ituri",
+   "name": "Rwampara",
+   "confirmed": 295,
+   "deaths": 60,
+   "cfr_pct": 20.3
+  },
+  {
+   "province": "Ituri",
+   "name": "Mongbwalu",
+   "confirmed": 258,
+   "deaths": 123,
+   "cfr_pct": 47.7
+  },
+  {
+   "province": "Ituri",
+   "name": "Nyankunde",
+   "confirmed": 94,
+   "deaths": 15,
+   "cfr_pct": 16.0
+  },
+  {
+   "province": "Ituri",
+   "name": "Nizi",
+   "confirmed": 41,
+   "deaths": 9,
+   "cfr_pct": 22.0
+  },
+  {
+   "province": "Ituri",
+   "name": "Lita",
+   "confirmed": 29,
+   "deaths": 9,
+   "cfr_pct": 31.0
+  },
+  {
+   "province": "Ituri",
+   "name": "Komanda",
+   "confirmed": 16,
+   "deaths": 5,
+   "cfr_pct": 31.3
+  },
+  {
+   "province": "Ituri",
+   "name": "Bambu",
+   "confirmed": 16,
+   "deaths": 4,
+   "cfr_pct": 25.0
+  },
+  {
+   "province": "Ituri",
+   "name": "Kilo",
+   "confirmed": 9,
+   "deaths": 1,
+   "cfr_pct": 11.1
+  },
+  {
+   "province": "Ituri",
+   "name": "Mangala",
+   "confirmed": 24,
+   "deaths": 12,
+   "cfr_pct": 50.0
+  },
+  {
+   "province": "Ituri",
+   "name": "Tchomia",
+   "confirmed": 13,
+   "deaths": 2,
+   "cfr_pct": 15.4
+  },
+  {
+   "province": "Ituri",
+   "name": "Damas",
+   "confirmed": 5,
+   "deaths": 0,
+   "cfr_pct": 0.0
+  },
+  {
+   "province": "Ituri",
+   "name": "Aungba",
+   "confirmed": 6,
+   "deaths": 2,
+   "cfr_pct": 33.3
+  },
+  {
+   "province": "Ituri",
+   "name": "Rimba",
+   "confirmed": 3,
+   "deaths": 0,
+   "cfr_pct": 0.0
+  },
+  {
+   "province": "Ituri",
+   "name": "Aru",
+   "confirmed": 3,
+   "deaths": 1,
+   "cfr_pct": 33.3
+  },
+  {
+   "province": "Ituri",
+   "name": "Mambasa",
+   "confirmed": 2,
+   "deaths": 1,
+   "cfr_pct": 50.0
+  },
+  {
+   "province": "Ituri",
+   "name": "Logo",
+   "confirmed": 7,
+   "deaths": 0,
+   "cfr_pct": 0.0
+  },
+  {
+   "province": "Ituri",
+   "name": "Drodro",
+   "confirmed": 3,
+   "deaths": 3,
+   "cfr_pct": 100.0
+  },
+  {
+   "province": "Ituri",
+   "name": "Gety",
+   "confirmed": 1,
+   "deaths": 0,
+   "cfr_pct": 0.0
+  },
+  {
+   "province": "Ituri",
+   "name": "Kambala",
+   "confirmed": 1,
+   "deaths": 1,
+   "cfr_pct": 100.0
+  },
+  {
+   "province": "Ituri",
+   "name": "Nia-Nia",
+   "confirmed": 11,
+   "deaths": 5,
+   "cfr_pct": 45.5
+  },
+  {
+   "province": "Ituri",
+   "name": "Fataki",
+   "confirmed": 1,
+   "deaths": 0,
+   "cfr_pct": 0.0
+  },
+  {
+   "province": "Ituri",
+   "name": "Mandima",
+   "confirmed": 1,
+   "deaths": 0,
+   "cfr_pct": 0.0
+  },
+  {
+   "province": "Nord-Kivu",
+   "name": "Butembo",
+   "confirmed": 34,
+   "deaths": 14,
+   "cfr_pct": 41.2
+  },
+  {
+   "province": "Nord-Kivu",
+   "name": "Katwa",
+   "confirmed": 45,
+   "deaths": 27,
+   "cfr_pct": 60.0
+  },
+  {
+   "province": "Nord-Kivu",
+   "name": "Beni",
+   "confirmed": 22,
+   "deaths": 14,
+   "cfr_pct": 63.6
+  },
+  {
+   "province": "Nord-Kivu",
+   "name": "Oicha",
+   "confirmed": 3,
+   "deaths": 2,
+   "cfr_pct": 66.7
+  },
+  {
+   "province": "Nord-Kivu",
+   "name": "Kalunguta",
+   "confirmed": 2,
+   "deaths": 1,
+   "cfr_pct": 50.0
+  },
+  {
+   "province": "Nord-Kivu",
+   "name": "Kyondo",
+   "confirmed": 3,
+   "deaths": 2,
+   "cfr_pct": 66.7
+  },
+  {
+   "province": "Nord-Kivu",
+   "name": "Goma",
+   "confirmed": 1,
+   "deaths": 0,
+   "cfr_pct": 0.0
+  },
+  {
+   "province": "Nord-Kivu",
+   "name": "Masereka",
+   "confirmed": 1,
+   "deaths": 0,
+   "cfr_pct": 0.0
+  },
+  {
+   "province": "Nord-Kivu",
+   "name": "Vuhovi",
+   "confirmed": 1,
+   "deaths": 1,
+   "cfr_pct": 100.0
+  },
+  {
+   "province": "Nord-Kivu",
+   "name": "Mabalako",
+   "confirmed": 1,
+   "deaths": 0,
+   "cfr_pct": 0.0
+  },
+  {
+   "province": "Nord-Kivu",
+   "name": "Musienene",
+   "confirmed": 3,
+   "deaths": 2,
+   "cfr_pct": 66.7
+  },
+  {
+   "province": "Sud-Kivu",
+   "name": "Miti-Murhesa",
+   "confirmed": 3,
+   "deaths": 1,
+   "cfr_pct": 33.3
+  }
+ ],
+ "laboratory": [
+  {
+   "province": "Ituri",
+   "samples_analysed": 64,
+   "positive": 17,
+   "positivity_pct": 26.6
+  },
+  {
+   "province": "Nord-Kivu",
+   "samples_analysed": 77,
+   "positive": 9,
+   "positivity_pct": 11.7
+  },
+  {
+   "province": "Sud-Kivu",
+   "samples_analysed": 0,
+   "positive": null,
+   "positivity_pct": null
+  }
+ ],
+ "contacts": [
+  {
+   "province": "Ituri",
+   "under_followup": 9335,
+   "seen": 7825,
+   "followup_rate_pct": 83.8,
+   "newly_listed": 872
+  },
+  {
+   "province": "Nord-Kivu",
+   "under_followup": 2461,
+   "seen": 1931,
+   "followup_rate_pct": 78.5,
+   "newly_listed": 116
+  }
+ ],
+ "ipc": [
+  {
+   "province": "Ituri",
+   "eds_done": 26,
+   "eds_planned": 29,
+   "community_swabs": null,
+   "ess_decontaminated": 8,
+   "households_decontaminated": 6,
+   "transports_decontaminated": 25
+  },
+  {
+   "province": "Nord-Kivu",
+   "eds_done": 18,
+   "eds_planned": 32,
+   "community_swabs": 31,
+   "ess_decontaminated": null,
+   "households_decontaminated": null,
+   "transports_decontaminated": null
+  }
+ ],
+ "vaccination": [],
+ "sitrep_number": 46,
+ "report_date": "2026-06-29"
+}
