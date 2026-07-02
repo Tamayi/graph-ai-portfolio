@@ -18,11 +18,11 @@ The UI supports French (primary), English and Portuguese.
 
 ## Documentation
 
-- [Data Architecture](data/README.md) - vectorization pipeline, vector DB recovery, and why data is split between repo and generated artifacts.
+- [Data Architecture](https://github.com/Tamayi/graph-ai-portfolio/tree/main/w8-capstone-project/data/) - vectorization pipeline, vector DB recovery, and why data is split between repo and generated artifacts.
 - [Technical Guide](docs/SitRep_Technical_Guide.docx) - architecture, data flow and module reference (DOCX).
 - [Feature Summary](docs/SitRep_Feature_Summary.docx) - what each screen does, for non-technical readers (DOCX).
 - [Intelligence Overview](docs/SitRep_Intelligence_Overview_v3.pptx) - slide-deck walkthrough of the application (PPTX).
-- [prompts/](prompts/) - every LLM prompt lives here as version-controlled Markdown, external to the code so it can be reviewed and edited without changing Python.
+- [prompts/](https://github.com/Tamayi/graph-ai-portfolio/tree/main/w8-capstone-project/prompts/) - every LLM prompt lives here as version-controlled Markdown, external to the code so it can be reviewed and edited without changing Python.
 
 ## Quickest path to running (Docker)
 
