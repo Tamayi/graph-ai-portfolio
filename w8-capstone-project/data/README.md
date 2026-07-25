@@ -20,7 +20,7 @@ data/
 
 ### ✅ Markdown Files (`sitreps/md/*.md`)
 - **39 extracted SitReps** in human-readable Markdown format
-- Converted from source PDFs using pypdf text extraction
+- Converted from source PDFs using PyMuPDF text extraction
 - ~812 KB total
 
 **Why included:**
@@ -320,7 +320,7 @@ The committed markdown and datasets mean:
 ### For Developers
 
 The pipeline is repeatable and resilient:
-- Bundles → Markdown (via pypdf)
+- Bundles → Markdown (via PyMuPDF)
 - Markdown → Vectors (via Voyage AI + Chroma)
 - Markdown → Structured (via Claude extraction)
 - All deterministic; same inputs = same outputs

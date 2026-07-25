@@ -196,8 +196,8 @@ Ingestion archives the PDF, extracts its text to markdown, upserts the manifest
 (overwriting any existing report with the same number), then re-extracts the
 structured facts (Claude) and re-indexes the report (Voyage). Those last two
 steps need the API keys; if a key is missing the document is still saved and the
-response says extraction was deferred. Text extraction uses `pypdf`, so scanned
-image-only PDFs will not yield text (no OCR).
+response says extraction was deferred. Text extraction uses PyMuPDF (`pymupdf`),
+so scanned image-only PDFs will not yield text (no OCR).
 
 ## Project layout
 

@@ -20,7 +20,6 @@ from __future__ import annotations
 import base64
 import binascii
 import csv
-import io
 import json
 import re
 import sys
@@ -110,20 +109,29 @@ def pdf_from_url(url: str) -> tuple[bytes, str]:
 # --- PDF -> markdown -------------------------------------------------------
 
 def pdf_to_markdown(pdf_bytes: bytes, title: str | None = None) -> str:
-    """Extract text page by page into the corpus's "## Page N" markdown shape."""
-    from pypdf import PdfReader
+    """Extract text page by page into the corpus's "## Page N" markdown shape.
 
-    reader = PdfReader(io.BytesIO(pdf_bytes))
-    parts: list[str] = []
-    if title:
-        parts.append(f"# {title}\n")
-    for i, page in enumerate(reader.pages, 1):
-        try:
-            txt = (page.extract_text() or "").strip()
-        except Exception:  # noqa: BLE001 - a single bad page should not abort
-            txt = ""
-        parts.append(f"## Page {i}\n\n{txt}")
-    return "\n\n".join(parts).strip() + "\n"
+    Uses PyMuPDF, which recovers the multi-column cover page and the dense
+    tables in these SitReps far better than a naive stream reader (it keeps the
+    cumulative-case figures and per-zone tables that a plain extractor drops or
+    scrambles).
+    """
+    import fitz  # PyMuPDF
+
+    doc = fitz.open(stream=pdf_bytes, filetype="pdf")
+    try:
+        parts: list[str] = []
+        if title:
+            parts.append(f"# {title}")
+        for i, page in enumerate(doc, 1):
+            try:
+                txt = page.get_text("text").strip()
+            except Exception:  # noqa: BLE001 - a single bad page should not abort
+                txt = ""
+            parts.append(f"## Page {i}\n\n{txt}")
+    finally:
+        doc.close()
+    return "\n\n\n".join(parts).strip() + "\n"
 
 
 # --- Number / date detection ----------------------------------------------
