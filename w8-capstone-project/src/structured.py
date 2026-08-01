@@ -139,13 +139,20 @@ def extract_report(num: int, force: bool = False) -> dict:
                                  max_retries=8, timeout=120.0)
     # Generous cap: the schema spans ~11 tables (case tables plus the response
     # pillars and the free-text challenges list), so a full report needs room.
-    msg = client.messages.create(
+    #
+    # Stream the response. A full extraction takes ~60s to generate, and a
+    # non-streaming connection is dropped by intermediary proxies once it sits
+    # idle that long ("server disconnected without sending a response").
+    # Streaming keeps bytes flowing so large responses complete reliably.
+    prompt = prompts.render("extract_report", n=num, date=date, body=body)
+    chunks: list[str] = []
+    with client.messages.stream(
         model=config.ANTHROPIC_MODEL, max_tokens=8000,
-        messages=[{"role": "user",
-                   "content": prompts.render("extract_report", n=num,
-                                             date=date, body=body)}],
-    )
-    raw = "".join(b.text for b in msg.content if b.type == "text").strip()
+        messages=[{"role": "user", "content": prompt}],
+    ) as stream:
+        for text in stream.text_stream:
+            chunks.append(text)
+    raw = "".join(chunks).strip()
     data = json.loads(raw[raw.find("{"):raw.rfind("}") + 1])
     data["sitrep_number"] = num
     data["report_date"] = date
